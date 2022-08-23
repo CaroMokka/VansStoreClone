@@ -1,15 +1,7 @@
 {
-  "store.home": { 
-    "blocks": [
-      "rich-text"
-    ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+    "responsive-layout.desktop#desktop__home": {
+        "children": [
+            "rich-text#desktop__home--title"
+        ]
     }
-  }
 }

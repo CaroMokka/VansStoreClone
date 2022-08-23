@@ -1,0 +1,8 @@
+{
+    "responsive-layout.mobile#mobile__home": {
+        "children": [
+            "rich-text#mobile__home--title",
+            "flex-layout.row#mobile__home--notification"
+        ]
+    }
+}

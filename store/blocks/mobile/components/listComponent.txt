@@ -1,0 +1,12 @@
+Lista de componentes que deben ir en Home Mobile
+- slider para la huincha dinamica que esta en la cabecera (notification-bar)
+- slider banners principales
+- Row mas col para la gallery de zapatillas 6 en total
+- slider touch
+- banner secondary
+- nuestras noticias 4 imagenes con botones con link, gallery
+- Novedades que es un content list o shelf averiguar bien que bloque es (tiene un slider)
+- Row image the lizzie
+- slider con productor (shelf) vitrina
+- newsletter
+- footer

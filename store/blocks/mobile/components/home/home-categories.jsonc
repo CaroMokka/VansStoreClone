@@ -1,0 +1,36 @@
+{
+    "flex-layout.row#mobile__home--categories": {
+        "title": "home-categories",
+        "children": [
+            "slider-layout#home__categories--types"
+        ]
+    },
+
+    "slider-layout#home__categories--types": {
+        "title": "categories-types",
+        "props": {
+            "itemPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "mobile": 2
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "blockClass": "home__categories--types"
+        },
+        "children": [
+            "info-card#testingCategories",
+            "info-card#testingCategories",
+            "info-card#testingCategories"
+        ]//infoCards, images circulares
+    },
+    "info-card#testingCategories": {
+        "props": {
+            "imageUrl": "assets/images/banners/mobile/home__categories01.webp",
+            "textAlignment": "center",
+            "blockClass": "categories"
+        }
+    }
+}

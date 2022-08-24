@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#mobile__home--banner": {
+        "title": "home--banner",
+        "props": {
+            "blockClass": "mobile__home--banner"
+        },
+        "children": [
+            "slider-layout#home__banner--principal"
+        ]
+    },
+
+    "slider-layout#home__banner--principal": {
+        "title": "home__banner--principal",
+        "props": {
+            "itemPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "mobile": 1
+            },
+            //"infinite": true,
+            "fullWidth": true,
+            "showPaginationDots": "never",
+            "showNavigationArrows": "never",
+            "blockClass": "home__banner--principal"
+        },
+        "children":[
+            "image#banner__principal--sailormoon"
+        ]
+    },
+
+    "image#banner__principal--sailormoon": {
+        "title": "principal--sailormoon",
+        "props": {
+          "src": "assets/images/banners/mobile/mobile__home--bannerSailor.webp"
+        }
+      }
+
+
+    
+}

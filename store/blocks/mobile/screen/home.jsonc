@@ -1,8 +1,13 @@
 {
     "responsive-layout.mobile#mobile__home": {
         "children": [
-            "rich-text#mobile__home--title",
-            "flex-layout.row#mobile__home--notification"
+            "flex-layout.row#mobile__home--notification",
+            "flex-layout.row#mobile__home--banner",
+            "flex-layout.row#mobile__home--gallery",
+            "flex-layout.row#mobile__home--categories",
+            "flex-layout.row#mobile__home--collection",
+            "flex-layout.row#mobile__home--newsUs",
+            "flex-layout.row#mobile__home--novelty"
         ]
     }
 }

@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#mobile__home--collection" : {
+        "title": "home-collection",
+        "children": [
+            "flex-layout.col#home__collection--one"
+        ]
+    },
+
+    "flex-layout.col#home__collection--one": {
+        "title": "",
+        "children": [
+            "image#collection__one--offTheWall"
+        ]
+    },
+
+    "image#collection__one--offTheWall": {
+        "props": {
+            "src": "assets/images/banners/mobile/home__collection.webp"//image
+        }
+    }
+}

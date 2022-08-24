@@ -38,21 +38,21 @@
         "title": "notification-bar-one",
         "props":{
             "text": "notification__bar--one",
-            "blockClass": "notification__bar--one"
+            "blockClass": "notification__bar"
         }
     },
     "rich-text#notification__bar--two": {
         "title": "notification-bar-two",
         "props":{
             "text": "notification__bar--two",
-            "blockClass": "notification__bar--two"
+            "blockClass": "notification__bar"
         }
     },
     "rich-text#notification__bar--three": {
         "title": "notification-bar-three",
         "props":{
             "text": "notification__bar--three",
-            "blockClass": "notification__bar--three"
+            "blockClass": "notification__bar"
         }
     }
 

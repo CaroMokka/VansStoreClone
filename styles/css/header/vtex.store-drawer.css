@@ -1,0 +1,11 @@
+.drawer--main__top--menu{
+    background-color: black;
+}
+.drawerContent--main__top--menu{
+    background-color: gold;
+}
+.childrenContainer--main__top--menu{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}

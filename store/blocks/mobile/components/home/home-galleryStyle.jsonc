@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#mobile__home--gallery": {
+        "title": "home-gallery",
+        "props": {
+            "blockClass": "mobile__home--gallery"//fondo azul CSS
+        },
+        "children": [
+            "flex-layout.col#home__gallery--title",
+            "flex-layout.col#home__gallery--style"
+        ]
+    },
+    "flex-layout.col#home__gallery--title": {
+        "title": "gallery-title",
+        "props": {
+            "blockClass": "home__gallery--title"
+        },
+        "children": [
+            "rich-text#gallery__title"
+        ]
+    },
+    "rich-text#gallery__title": {
+        "title": "title",
+        "props": {
+            "text": "¿Cuál es tu estilo favorito?",
+            "textAlignment":"CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-5",
+            "blockClass": "gallery__title"
+        }
+    },
+    "flex-layout.col#home__gallery--style": {
+        "title": "gallery-style",
+        "props":{
+            "blockClass": "home__gallery--style"
+        },
+        "children": [
+            "info-card#testing",
+            "info-card#testing",
+            "info-card#testing",
+            "info-card#testing"
+        ]
+    },
+    "info-card#testing": {
+        "props": {
+            "imageUrl": "assets/images/banners/mobile/old-skool.webp",
+            "callToActionText": "zapatilla",
+            "textAlignment": "center",
+            "blockClass": "info-card-testing"
+        }
+    }
+}

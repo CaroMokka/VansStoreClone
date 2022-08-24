@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#mobile__home--newsUs": {
+        "title": "...",
+        "children": [
+            "flex-layout.col#home__newsUs"
+        ]
+    },
+    "flex-layout.col#home__newsUs": {
+        "title": "...",
+        "children": [
+            "flex-layout.row#home__newsUs--title",
+            "flex-layout.row#home__newsUs--content"
+        ]
+    },
+    "flex-layout.row#home__newsUs--title": {
+        "title": "...",
+        "children": [
+            "rich-text#newsUs__title"
+        ]
+    },
+    "rich-text#newsUs__title": {
+        "title": "...",
+        "props": {
+            "text": "**NUESTRAS NOTICIAS**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.row#home__newsUs--content": {
+        "title":"...",
+        "children":[
+            "info-card#newsUs"
+        ]//infoCards
+    },
+    "info-card#newsUs": {
+        "title": "...",
+        "props":{
+            "imageUrl": "assets/images/banners/mobile/home__newsUs.webp",
+            "callToActionUrl": "ver mas",
+            "blockClass": "newsUs"
+        }
+    }
+    
+
+}

@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#desktop__home--gallery": {
+    "title": "home--gallery",
+    "props": {
+      "blockClass": "desktop__home--gallery"
+    },
+    "children": ["flex-layout.col#home__gallery--container"]
+  },
+  "flex-layout.col#home__gallery--container": {
+    "title": "...",
+    "props": {
+      "blockClass": "home__gallery--container"
+    },
+    "children": [
+      "flex-layout.row#gallery__container--title",
+      "flex-layout.row#gallery__container--content"
+    ]
+  },
+  "flex-layout.row#gallery__container--title": {
+    "title": "...",
+    "props": {
+      "blockClass": "gallery__container--title"
+    },
+    "children": ["rich-text#gallery__container--title"]
+  },
+  "rich-text#gallery__container--title": {
+    "props": {
+      "text": "¿Cuál es tu estilo?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5"
+    }
+  },
+  "flex-layout.row#gallery__container--content": {
+    "title": "...",
+    "props": {
+      "blockClass": "gallery__container--content"
+    },
+    "children": [
+      "image#home__gallery--image01",
+      "image#home__gallery--image02",
+      "image#home__gallery--image03",
+      "image#home__gallery--image04",
+      "image#home__gallery--image05",
+      "image#home__gallery--image06"
+    ]
+  },
+  "image#home__gallery--image01": {
+    "props": {
+      "src": "assets/images/gallery/era.webp",
+      "blockClass": "gallery--image"
+    }
+  },
+  "image#home__gallery--image02": {
+    "props": {
+      "src": "assets/images/gallery/old-skool.webp",
+      "blockClass": "gallery--image"
+    }
+  },
+  "image#home__gallery--image03": {
+    "props": {
+      "src": "assets/images/gallery/authentic.webp",
+      "blockClass": "gallery--image"
+    }
+  },
+  "image#home__gallery--image04": {
+    "props": {
+      "src": "assets/images/gallery/sk8-hi.webp",
+      "blockClass": "gallery--image"
+    }
+  },
+  "image#home__gallery--image05": {
+    "props": {
+      "src": "assets/images/gallery/sk8-low.webp",
+      "blockClass": "gallery--image"
+    }
+  },
+  "image#home__gallery--image06": {
+    "props": {
+      "src": "assets/images/gallery/slip-on.webp",
+      "blockClass": "gallery--image"
+    }
+  }
+}

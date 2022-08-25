@@ -6,3 +6,11 @@
     margin: 10px;
     background-color: red;
 }
+
+/* estilos desktop */
+.imageElement--gallery--image{
+    transition: 0.3s all ease-in-out;
+}
+.imageElement--gallery--image:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#desktop__home--notification": {
+    "title": "home-notification",
+    "props": {
+      "blockClass": "desktop__home--notification"
+    },
+    "children": ["slider-layout#desktop__home__notification--bar"]
+  },
+  "slider-layout#desktop__home__notification--bar": {
+    "title": "home-notification-bar",
+    "props": {
+      "itemPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "blockClass": "desktop__home__notification--bar"
+    },
+    "children": [
+      "rich-text#desktop__notification__bar--one",
+      "rich-text#desktop__notification__bar--two",
+      "rich-text#desktop__notification__bar--three"
+    ]
+  },
+
+  "rich-text#desktop__notification__bar--one": {
+    "title": "notification-bar-one",
+    "props": {
+      "text": "notification__bar--one",
+      "blockClass": "desktop__notification__bar"
+    }
+  },
+  "rich-text#desktop__notification__bar--two": {
+    "title": "notification-bar-two",
+    "props": {
+      "text": "notification__bar--two",
+      "blockClass": "desktop__notification__bar"
+    }
+  },
+  "rich-text#desktop__notification__bar--three": {
+    "title": "notification-bar-three",
+    "props": {
+      "text": "notification__bar--three",
+      "blockClass": "desktop__notification__bar"
+    }
+  }
+}

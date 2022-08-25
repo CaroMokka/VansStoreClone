@@ -1,0 +1,14 @@
+{
+    "flex-layout.row#desktop__home--main-banner": {
+        "title": "home--main-banner",
+        "children": [
+            "image#home__main-banner"
+        ]
+    },
+    "image#home__main-banner": {
+        "title": "main-banner",
+        "props": {
+            "src": "assets/images/banners/desktop/desktop__home--bannerSailor.webp"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#mobile__home--newsletter": {
+        "title": "home__newsletter",
+        "props": {
+            "blockClass": "mobile__home--newsletter"
+        },
+        "children": [
+            "rich-text#home__newsletter--title",
+            "newsletter-form#home__newsletter--form"
+        ]
+    },
+    "newsletter-form#home__newsletter--form": {
+        "children": [
+            "newsletter-input-email",
+            "newsletter-input-name",
+            "newsletter-submit"
+          ]
+    },
+    "rich-text#home__newsletter--title": {
+        "title": "newsletter-title",
+        "props": {
+            "text": "NEWSLETTER"
+        }
+    }
+}

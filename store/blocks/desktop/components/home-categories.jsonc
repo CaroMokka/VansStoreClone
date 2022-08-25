@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#desktop__home--categories": {
+    "title": "home--categories",
+    "props": {
+      "blockClass": "desktop__home--categories"
+    },
+    "children": [
+      "image#home__categories--image01",
+      "image#home__categories--image02",
+      "image#home__categories--image03",
+      "image#home__categories--image04"
+    ]
+  },
+  "image#home__categories--image01": {
+    "props": {
+        "src": "assets/images/category/fuerte-claro.webp"
+    }
+  },
+  "image#home__categories--image02": {
+    "props": {
+        "src": "assets/images/category/daniel-johnston.webp"
+    }
+  },
+  "image#home__categories--image03": {
+    "props": {
+        "src": "assets/images/category/Brand-Campaign.gif"
+    }
+  },
+  "image#home__categories--image04": {
+    "props": {
+        "src": "assets/images/category/SK-HI.webp"
+    }
+  }
+}

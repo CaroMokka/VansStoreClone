@@ -1,7 +1,10 @@
 {
     "responsive-layout.desktop#desktop__home": {
         "children": [
-            "rich-text#desktop__home--title"
+            "flex-layout.row#desktop__home--notification",
+            "flex-layout.row#desktop__home--main-banner",
+            "flex-layout.row#desktop__home--gallery",
+            "flex-layout.row#desktop__home--categories"
         ]
     }
 }

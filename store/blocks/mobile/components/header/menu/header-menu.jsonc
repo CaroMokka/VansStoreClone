@@ -1,0 +1,28 @@
+{
+  "drawer#main__top--menu": {
+    "props": {
+      "blockClass": "main__top--menu"
+    },
+    "children": ["menu#mobile__header--menu"]
+  },
+  //menu principal ------------------------
+  "menu#mobile__header--menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+        "menu-item#departament__man", 
+        "menu-item#departament__woman",
+        "menu-item#departament__kids",
+        "menu-item#departament__classics",
+        "menu-item#departament__skateboarding",
+        "menu-item#departament__surf",
+        "menu-item#departament__sale",
+        "menu-item#departament__mas",
+        "menu-item#departament__giftcard",
+        "menu-item#departament__sigue-tu-compra",
+        "menu-item#departament__stores",
+        "menu-item#departament__myaccount"
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  //CATEGORIAS
+  //category man- ver todo
+  "menu-item#man__category--ver-todo": {
+    "props": {
+      "id": "category--ver-todo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__man",
+        "text": "Ver todo"
+      }
+    }
+  },
+  //category man- destacados
+  "menu-item#man__category--destacados": {
+    "props": {
+      "id": "category--destacados",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__man",
+        "text": "Destacados"
+      }
+    }
+  },
+  //category man- calzado
+  "menu-item#man__category--calzado": {
+    "props": {
+      "id": "category--calzado",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__man",
+        "text": "Calzado"
+      }
+    }
+  },
+  //category man- ropa
+  "menu-item#man__category--ropa": {
+    "props": {
+      "id": "category--ropa",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__man",
+        "text": "Ropa"
+      }
+    }
+  },
+  //category man- accesorios
+  "menu-item#man__category--accesorios": {
+    "props": {
+      "id": "category--accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__man",
+        "text": "Accesorios"
+      }
+    }
+  },
+  //WOMAN categories
+  "menu-item#woman__category--ver-todo": {
+    "props": {
+      "id": "woman__category__ver-todo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__woman",
+        "text": "Ver todo"
+      }
+    }
+  },
+  "menu-item#woman__category--destacados": {
+    "props": {
+      "id": "woman__category--destacados",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__woman",
+        "text": "Destacados"
+      }
+    }
+  },
+  "menu-item#woman__category--calzado": {
+    "props": {
+      "id": "woman__category--calzado",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__woman",
+        "text": "Calzado"
+      }
+    }
+  },
+  "menu-item#woman__category--ropa": {
+    "props": {
+      "id": "woman__category--ropa",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__woman",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#woman__category--accesorios": {
+    "props": {
+      "id": "woman__category--accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__woman",
+        "text": "Accesorios"
+      }
+    }
+  },
+  //KIDS CATEGORIES
+  "menu-item#kids__category--ver-todo": {
+    "props": {
+      "id": "kids__category__ver-todo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__kids",
+        "text": "Ver todo"
+      }
+    }
+  },
+  "menu-item#kids__category--calzado": {
+    "props": {
+      "id": "kids__category--calzado",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__kids",
+        "text": "Calzado"
+      }
+    }
+  },
+  "menu-item#kids__category--ropa": {
+    "props": {
+      "id": "kids__category--ropa",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__kids",
+        "text": "Ropa"
+      }
+    }
+  },
+  "menu-item#kids__category--accesorios": {
+    "props": {
+      "id": "kids__category--accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__kids",
+        "text": "Accesorios"
+      }
+    }
+  },
+  //CATEGORIES - MÁS
+  "menu-item#mas__category--brand-campaign": {
+    "props": {
+      "id": "mas__category--brand-campaign",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__mas",
+        "text": "Brand Campaign"
+      }
+    }
+  },
+  "menu-item#mas__category--team-vans": {
+    "props": {
+      "id": "mas__category--team-vans",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "departament__kids",
+        "text": "Team Vans"
+      }
+    }
+  }
+}

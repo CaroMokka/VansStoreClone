@@ -1,0 +1,27 @@
+.flexCol--wrapper__section-one--card02{
+    width: 150px !important;
+    background-color: blue;
+}
+.flexCol--wrapper__section-one--card01{
+    width: 150px !important;
+    background-color: green;
+}
+.flexRowContent--newUs__wrapper--section-one{
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}
+/* ------- */
+.flexCol--wrapper__section-two--card04{
+    width: 150px !important;
+    background-color: blue;
+}
+.flexCol--wrapper__section-two--card03{
+    width: 150px !important;
+    background-color: green;
+}
+.flexRowContent--newUs__wrapper--section-two{
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+}

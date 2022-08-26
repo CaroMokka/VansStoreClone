@@ -2,7 +2,7 @@
     "flex-layout.row#mobile__home--gallery": {
         "title": "home-gallery",
         "props": {
-            "blockClass": "mobile__home--gallery"//fondo azul CSS
+            "blockClass": "mobile__home--gallery"
         },
         "children": [
             "flex-layout.col#home__gallery--title",

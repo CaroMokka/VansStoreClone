@@ -1,14 +1,31 @@
 {
-  "footer-layout.mobile": {
-    "children": ["flex-layout.row#footer"]
-  },
-  "flex-layout.row#footer": {
-    "children": ["image"]
-  },
-  "image": {
+  "footer-layout.mobile#mobile__home": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "mobile--home"
+    },
+    "children": ["flex-layout.row#mobile__footer"]
+  },
+  "flex-layout.row#mobile__footer": {
+    "children": [
+      "social-networks",
+      "accepted-payment-methods",
+      "powered-by"
+    ]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" }
+      ]
     }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  },
+  "powered-by": {
+
   }
 }

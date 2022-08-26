@@ -1,7 +1,0 @@
-{
-  "footer-layout.desktop#desktop__home": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  }
-}

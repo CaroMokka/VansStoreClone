@@ -1,51 +1,229 @@
 {
-    "flex-layout.row#mobile__home--gallery": {
-        "title": "home-gallery",
-        "props": {
-            "blockClass": "mobile__home--gallery"
-        },
-        "children": [
-            "flex-layout.col#home__gallery--title",
-            "flex-layout.col#home__gallery--style"
-        ]
+  "flex-layout.row#mobile__home--gallery": {
+    "title": "",
+    "props": {
+      "blockClass": "mobile__home--gallery"
     },
-    "flex-layout.col#home__gallery--title": {
-        "title": "gallery-title",
-        "props": {
-            "blockClass": "home__gallery--title"
-        },
-        "children": [
-            "rich-text#gallery__title"
-        ]
+    "children": ["flex-layout.col#home__gallery--wrapper"]
+  },
+  //gallery wrapper
+  "flex-layout.col#home__gallery--wrapper": {
+    "title": "",
+    "props": {
+      "blockClass": "home__gallery--wrapper"
     },
-    "rich-text#gallery__title": {
-        "title": "title",
-        "props": {
-            "text": "¿Cuál es tu estilo favorito?",
-            "textAlignment":"CENTER",
-            "textPosition": "CENTER",
-            "font": "t-heading-5",
-            "blockClass": "gallery__title"
-        }
+    "children": [
+      "flex-layout.row#gallery__wrapper--title",
+      "flex-layout.row#gallery__wrapper--section01",
+      "flex-layout.row#gallery__wrapper--section02",
+      "flex-layout.row#gallery__wrapper--section03"
+    ]
+  },
+  // wrapper title
+  "flex-layout.row#gallery__wrapper--title": {
+    "title": "",
+    "props": {
+      "blockClass": "gallery__wrapper--title"
     },
-    "flex-layout.col#home__gallery--style": {
-        "title": "gallery-style",
-        "props":{
-            "blockClass": "home__gallery--style"
-        },
-        "children": [
-            "info-card#testing",
-            "info-card#testing",
-            "info-card#testing",
-            "info-card#testing"
-        ]
-    },
-    "info-card#testing": {
-        "props": {
-            "imageUrl": "assets/images/banners/mobile/old-skool.webp",
-            "callToActionText": "zapatilla",
-            "textAlignment": "center",
-            "blockClass": "info-card-testing"
-        }
+    "children": ["rich-text#wrapper__title--text"]
+  },
+  // wrapper title text
+  "rich-text#wrapper__title--text": {
+    "title": "",
+    "props": {
+      "text": "¿CUÁL ES TU ESTILO?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
     }
+  },
+  //section 01
+  "flex-layout.row#gallery__wrapper--section01": {
+    "title": "",
+    "props": {
+      "blockClass": "gallery__wrapper--section"
+    },
+    "children": [
+      "flex-layout.col#wrapper__section--card01",
+      "flex-layout.col#wrapper__section--card02"
+    ]
+  },
+  //card 01
+  "flex-layout.col#wrapper__section--card01": {
+    "title": "",
+    "props": {
+        "blockClass": "wrapper__section--card"
+    },
+    "children": [
+      "image#section__card--image01",
+      "rich-text#section__card--text01"
+    ]
+  },
+  //card 02
+  "flex-layout.col#wrapper__section--card02": {
+    "title": "",
+    "props": {
+        "blockClass": "wrapper__section--card"
+    },
+    "children": [
+      "image#section__card--image02",
+      "rich-text#section__card--text02"
+    ]
+  },
+  //section 02
+  "flex-layout.row#gallery__wrapper--section02": {
+    "title": "",
+    "props": {
+      "blockClass": "gallery__wrapper--section"
+    },
+    "children": [
+      "flex-layout.col#wrapper__section--card03",
+      "flex-layout.col#wrapper__section--card04"
+    ]
+  },
+  //card 03
+  "flex-layout.col#wrapper__section--card03": {
+    "title": "",
+    "props": {
+        "blockClass": "wrapper__section--card"
+    },
+    "children": [
+      "image#section__card--image03",
+      "rich-text#section__card--text03"
+    ]
+  },
+  //card 04
+  "flex-layout.col#wrapper__section--card04": {
+    "title": "",
+    "props": {
+        "blockClass": "wrapper__section--card"
+    },
+    "children": [
+      "image#section__card--image04",
+      "rich-text#section__card--text04"
+    ]
+  },
+  //section 03
+  "flex-layout.row#gallery__wrapper--section03": {
+    "title": "",
+    "props": {
+      "blockClass": "gallery__wrapper--section"
+    },
+    "children": [
+      "flex-layout.col#wrapper__section--card05",
+      "flex-layout.col#wrapper__section--card06"
+    ]
+  },
+  //card 05
+  "flex-layout.col#wrapper__section--card05": {
+    "title": "",
+    "props": {
+        "blockClass": "wrapper__section--card"
+    },
+    "children": [
+      "image#section__card--image05",
+      "rich-text#section__card--text05"
+    ]
+  },
+  //card 06
+  "flex-layout.col#wrapper__section--card06": {
+    "title": "",
+    "props": {
+        "blockClass": "wrapper__section--card"
+    },
+    "children": [
+      "image#section__card--image06",
+      "rich-text#section__card--text06"
+    ]
+  },
+  //image card 01 ------------------------
+  "image#section__card--image01": {
+    "props": {
+      "src": "assets/images/gallery/slip-on.webp"
+    }
+  },
+  //text card 01
+  "rich-text#section__card--text01": {
+    "props": {
+      "text": "SLIP-ON",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "section__card--text"
+    }
+  },
+  //image card 02
+  "image#section__card--image02": {
+    "props": {
+      "src": "assets/images/gallery/sk8-hi.webp"
+    }
+  },
+  //text card 02
+  "rich-text#section__card--text02": {
+    "props": {
+      "text": "SK8-HI",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "section__card--text"
+    }
+  },
+  //image card 03
+  "image#section__card--image03": {
+    "props": {
+      "src": "assets/images/gallery/authentic.webp"
+    }
+  },
+  //text card 03
+  "rich-text#section__card--text03": {
+    "props": {
+      "text": "AUTHENTIC",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "section__card--text"
+    }
+  },
+  //image card 04
+  "image#section__card--image04": {
+    "props": {
+      "src": "assets/images/gallery/old-skool.webp"
+    }
+  },
+  //text card 04
+  "rich-text#section__card--text04": {
+    "props": {
+      "text": "OLD SKOOL",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "section__card--text"
+    }
+  },
+  //image card 05
+  "image#section__card--image05": {
+    "props": {
+      "src": "assets/images/gallery/era.webp"
+    }
+  },
+  //text card 05
+  "rich-text#section__card--text05": {
+    "props": {
+      "text": "ERA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "section__card--text"
+    }
+  },
+  //image card 06
+  "image#section__card--image06": {
+    "props": {
+      "src": "assets/images/gallery/sk8-low.webp"
+    }
+  },
+  //text card 06
+  "rich-text#section__card--text06": {
+    "props": {
+      "text": "SK8 LOW",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "section__card--text"
+    }
+  }
 }

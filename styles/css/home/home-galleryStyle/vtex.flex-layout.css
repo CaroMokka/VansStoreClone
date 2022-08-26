@@ -1,24 +1,30 @@
-/* estilos mobile */
+/* mobile */
 .flexRow--mobile__home--gallery{
-   
+    /* background-color: blueviolet; */
+    height: 600px;
     background-image: url(assets/images/banners/mobile/mobile__home--gallery.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.flexCol--home__gallery--wrapper{
+    /* background-color: aqua; */
+    margin-top: 80px;
+
+}
+.flexRowContent--gallery__wrapper--section{
+    /* background-color: hotpink; */
     display: flex;
-    justify-content: center;
-    align-content: space-between; 
 }
-.flexCol--home__gallery--title{
-    margin-top: 30px;
+.flexCol--wrapper__section--card{
+    text-align: center;
 }
-.flexCol--home__gallery--style{
-    width: 100%;
-    /* background-color: brown; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 15px;
-   
-}
+
+
+
+
+
+
 
 /* estilos desktop */
 .flexRow--desktop__home--gallery{

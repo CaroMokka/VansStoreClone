@@ -5,6 +5,6 @@ Lista de componentes que deben ir en Home Mobile
 - row galleryStyle [mmm...]
 - slider categories [mmm...]
 - row Collection [OK]
-- row news-us (4 infoCards) []
+- row news-us (4 infoCards) [OK]
 - row novelty (3 section) []
 - FOOTER ---->

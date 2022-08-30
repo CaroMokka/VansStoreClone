@@ -2,7 +2,7 @@
   "footer": {
     "blocks": [
       // "footer-layout.desktop#desktop__home",
-      "footer-layout.mobile#mobile__home"
+      "footer-layout.mobile#mobile__home--footer"
     ]
   }
 }

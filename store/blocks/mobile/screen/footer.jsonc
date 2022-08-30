@@ -1,31 +1,96 @@
 {
-  "footer-layout.mobile#mobile__home": {
+  "footer-layout.mobile#mobile__home--footer": {
     "props": {
-      "blockClass": "mobile--home"
+      "blockClass": "#mobile__home--footer"
     },
-    "children": ["flex-layout.row#mobile__footer"]
+    "children": 
+    ["disclosure-layout-group#home__footer--menu"]
   },
-  "flex-layout.row#mobile__footer": {
+  "disclosure-layout-group#home__footer--menu": {
+    "children": ["disclosure-layout#footer__menu--compra"]
+  },
+  "disclosure-layout#footer__menu--compra": {
+    "props":{"animated": true},
     "children": [
-      "social-networks",
-      "accepted-payment-methods",
-      "powered-by"
+      
+      "disclosure-trigger#menu__compra--trigger",
+      "disclosure-content#menu__compra--content"
     ]
   },
-  "social-networks": {
+  "disclosure-trigger#menu__compra--trigger": {
+    "children": ["rich-text#compra__trigger--text"]
+  },
+  "rich-text#compra__trigger--text": {
     "props": {
-      "socialNetworks": [
-        { "url": "https://facebook.com/foo", "name": "Facebook" },
-        { "url": "https://twitter.com/foo", "name": "Twitter" }
-      ]
+      "text": "COMPRA"
     }
   },
-  "accepted-payment-methods": {
+  "disclosure-content#menu__compra--content": {
+    "children": ["menu#compra__content--text"]
+  },
+  "menu#compra__content--text": {
+    "children": [
+      "menu-item#content__text--myAccount",
+      "menu-item#content__text--rutaPedido",
+      "menu-item#content__text--misPedidos",
+      "menu-item#content__text--compraMayorista"
+    ],
     "props": {
-      "paymentMethods": ["mastercard", "visa", "diners club"]
+      "orientation": "vertical"
     }
   },
-  "powered-by": {
-
+  "menu-item#content__text--myAccount": {
+    "props": {
+      "id": "content__text--myAccount",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "content__text--myAccount",
+        "text": "My Account"
+      }
+    }
+  },
+  "menu-item#content__text--rutaPedido": {
+    "props": {
+      "id": "content__text--rutaPedido",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "content__text--rutaPedido",
+        "text": "Ruta Pedido"
+      }
+    }
+  },
+  "menu-item#content__text--misPedidos": {
+    "props": {
+      "id": "content__text--misPedidos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "content__text--misPedidos",
+        "text": "Mis pedidos"
+      }
+    }
+  },
+  "menu-item#content__text--compraMayorista": {
+    "props": {
+      "id": "content__text--compraMayorista",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "content__text--compraMayorista",
+        "text": "Compra Mayorista"
+      }
+    }
   }
+  // "disclosure-state-indicator#menu__compra--chevron": {
+  //   "props": {
+  //     "Show": "icon-angle--down",
+  //     "Hide": "icon-angle--up"
+  //   }
+  // }
 }

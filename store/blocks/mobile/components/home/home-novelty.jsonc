@@ -9,9 +9,9 @@
         "title":"...",
         "children":[
             "flex-layout.row#home__novelty--title",
-            "flex-layout.row#home__novelty--shelfProductsOne",
-            "flex-layout.row#home__novelty--image",
-            "flex-layout.row#home__novelty--shelfProductsTwo"
+            "flex-layout.row#home__novelty--productsShelf-01",
+            "flex-layout.row#home__novelty--image"
+            // "flex-layout.row#home__novelty--productsShelf-02"
         ]
     },
     //titulo Novedades
@@ -29,11 +29,6 @@
             "textPosition": "CENTER"
         }
     },
-    //vitrina one
-    "flex-layout.row#home__novelty--shelfProductsOne": {
-        "title":"...",
-        "children": []//vitrina de productos slider
-    },
     //image
     "flex-layout.row#home__novelty--image": {
         "title":"...",
@@ -46,12 +41,5 @@
         "props": {
             "src": "assets/images/banners/mobile/home__novelty--image.webp"
         }
-    },
-    //vitrina two
-    "flex-layout.row#home__novelty--shelfProductsTwo": {
-        "title":"...",
-        "children": []//vitrina de productos slider
     }
-
-    //vitrina
 }

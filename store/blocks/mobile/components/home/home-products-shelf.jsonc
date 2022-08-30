@@ -1,0 +1,57 @@
+{
+  //productsShelf-01
+  "flex-layout.row#home__novelty--productsShelf-01": {
+    "title": "...",
+    "props": {},
+    "children": ["list-context.product-list#novelty--productsShelf-01"]
+  },
+
+  "list-context.product-list#novelty--productsShelf-01": {
+    "blocks": ["product-summary.shelf##novelty__productsShelf-01"],
+    "children": ["slider-layout#novelty__productsShelf-01"]
+  },
+  "product-summary.shelf##novelty__productsShelf-01": {
+    "children": [
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "slider-layout#novelty__productsShelf-01": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": []
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": true,
+      "height": 220
+    }
+  },
+  "add-to-cart-button": {
+    "props":{
+        "text": "klscklclnkc"
+    }
+  }
+}
+// ,
+//   "rich-text#1": {
+//     "props": {
+//         "text": "carola"
+//     }
+//   },
+//   "rich-text#2": {
+//     "props": {
+//         "text": "mokka"
+//     }
+//   },
+
+// "rich-text#1", "rich-text#2"

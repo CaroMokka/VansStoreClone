@@ -1,0 +1,13 @@
+{
+    "search-result-layout.mobile#mobile__search": {
+        "children": [
+            "flex-layout.row#mobile__search--section"
+        ]
+    },
+    "flex-layout.row#mobile__search--section": {
+        "children": [
+            // "flex-layout.col#search__section--filter",
+             "flex-layout.col#search__section--search"
+        ]
+    }
+}

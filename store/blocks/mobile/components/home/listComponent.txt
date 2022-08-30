@@ -2,7 +2,7 @@ Lista de componentes que deben ir en Home Mobile
 - HEADER ---->
 - slider notification [OK]
 - slider banner principales[OK]
-- row galleryStyle [mmm...]
+- row galleryStyle [OK]
 - slider categories [mmm...]
 - row Collection [OK]
 - row news-us (4 infoCards) [OK]

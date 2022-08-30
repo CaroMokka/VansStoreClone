@@ -1,0 +1,12 @@
+{
+    "flex-layout.col#search__section--search": {
+        "children": [
+            "search-content#section__search--woman"
+        ]
+    },
+    "search-content#section__search--woman": {
+        "blocks": [
+            "gallery", "not-found"
+        ]
+    }
+}

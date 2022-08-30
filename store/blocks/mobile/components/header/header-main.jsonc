@@ -8,7 +8,7 @@
     "children": [
       "logo#mobile__header--logo",
       "flex-layout.col#spacer",
-      "minicart.v2",
+      "minicart.v2#mobile__home--minicart",
       "drawer#main__top--menu"
     ],
     "props": {
@@ -30,3 +30,5 @@
     }
   }
 }
+
+

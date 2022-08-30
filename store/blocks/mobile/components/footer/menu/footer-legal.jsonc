@@ -1,0 +1,88 @@
+{
+    //layout disclosure
+  "disclosure-layout#section__legal": {
+    "children": [
+      "disclosure-trigger#section__legal--button", 
+      "disclosure-content#section__legal--content",
+      "disclosure-state-indicator#section__legal--indicators"
+    ]
+  },
+  //trigger
+  "disclosure-trigger#section__legal--button": {
+    "props": {
+      "orientation":"vertical",
+      "as": "span"
+    },
+    "children": ["rich-text#legal__button--text"]
+  },
+  "rich-text#legal__button--text": {
+    "props": {
+      "text": "LEGAL",
+      "blockClass": "legal__button--text"
+    }
+  },
+  //content
+  "disclosure-content#section__legal--content": {
+    "children": ["menu#legal__content--menu"]
+  },
+  //indicators
+  "disclosure-state-indicator#section__legal--indicators": {
+    "children":[]
+  },
+  //menu
+  "menu#legal__content--menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#legal-item-01","menu-item#legal-item-02","menu-item#legal-item-03","menu-item#legal-item-04"]
+  },
+  //item
+  "menu-item#legal-item-01": {
+    "props": {
+      "id": "legal-item-01",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "legal-item-01",
+        "text": "legal-item-01"
+      }
+    }
+  },
+  "menu-item#legal-item-02": {
+    "props": {
+      "id": "legal-item-02",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "legal-item-02",
+        "text": "legal-item-02"
+      }
+    }
+  },
+  "menu-item#legal-item-03": {
+    "props": {
+      "id": "legal-item-03",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "legal-item-03",
+        "text": "legal-item-03"
+      }
+    }
+  },
+  "menu-item#legal-item-04": {
+    "props": {
+      "id": "legal-item-04",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "legal-item-04",
+        "text": "legal-item-04"
+      }
+    }
+  }
+}

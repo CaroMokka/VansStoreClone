@@ -1,96 +1,13 @@
 {
   "footer-layout.mobile#mobile__home--footer": {
+    "title": "home-footer",
+    "children": ["flex-layout.row#home__footer--container"]
+  },
+  "flex-layout.row#home__footer--container": {
+    "title": "footer-container",
     "props": {
-      "blockClass": "#mobile__home--footer"
+      "blockClass": "home__footer--container"
     },
-    "children": 
-    ["disclosure-layout-group#home__footer--menu"]
-  },
-  "disclosure-layout-group#home__footer--menu": {
-    "children": ["disclosure-layout#footer__menu--compra"]
-  },
-  "disclosure-layout#footer__menu--compra": {
-    "props":{"animated": true},
-    "children": [
-      
-      "disclosure-trigger#menu__compra--trigger",
-      "disclosure-content#menu__compra--content"
-    ]
-  },
-  "disclosure-trigger#menu__compra--trigger": {
-    "children": ["rich-text#compra__trigger--text"]
-  },
-  "rich-text#compra__trigger--text": {
-    "props": {
-      "text": "COMPRA"
-    }
-  },
-  "disclosure-content#menu__compra--content": {
-    "children": ["menu#compra__content--text"]
-  },
-  "menu#compra__content--text": {
-    "children": [
-      "menu-item#content__text--myAccount",
-      "menu-item#content__text--rutaPedido",
-      "menu-item#content__text--misPedidos",
-      "menu-item#content__text--compraMayorista"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#content__text--myAccount": {
-    "props": {
-      "id": "content__text--myAccount",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "tagTitle": "content__text--myAccount",
-        "text": "My Account"
-      }
-    }
-  },
-  "menu-item#content__text--rutaPedido": {
-    "props": {
-      "id": "content__text--rutaPedido",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "tagTitle": "content__text--rutaPedido",
-        "text": "Ruta Pedido"
-      }
-    }
-  },
-  "menu-item#content__text--misPedidos": {
-    "props": {
-      "id": "content__text--misPedidos",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "tagTitle": "content__text--misPedidos",
-        "text": "Mis pedidos"
-      }
-    }
-  },
-  "menu-item#content__text--compraMayorista": {
-    "props": {
-      "id": "content__text--compraMayorista",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "tagTitle": "content__text--compraMayorista",
-        "text": "Compra Mayorista"
-      }
-    }
+    "children": ["flex-layout.col#home__footer--wrapper"]
   }
-  // "disclosure-state-indicator#menu__compra--chevron": {
-  //   "props": {
-  //     "Show": "icon-angle--down",
-  //     "Hide": "icon-angle--up"
-  //   }
-  // }
 }

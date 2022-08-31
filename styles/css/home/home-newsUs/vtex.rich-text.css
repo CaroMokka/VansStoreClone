@@ -1,6 +1,7 @@
 .paragraph--card--text{
+    color: cadetblue;
     margin-top: 5px;
-    background-color: lawngreen;
     font-size: 1rem;
     font-weight: bold;
+    text-decoration: underline;
 }

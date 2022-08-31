@@ -7,14 +7,19 @@
   },
 
   "list-context.product-list#novelty--productsShelf-01": {
-    "blocks": ["product-summary.shelf##novelty__productsShelf-01"],
+    "blocks": ["product-summary.shelf#novelty__productsShelf-01"],
     "children": ["slider-layout#novelty__productsShelf-01"]
   },
-  "product-summary.shelf##novelty__productsShelf-01": {
+  "product-summary.shelf#novelty__productsShelf-01": {
+    "props": {
+      "blockClass": "novelty__productsShelf-01"
+    },
     "children": [
+      "product-summary-image",
       "product-summary-name",
-      "product-summary-price",
-      "add-to-cart-button"
+      "product-summary-price"
+     
+ 
     ]
   },
   "slider-layout#novelty__productsShelf-01": {
@@ -22,36 +27,15 @@
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "arrowSize": 15,
       "blockClass": "carousel"
     },
     "children": []
-  },
-  "product-summary-image": {
-    "props": {
-      "showBadge": true,
-      "height": 220
-    }
-  },
-  "add-to-cart-button": {
-    "props":{
-        "text": "klscklclnkc"
-    }
   }
-}
-// ,
-//   "rich-text#1": {
-//     "props": {
-//         "text": "carola"
-//     }
-//   },
-//   "rich-text#2": {
-//     "props": {
-//         "text": "mokka"
-//     }
-//   },
 
-// "rich-text#1", "rich-text#2"
+}

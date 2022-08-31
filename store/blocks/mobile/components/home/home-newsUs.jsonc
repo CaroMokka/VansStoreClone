@@ -29,9 +29,10 @@
   //wrapper title
   "rich-text#newUs__wrapper--title": {
     "props": {
-      "text": "Noticias Nuestras",
+      "text": "NOTICIAS NUESTRAS",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
     }
   },
   //section one

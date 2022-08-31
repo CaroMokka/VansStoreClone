@@ -1,8 +1,7 @@
 .logoContainer--mobile__header--logo{
     width: 100px;
-    background-color: green;
     display: flex;
 }
-.logoImage--mobile__header--logo{
+/* .logoImage--mobile__header--logo{
     background-color: purple;
-}
+} */

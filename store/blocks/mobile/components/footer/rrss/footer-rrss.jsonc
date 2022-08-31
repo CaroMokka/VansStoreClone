@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#wrapper__section--rrss": {
+    "title": "rrss",
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["flex-layout.col#wrapper__section--rrss"]
+  },
+  "flex-layout.col#wrapper__section--rrss": {
+    "title": "rrss",
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#section__rrss--title",
+      "flex-layout.row#section__rrss--logos"
+    ]
+  },
+  "rich-text#section__rrss--title": {
+    "title": "rrss-title",
+    "props": {
+      "text": "SIGUE A VANS",
+      "blockClass": "section__rrss--title"
+    }
+  },
+  "flex-layout.row#section__rrss--logos": {
+    "title": "rrss-logos",
+    "children": ["social-networks"]
+  },
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://instagram.com/foo", "name": "Instagram" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" }
+      ]
+    }
+  }
+}

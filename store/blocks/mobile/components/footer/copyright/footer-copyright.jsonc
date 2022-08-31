@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#wrapper__section--copyright": {
+    "props": {
+      "blockClass": "wrapper__section--copyright"
+    },
+    "children": ["rich-text#section_copyright"]
+  },
+  "rich-text#section_copyright": {
+    "props": {
+      "text": "© Vans, Forus S.A.",
+      "blockClass": "section_copyright"
+    }
+  }
+}

@@ -1,4 +1,9 @@
 .flexCol--wrapper__section--menu{
-    background-color: black;
     padding: 20px; 
+}
+.flexRow--home__footer--container{
+    background-color: black;
+}
+.flexRow--wrapper__section--logo-vtex{
+    padding: 10px 0;
 }

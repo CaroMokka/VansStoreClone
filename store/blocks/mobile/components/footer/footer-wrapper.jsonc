@@ -3,16 +3,9 @@
     "title": "footer-wrapper",
     "children": [
       "flex-layout.row#wrapper__section--menu",
-      "flex-layout.row#wrapper__section--compra"
+      "flex-layout.row#wrapper__section--rrss",
+      "flex-layout.row#wrapper__section--logo-vtex",
+      "flex-layout.row#wrapper__section--copyright"
     ]
-  },
-  "flex-layout.row#wrapper__section--compra": {
-    "title": "section-compra",
-    "children": ["rich-text#testing2"]
-  },
-  "rich-text#testing2": {
-    "props": {
-      "text": "testing redes sociales"
-    }
   }
 }

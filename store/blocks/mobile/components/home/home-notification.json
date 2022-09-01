@@ -1,60 +1,56 @@
 {
-    "flex-layout.row#mobile__home--notification": {
-        "title": "home-notification",
-        "props": {
-            "blockClass": "mobile__home--notification"
-        },
-        "children": [
-            "slider-layout#home__notification--bar"
-        ]
+  "flex-layout.row#mobile__home--notification": {
+    "title": "home-notification",
+    "props": {
+      "blockClass": "mobile__home--notification"
     },
+    "children": ["slider-layout#home__notification--bar"]
+  },
 
-    "slider-layout#home__notification--bar": {
-        "title": "home-notification-bar",
-        "props": {
-            "itemPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "mobile": 1
-            },
-            "infinite": true,
-            "fullWidth": true,
-            "showPaginationDots": "never",
-            "showNavigationArrows": "never",
-            "autoplay": {
-                "timeout": 3000,
-                "stopOnHover": true 
-            },
-            "blockClass": "home__notification--bar"
-        },
-        "children":[
-            "rich-text#notification__bar--one",
-            "rich-text#notification__bar--two",
-            "rich-text#notification__bar--three"
-        ]
+  "slider-layout#home__notification--bar": {
+    "title": "home-notification-bar",
+    "props": {
+      "itemPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "blockClass": "home__notification--bar"
     },
+    "children": [
+      "rich-text#notification__bar--one",
+      "rich-text#notification__bar--two",
+      "rich-text#notification__bar--three"
+    ]
+  },
 
-    "rich-text#notification__bar--one": {
-        "title": "notification-bar-one",
-        "props":{
-            "text": "notification__bar--one",
-            "blockClass": "notification__bar"
-        }
-    },
-    "rich-text#notification__bar--two": {
-        "title": "notification-bar-two",
-        "props":{
-            "text": "notification__bar--two",
-            "blockClass": "notification__bar"
-        }
-    },
-    "rich-text#notification__bar--three": {
-        "title": "notification-bar-three",
-        "props":{
-            "text": "notification__bar--three",
-            "blockClass": "notification__bar"
-        }
+  "rich-text#notification__bar--one": {
+    "title": "notification-bar-one",
+    "props": {
+      "text": "15% EN TU PRIMERA COMPRA AL REGISTRARTE EN NEWSLETTER",
+      "blockClass": "notification__bar"
     }
-
-
+  },
+  "rich-text#notification__bar--two": {
+    "title": "notification-bar-two",
+    "props": {
+      "text": "Click & Collect: Recoge tus compras en tienda y ahórrate el despacho!",
+      "blockClass": "notification__bar"
+    }
+  },
+  "rich-text#notification__bar--three": {
+    "title": "notification-bar-three",
+    "props": {
+      "text": "notification__bar--three",
+      "blockClass": "notification__bar"
+    }
+  }
 }

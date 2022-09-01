@@ -1,0 +1,38 @@
+{
+    "list-context.image-list#demo": {
+        "children": ["slider-layout#demo-images"],
+        "props": {
+          "preload": true,
+          "height": 250,
+          "images": [
+            {
+              "image": "assets/images/category/fuerte-claro.webp",
+              "description": "something something"
+            },
+            {
+              "image": "assets/images/category/Brand-Campaign.gif",
+              "description": "something something"
+            },
+            {
+                "image": "assets/images/category/daniel-johnston.webp",
+                "description": "something something"
+              },
+              {
+                "image": "assets/images/category/SK-HI.webp",
+                "description": "something something"
+              }
+          ]
+        }
+      },
+    
+      "slider-layout#demo-images": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 2
+          },
+          "infinite": true
+        }
+      }
+}

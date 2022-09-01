@@ -2,7 +2,8 @@
     "flex-layout.row#mobile__home--categories": {
         "title": "home-categories",
         "children": [
-            "slider-layout#home__categories--types"
+            // "slider-layout#home__categories--types",
+            "list-context.image-list#demo"
         ]
     },
 
@@ -21,16 +22,62 @@
             "blockClass": "home__categories--types"
         },
         "children": [
-            "info-card#testingCategories",
-            "info-card#testingCategories",
-            "info-card#testingCategories"
-        ]//infoCards, images circulares
+            "flex-layout.row#category__type--section-01"
+        ]
     },
-    "info-card#testingCategories": {
-        "props": {
-            "imageUrl": "assets/images/banners/mobile/home__categories01.webp",
-            "textAlignment": "center",
-            "blockClass": "categories"
+
+    "flex-layout.row#category__type--section-01":{
+        "props":{
+            "colSizing": "equal",
+            "blockClass": "category__type--section-01"
+        },
+        "children":["flex-layout.col#categories__card--01","flex-layout.col#categories__card--02"]
+    },
+    //card 01
+    "flex-layout.col#categories__card--01": {
+        "title": "categories__card--01",
+        "props":{
+            "blockClass": "categories__card--01"
+        },
+        "children":["image#card__01--image","rich-text#card__01--text"]
+    },
+    //image card 01
+    "image#card__01--image":{
+        "title": "card--01",
+        "props":{
+            "src": "assets/images/banners/mobile/home__categories01.webp",
+            "blockClass": "card--image"
+        }
+    },
+    //text card 01
+    "rich-text#card__01--text":{
+        "title": "card--01",
+        "props":{
+            "text": "testing 01"
+        }
+    },
+    //card 02
+    "flex-layout.col#categories__card--02": {
+        "title": "categories__card--02",
+        "props":{
+            "width": "grow",
+            "blockClass": "categories__card--02"
+        },
+        "children":["image#card__02--image","rich-text#card__02--text"]
+    },
+    //image card 02
+    "image#card__02--image":{
+        "title": "card--02",
+        "props":{
+            "src": "assets/images/banners/mobile/home__categories01.webp",
+            "blockClass": "card--image"
+        }
+    },
+    //text card 02
+    "rich-text#card__02--text":{
+        "title": "card--02",
+        "props":{
+            "text": "testing 02"
         }
     }
 }

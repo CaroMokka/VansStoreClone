@@ -37,7 +37,7 @@
         "type": "internal",
         "href": "/",
         "tagTitle": "item-01",
-        "text": "item-01"
+        "text": "Mi Cuenta"
       }
     }
   },
@@ -49,7 +49,7 @@
         "type": "internal",
         "href": "/",
         "tagTitle": "item-02",
-        "text": "item-02"
+        "text": "¿Dónde viene mi pedido?"
       }
     }
   },
@@ -61,7 +61,7 @@
         "type": "internal",
         "href": "/",
         "tagTitle": "item-03",
-        "text": "item-03"
+        "text": "Mis Pedidos"
       }
     }
   },
@@ -73,7 +73,7 @@
         "type": "internal",
         "href": "/",
         "tagTitle": "item-04",
-        "text": "item-04"
+        "text": "Compra Mayorista"
       }
     }
   }

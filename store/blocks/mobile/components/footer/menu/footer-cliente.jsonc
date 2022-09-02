@@ -1,8 +1,8 @@
-{ 
+{
   //layout disclosure
   "disclosure-layout#section__cliente": {
     "children": [
-      "disclosure-trigger#section__cliente--button", 
+      "disclosure-trigger#section__cliente--button",
       "disclosure-content#section__cliente--content",
       "disclosure-state-indicator#section__cliente--indicators"
     ]
@@ -10,7 +10,7 @@
   //trigger
   "disclosure-trigger#section__cliente--button": {
     "props": {
-      "orientation":"vertical",
+      "orientation": "vertical",
       "as": "span"
     },
     "children": ["rich-text#cliente__button--text"]
@@ -27,14 +27,14 @@
   },
   //indicators
   "disclosure-state-indicator#section__cliente--indicators": {
-    "children":[]
+    "children": []
   },
   //menu
   "menu#cliente__content--menu": {
     "props": {
       "orientation": "vertical"
     },
-    "children": ["menu-item#cliente-item-01","menu-item#cliente-item-02","menu-item#cliente-item-03","menu-item#cliente-item-04"]
+    "children": ["menu-item#cliente-item-01"]
   },
   //item
   "menu-item#cliente-item-01": {
@@ -45,43 +45,7 @@
         "type": "internal",
         "href": "/",
         "tagTitle": "cliente-item-01",
-        "text": "cliente-item-01"
-      }
-    }
-  },
-  "menu-item#cliente-item-02": {
-    "props": {
-      "id": "cliente-item-02",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "tagTitle": "cliente-item-02",
-        "text": "cliente-item-02"
-      }
-    }
-  },
-  "menu-item#cliente-item-03": {
-    "props": {
-      "id": "cliente-item-03",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "tagTitle": "cliente-item-03",
-        "text": "cliente-item-03"
-      }
-    }
-  },
-  "menu-item#cliente-item-04": {
-    "props": {
-      "id": "cliente-item-04",
-      "type": "custom",
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "tagTitle": "cliente-item-04",
-        "text": "cliente-item-04"
+        "text": "Centro de Ayuda"
       }
     }
   }

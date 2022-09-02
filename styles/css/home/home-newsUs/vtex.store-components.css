@@ -1,1 +1,26 @@
-
+.infoCardContainer--home___newsUs--infocard{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.infoCardImageContainer--home___newsUs--infocard{
+    width: 300px;
+}
+.infoCardTextContainer--home___newsUs--infocard{
+    width: 300px;
+}
+.infoCardSubhead--home___newsUs--infocard{
+    margin: 0;
+}
+.infoCardCallActionText--home___newsUs--infocard{
+    margin: 0;
+    font-size: 20px;
+    color: cadetblue;
+}
+.infoCardCallActionText--home___newsUs--infocard:hover {
+    color: red;
+}
+.infoCardHeadline--home___newsUs--infocard{
+    font-size: 22px;
+    color: black;
+    margin: 10px 0;
+}

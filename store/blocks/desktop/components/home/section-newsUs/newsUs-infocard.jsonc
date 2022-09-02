@@ -1,0 +1,58 @@
+{
+    "info-card#home___newsUs--infocard-01": {
+        "props": {
+          "blockClass": "home___newsUs--infocard",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "assets/images/newsUs/home__newsUs--01.webp",
+          "headline": "¡Reserva la fecha! Vans x Sailor Moon",
+          "subhead": "¡Este 18 de Agosto estaremos recibiendo nuestra colección en vivo",
+          "callToActionMode": "link",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/",
+          "textAlignment": "center"
+        }
+      },
+    "info-card#home___newsUs--infocard-02": {
+        "props": {
+          "blockClass": "home___newsUs--infocard",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "assets/images/newsUs/home__newsUs--02.webp",
+          "headline": "Vans x Daniel Johnston",
+          "subhead": "La colección del artista que inspiró a Kurt Cobain",
+          "callToActionMode": "link",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/",
+          "textAlignment": "center"
+        }
+      },
+      "info-card#home___newsUs--infocard-03": {
+        "props": {
+          "blockClass": "home___newsUs--infocard",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "assets/images/newsUs/home__newsUs--03.webp",
+          "headline": "Vans Presenta: Banda Sonora",
+          "subhead": "Revisa nuestro conversatorio con músicos de la escena local",
+          "callToActionMode": "link",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/",
+          "textAlignment": "center"
+        }
+      },
+      "info-card#home___newsUs--infocard-04": {
+        "props": {
+          "blockClass": "home___newsUs--infocard",
+          "isFullModeStyle": false,
+          "textPosition": "center",
+          "imageUrl": "assets/images/newsUs/home__newsUs--04.webp",
+          "headline": "¡Pantalones para tu look #OfftheWall",
+          "subhead": "Dos estilos que te acompañaran en tus tardes deportivas y las que no lo son tanto",
+          "callToActionMode": "link",
+          "callToActionText": "VER MÁS",
+          "callToActionUrl": "/",
+          "textAlignment": "center"
+        }
+      }
+}

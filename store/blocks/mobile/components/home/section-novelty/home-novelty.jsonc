@@ -8,8 +8,9 @@
     "children": [
       "flex-layout.row#home__novelty--title",
       "flex-layout.row#home__novelty--productsShelf-01",
-      "flex-layout.row#home__novelty--image"
-    //   "flex-layout.row#home__novelty--productsShelf-02"
+      "flex-layout.row#home__novelty--image",
+      "flex-layout.row#home__novelty--productsShelf-02"
+   
     ]
   },
   //titulo Novedades

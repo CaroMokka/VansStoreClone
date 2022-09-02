@@ -1,1 +1,23 @@
+.infoCardContainer--home___categories--infocard{
+    width: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+    cursor: pointer;
 
+}
+.infoCardImageContainer--home___categories--infocard{
+    width: 100px;
+}
+.infoCardImage--home___categories--infocard{
+    border-radius: 50%;
+}
+.infoCardCallActionText--home___categories--infocard{
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.infoCardCallActionContainer--home___categories--infocard{
+    margin: 10px;
+}

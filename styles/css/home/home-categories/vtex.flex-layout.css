@@ -1,0 +1,15 @@
+.flexRow--category__type--section-01 {
+  background-color: blue;
+}
+.flexCol--home__categories--types-01 {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexCol--home__categories--types-02 {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }

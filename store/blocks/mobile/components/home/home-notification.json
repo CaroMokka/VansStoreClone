@@ -27,8 +27,7 @@
     },
     "children": [
       "rich-text#notification__bar--one",
-      "rich-text#notification__bar--two",
-      "rich-text#notification__bar--three"
+      "rich-text#notification__bar--two"
     ]
   },
 
@@ -43,13 +42,6 @@
     "title": "notification-bar-two",
     "props": {
       "text": "Click & Collect: Recoge tus compras en tienda y ahórrate el despacho!",
-      "blockClass": "notification__bar"
-    }
-  },
-  "rich-text#notification__bar--three": {
-    "title": "notification-bar-three",
-    "props": {
-      "text": "notification__bar--three",
       "blockClass": "notification__bar"
     }
   }

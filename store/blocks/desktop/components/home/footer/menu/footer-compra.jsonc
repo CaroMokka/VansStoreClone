@@ -1,0 +1,67 @@
+{
+  "flex-layout.col#section__menu--compra": {
+    "title": "",
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["menu#menu__compra--menu"]
+  },
+  //menu -- compra
+  "menu#menu__compra--menu": {
+    "title": "",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu--class"
+    },
+    "children": [
+      "rich-text#menu__compra--title",
+      "menu-item#compra__menu--miCuenta",
+      "menu-item#compra__menu--rutaPedido",
+      "menu-item#compra__menu--misPedidos"
+    ]
+  },
+  "rich-text#menu__compra--title": {
+    "props": {
+      "text": "COMPRA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  "menu-item#compra__menu--miCuenta": {
+    "props": {
+      "id": "item-miCuenta",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-miCuenta",
+        "text": "Mi Cuenta"
+      }
+    }
+  },
+  "menu-item#compra__menu--rutaPedido": {
+    "props": {
+      "id": "item-rutaPedido",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-rutaPedido",
+        "text": "¿Dónde viene mi pedido?"
+      }
+    }
+  },
+  "menu-item#compra__menu--misPedidos": {
+    "props": {
+      "id": "item-misPedidos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-misPedidos",
+        "text": "Mis Pedidos"
+      }
+    }
+  }
+}

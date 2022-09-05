@@ -1,0 +1,98 @@
+{
+  "flex-layout.col#section__menu--vans": {
+    "title": "",
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["menu#menu__vans--menu"]
+  },
+  //menu -- vans
+  "menu#menu__vans--menu": {
+    "title": "",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu--class"
+    },
+    "children": [
+      "rich-text#menu__vans--title",
+      "menu-item#vans__menu--centroAyuda",
+      "menu-item#vans__menu--sustentabilidad",
+      "menu-item#vans__menu--nuestrasTiendas",
+      "menu-item#vans__menu--retiroTiendas",
+      "menu-item#vans__menu--giftcards"
+    ]
+  },
+  "rich-text#menu__vans--title": {
+    "props": {
+      "text": "VANS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  //item -- centro de ayuda
+  "menu-item#vans__menu--centroAyuda": {
+    "props": {
+      "id": "item-centroAyuda",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-centroAyuda",
+        "text": "Centro de Ayuda"
+      }
+    }
+  },
+  //item -- sustentabilidad
+  "menu-item#vans__menu--sustentabilidad": {
+    "props": {
+      "id": "item-sustentabilidad",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-sustentabilidad",
+        "text": "Sustentabilidad"
+      }
+    }
+  },
+  //item -- nuestras tiendas
+  "menu-item#vans__menu--nuestrasTiendas": {
+    "props": {
+      "id": "item-nuestrasTiendas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-nuestrasTiendas",
+        "text": "Nuestras Tiendas"
+      }
+    }
+  },
+  //item -- retiro tiendas
+  "menu-item#vans__menu--retiroTiendas": {
+    "props": {
+      "id": "item-retiroTiendas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-retiroTiendas",
+        "text": "Retiro en Tiendas"
+      }
+    }
+  },
+  //item -- giftcards
+  "menu-item#vans__menu--giftcards": {
+    "props": {
+      "id": "item--giftcards",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item--giftcards",
+        "text": "Giftcards"
+      }
+    }
+  }
+}

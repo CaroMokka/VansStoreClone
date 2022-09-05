@@ -1,0 +1,99 @@
+{
+  "flex-layout.col#section__menu--servicioCliente": {
+    "title": "",
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["menu#menu__servicioCliente--menu"]
+  },
+  //menu -- servicio cliente
+  "menu#menu__servicioCliente--menu": {
+    "title": "",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu--class"
+    },
+    "children": [
+      "rich-text#menu__servicioCliente--title",
+      "menu-item#servicioCliente__menu--escribenos",
+      "menu-item#servicioCliente__menu--callcenter",
+      "menu-item#servicioCliente__menu--numero",
+      "menu-item#servicioCliente__menu--atencion",
+      "menu-item#servicioCliente__menu--horarios"
+    ]
+  },
+  //item 01 -- title
+  "rich-text#menu__servicioCliente--title": {
+    "props": {
+      "text": "SERVICIO AL CLIENTE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  //item 02 -- escribenos
+  "menu-item#servicioCliente__menu--escribenos": {
+    "props": {
+      "id": "item-escribenos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-escribenos",
+        "text": "Escríbenos"
+      }
+    }
+  },
+  //item 03 -- callcenter
+  "menu-item#servicioCliente__menu--callcenter": {
+    "props": {
+      "id": "item-callcenter",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-callcenter",
+        "text": "CALL CENTER"
+      }
+    }
+  },
+  //item 04 -- numero
+  "menu-item#servicioCliente__menu--numero": {
+    "props": {
+      "id": "item-numero",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-numero",
+        "text": "(562)28203067"
+      }
+    }
+  },
+  //item 05 -- ATENCION
+  "menu-item#servicioCliente__menu--atencion": {
+    "props": {
+      "id": "item-atencion",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-atencion",
+        "text": "HORARIO DE ATENCIÓN"
+      }
+    }
+  },
+  //item 06 -- horarios
+  "menu-item#servicioCliente__menu--horarios": {
+    "props": {
+      "id": "item-horarios",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-horarios",
+        "text": "Lunes a viernes 9:000 a 19:00 hrs"
+      }
+    }
+  }
+}

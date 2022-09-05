@@ -1,6 +1,9 @@
 {
   "footer": {
     "title": "footer",
-    "blocks": ["footer-layout.mobile#mobile__home--footer"]
+    "blocks": [
+      "footer-layout.mobile#mobile__home--footer",
+      "footer-layout.desktop#desktop__home--footer"
+    ]
   }
 }

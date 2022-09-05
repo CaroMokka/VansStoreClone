@@ -1,0 +1,83 @@
+{
+  "flex-layout.col#section__menu--legal": {
+    "title": "",
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": ["menu#menu__legal--menu"]
+  },
+  "rich-text#menu__legal--title": {
+    "props": {
+      "text": "LEGAL",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4"
+    }
+  },
+  "menu#menu__legal--menu": {
+    "title": "",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "footer__menu--class"
+    },
+    "children": [
+      "rich-text#menu__legal--title",
+      "menu-item#legal__menu--cambios",
+      "menu-item#legal__menu--despachos",
+      "menu-item#legal__menu--terminosCondiciones",
+      "menu-item#legal__menu--privacidad"
+    ]
+  },
+  //item 01 -- cambios, retracto y garantias
+  "menu-item#legal__menu--cambios": {
+    "props": {
+      "id": "item-cambios",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-cambios",
+        "text": "Cambios, retracto y garantías"
+      }
+    }
+  },
+  //item 02 -- timepo de despachos
+  "menu-item#legal__menu--despachos": {
+    "props": {
+      "id": "item-despachos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-despachos",
+        "text": "Tiempos de Despachos"
+      }
+    }
+  },
+  //item 03 -- terminosCondiciones
+  "menu-item#legal__menu--terminosCondiciones": {
+    "props": {
+      "id": "item-terminosCondiciones",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-terminosCondiciones",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+  //item 04-- politicas de privacidad
+  "menu-item#legal__menu--privacidad": {
+    "props": {
+      "id": "item-privacidad",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-privacidad",
+        "text": "Políticas de Privacidad"
+      }
+    }
+  }
+}

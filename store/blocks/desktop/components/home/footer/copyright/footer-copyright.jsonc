@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#footer__section--copyright": {
+    "props":{
+        "blockClass": "footer__section--copyright"
+    },
+    "children": ["rich-text#copyright__text"]
+  },
+  "rich-text#copyright__text": {
+    "props": {
+      "text": "© Vans, Forus S.A.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "flex-layout.col#desktop__header-searchBar": {
+        "title": "",
+        "children": ["search-bar"]
+    }
+}

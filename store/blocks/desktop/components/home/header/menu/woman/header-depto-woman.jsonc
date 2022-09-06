@@ -1,0 +1,118 @@
+{
+  //DEPARTAMENT WOMAN ------------------------
+  "menu-item#desktop__departament--woman": {
+    "props": {
+      "onMountBehavior": "open",
+      "id": "menu-item-woman",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "MUJER",
+        "text": "MUJER"
+      }
+    },
+    "blocks": ["submenu#desktop__departament--woman"]
+  },
+  "submenu#desktop__departament--woman": {
+    "children": ["flex-layout.row#desktop__departament--woman"]
+  },
+  "flex-layout.row#desktop__departament--woman": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "desktop__departament--style"
+    },
+    "children": [
+      "flex-layout.col#departament__woman-destacados",
+      "flex-layout.col#departament__woman-calzado",
+      "flex-layout.col#departament__woman-ropa",
+      "flex-layout.col#departament__woman-accesorios"
+    ]
+  },
+  "flex-layout.col#departament__woman-destacados": {
+    "children": ["menu#desktop__departament--woman-destacados"]
+  },
+  "flex-layout.col#departament__woman-calzado": {
+    "children": ["menu#desktop__departament--woman-calzado"]
+  },
+  "flex-layout.col#departament__woman-ropa": {
+    "children": ["menu#desktop__departament--woman-ropa"]
+  },
+  "flex-layout.col#departament__woman-accesorios": {
+    "children": ["menu#desktop__departament--woman-accesorios"]
+  },
+  //COL - menu -- destacados woman
+  "menu#desktop__departament--woman-destacados": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--destacados-woman",
+      "menu-item#desktop__woman__category--new-arrivals",
+      "menu-item#desktop__woman__category--old-skool",
+      "menu-item#desktop__woman__category--lizzie",
+      "menu-item#desktop__woman__category--sandy-liang"
+    ]
+  },
+  "rich-text#desktop__category--destacados-woman": {
+    "props": {
+      "text": "DESTACADOS"
+    }
+  },
+  //COL - menu -- calzado woman
+  "menu#desktop__departament--woman-calzado": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--calzado-woman",
+      "menu-item#desktop__woman__category--classics",
+      "menu-item#desktop__woman__category--classics+",
+      "menu-item#desktop__woman__category--skateboarding",
+      "menu-item#desktop__woman__category--surf"
+    ]
+  },
+  "rich-text#desktop__category--calzado-woman": {
+    "props": {
+      "text": "CALZADO"
+    }
+  },
+  //COL - menu -- ropa woman
+  "menu#desktop__departament--woman-ropa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--ropa-woman",
+      "menu-item#desktop__woman__category--chaquetas",
+      "menu-item#desktop__woman__category--pantalones",
+      "menu-item#desktop__woman__category--poleras",
+      "menu-item#desktop__woman__category--poleron",
+      "menu-item#desktop__woman__category--vestidos-shorts",
+      "menu-item#desktop__woman__category--ver-todo"
+    ]
+  },
+  "rich-text#desktop__category--ropa-woman": {
+    "props": {
+      "text": "ROPA"
+    }
+  },
+  //COL - menu -- ACCESORIOS woman
+  "menu#desktop__departament--woman-accesorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--accesorios-woman",
+      "menu-item#desktop__woman__category--gorros-jockeys",
+      "menu-item#desktop__woman__category--mochilas-bolsos",
+      "menu-item#desktop__woman__category--ver-todo-accesorios"
+    ]
+  },
+  "rich-text#desktop__category--accesorios-woman": {
+    "props": {
+      "text": "ACCESORIOS"
+    }
+  }
+}

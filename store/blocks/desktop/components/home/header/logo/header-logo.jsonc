@@ -1,0 +1,16 @@
+{
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/images/banners/mobile/header__logo.png",
+      "width": "80"
+    }
+  }
+}

@@ -6,13 +6,12 @@
     },
     "children": ["slider-layout#desktop__home__notification--bar"]
   },
+  //slider
   "slider-layout#desktop__home__notification--bar": {
     "title": "home-notification-bar",
     "props": {
       "itemPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "mobile": 1
+        "desktop": 1
       },
       "infinite": true,
       "fullWidth": true,
@@ -25,10 +24,31 @@
       "blockClass": "desktop__home__notification--bar"
     },
     "children": [
-      "rich-text#desktop__notification__bar--one",
-      "rich-text#desktop__notification__bar--two",
-      "rich-text#desktop__notification__bar--three"
+      "flex-layout.row#home__notification--bar-01",
+      "flex-layout.row#home__notification--bar-02",
+      "flex-layout.row#home__notification--bar-03"
     ]
+  },
+  //bar 01
+  "flex-layout.row#home__notification--bar-01": {
+    "props":{
+      "blockClass": "home__notification--bar"
+    },
+    "children": ["rich-text#desktop__notification__bar--one"]
+  },
+  //bar 02
+  "flex-layout.row#home__notification--bar-02": {
+    "props":{
+      "blockClass": "home__notification--bar"
+    },
+    "children": ["rich-text#desktop__notification__bar--two"]
+  },
+  //bar 03
+  "flex-layout.row#home__notification--bar-03": {
+    "props":{
+      "blockClass": "home__notification--bar"
+    },
+    "children": ["rich-text#desktop__notification__bar--three"]
   },
 
   "rich-text#desktop__notification__bar--one": {

@@ -1,0 +1,119 @@
+{
+  //DEPARTAMENTS MAN ---------------------------
+  "menu-item#desktop__departament--man": {
+    "props": {
+      "onMountBehavior": "open",
+      "id": "menu-item-man",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "HOMBRE",
+        "text": "HOMBRE"
+      }
+    },
+    "blocks": ["submenu#desktop__departament--man"]
+  },
+  "submenu#desktop__departament--man": {
+    "children": ["flex-layout.row#desktop__departament--man"]
+  },
+  "flex-layout.row#desktop__departament--man": {
+    "props":{
+      "fullWidth": true,
+      "blockClass": "desktop__departament--style"
+    },
+    "children": [
+      "flex-layout.col#departament__man-destacados",
+      "flex-layout.col#departament__man-calzado",
+      "flex-layout.col#departament__man-ropa",
+      "flex-layout.col#departament__man-accesorios"
+    ]
+  },
+  "flex-layout.col#departament__man-destacados": {
+    "children": ["menu#desktop__departament--man-destacados"]
+  },
+  "flex-layout.col#departament__man-calzado": {
+    "children": ["menu#desktop__departament--man-calzado"]
+  },
+  "flex-layout.col#departament__man-ropa": {
+    "children": ["menu#desktop__departament--man-ropa"]
+  },
+  "flex-layout.col#departament__man-accesorios": {
+    "children": ["menu#desktop__departament--man-accesorios"]
+  },
+  //COL - menu -- destacados man
+  "menu#desktop__departament--man-destacados": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--destacados",
+      "menu-item#desktop__man__category--new-arrivals",
+      "menu-item#desktop__man__category--old-skool",
+      "menu-item#desktop__man__category--evdnt",
+      "menu-item#desktop__man__category--halfcab",
+      "menu-item#desktop__man__category--circle-vee"
+    ]
+  },
+  "rich-text#desktop__category--destacados": {
+    "props": {
+      "text": "DESTACADOS"
+    }
+  },
+  //COL - menu -- calzado man
+  "menu#desktop__departament--man-calzado": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--calzado",
+      "menu-item#desktop__man__category--classics",
+      "menu-item#desktop__man__category--classics+",
+      "menu-item#desktop__man__category--skateboarding",
+      "menu-item#desktop__man__category--surf"
+    ]
+  },
+  "rich-text#desktop__category--calzado": {
+    "props": {
+      "text": "CALZADO"
+    }
+  },
+  //COL - menu -- ropa man
+  "menu#desktop__departament--man-ropa": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--ropa",
+      "menu-item#desktop__man__category--camisas",
+      "menu-item#desktop__man__category--chaquetas",
+      "menu-item#desktop__man__category--pantalones",
+      "menu-item#desktop__man__category--poleras",
+      "menu-item#desktop__man__category--poleron",
+      "menu-item#desktop__man__category--trajes-bano"
+    ]
+  },
+  "rich-text#desktop__category--ropa": {
+    "props": {
+      "text": "ROPA"
+    }
+  },
+  //COL - menu -- accesorios man
+  "menu#desktop__departament--man-accesorios": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#desktop__category--accesorios",
+      "menu-item#desktop__man__category--calcetines",
+      "menu-item#desktop__man__category--gorros-jockeys",
+      "menu-item#desktop__man__category--mochilas-bolsos"
+    ]
+  },
+  "rich-text#desktop__category--accesorios": {
+    "props": {
+      "text": "ACCESORIOS"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "menu-item#desktop__departament--novedades": {
+    "props": {
+      "onMountBehavior": "open",
+      "id": "menu-item-novedades",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "NOVEDADES",
+        "text": "NOVEDADES"
+      }
+    }
+  },
+  "menu-item#desktop__departament--classics": {
+    "props": {
+      "onMountBehavior": "open",
+      "id": "menu-item-classics",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "CLASSICS",
+        "text": "CLASSICS"
+      }
+    }
+  },
+  "menu-item#desktop__departament--skateboarding": {
+    "props": {
+      "onMountBehavior": "open",
+      "id": "menu-item-skateboarding",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SKATEBOARDING",
+        "text": "SKATEBOARDING"
+      }
+    }
+  },
+  "menu-item#desktop__departament--surf": {
+    "props": {
+      "onMountBehavior": "open",
+      "id": "menu-item-surf",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SURF",
+        "text": "SURF"
+      }
+    }
+  },
+  "menu-item#desktop__departament--sale": {
+    "props": {
+      "onMountBehavior": "open",
+      "id": "menu-item-sale",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SALE",
+        "text": "SALE"
+      }
+    }
+  }
+}

@@ -1,0 +1,257 @@
+{
+  //category man - destacados - NEW ARRIVALS
+  "menu-item#desktop__man__category--new-arrivals": {
+    "props": {
+      "id": "category--new-arrivals",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "new-arrivals",
+        "text": "NEW ARRIVALS"
+      }
+    }
+  },
+  //category man - destacados - OLD SKOOL
+  "menu-item#desktop__man__category--old-skool": {
+    "props": {
+      "id": "category--old-skool",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "old-skool",
+        "text": "OLD SKOOL"
+      }
+    }
+  },
+  //category man - destacados - EVDNT
+  "menu-item#desktop__man__category--evdnt": {
+    "props": {
+      "id": "category--evdnt",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "evdnt",
+        "text": "EVDNT"
+      }
+    }
+  },
+  //category man - destacados - HALFCAB
+  "menu-item#desktop__man__category--halfcab": {
+    "props": {
+      "id": "category--halfcab",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "halfcab",
+        "text": "HALFCAB"
+      }
+    }
+  },
+  //category man - destacados - CIRCLE VEE
+  "menu-item#desktop__man__category--circle-vee": {
+    "props": {
+      "id": "category--circle-vee",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "circle-vee",
+        "text": "CIRCLE VEE"
+      }
+    }
+  },
+  //category man - CALZADO - classics
+  "menu-item#desktop__man__category--classics": {
+    "props": {
+      "id": "category--classics",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "classics",
+        "text": "CLASSICS"
+      }
+    }
+  },
+  //category man - CALZADO - classics +
+  "menu-item#desktop__man__category--classics+": {
+    "props": {
+      "id": "category--classics+",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "classics+",
+        "text": "CLASSICS+"
+      }
+    }
+  },
+  //category man -CALZADO - skateboarding
+  "menu-item#desktop__man__category--skateboarding": {
+    "props": {
+      "id": "category--skateboarding",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "skateboarding",
+        "text": "SKATEBOARDING"
+      }
+    }
+  },
+  //category man - CALZADO - surf
+  "menu-item#desktop__man__category--surf": {
+    "props": {
+      "id": "category--surf",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "surf",
+        "text": "SURF"
+      }
+    }
+  },
+  //category man - ROPA - camisas
+  "menu-item#desktop__man__category--camisas": {
+    "props": {
+      "id": "category--camisas",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "camisas",
+        "text": "CAMISAS"
+      }
+    }
+  },
+  //category man - ROPA - chaquetas
+  "menu-item#desktop__man__category--chaquetas": {
+    "props": {
+      "id": "category--chaquetas",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "chaquetas",
+        "text": "CHAQUETAS"
+      }
+    }
+  },
+  //category man - ROPA - pantalones
+  "menu-item#desktop__man__category--pantalones": {
+    "props": {
+      "id": "category--pantalones",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "pantalones",
+        "text": "PANTALONES"
+      }
+    }
+  },
+  //category man - ROPA - poleras
+  "menu-item#desktop__man__category--poleras": {
+    "props": {
+      "id": "category--poleras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "poleras",
+        "text": "POLERAS"
+      }
+    }
+  },
+  //category man - ROPA - poleron
+  "menu-item#desktop__man__category--poleron": {
+    "props": {
+      "id": "category--poleron",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "poleron",
+        "text": "POLERÓN"
+      }
+    }
+  },
+  //category man - ROPA - trajes de baño
+  "menu-item#desktop__man__category--trajes-bano": {
+    "props": {
+      "id": "category--trajes-bano",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "trajes-baño",
+        "text": "TRAJES DE BAÑO"
+      }
+    }
+  },
+  //category man - ACCESORIOS - calcetines
+  "menu-item#desktop__man__category--calcetines": {
+    "props": {
+      "id": "category--calcetines",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "calcetines",
+        "text": "CALCETINES"
+      }
+    }
+  },
+  //category man - ACCESORIOS - gorros y jockeys
+  "menu-item#desktop__man__category--gorros-jockeys": {
+    "props": {
+      "id": "category--gorros-jockeys",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "gorros-jockeys",
+        "text": "GORROS Y JOCKEYS"
+      }
+    }
+  },
+  //category man - ACCESORIOS - mochilas y bolsos
+  "menu-item#desktop__man__category--mochilas-bolsos": {
+    "props": {
+      "id": "category--mochilas-bolsos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "mochilas-bolsos",
+        "text": "MOCHILAS Y BOLSOS"
+      }
+    }
+  }
+
+  
+
+}

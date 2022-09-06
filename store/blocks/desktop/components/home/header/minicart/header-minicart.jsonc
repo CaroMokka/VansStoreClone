@@ -1,0 +1,6 @@
+{
+    "flex-layout.col#desktop__header--miniCart": {
+        "title": "",
+        "children": ["minicart.v2"]
+    }
+}

@@ -28,6 +28,11 @@
       "width": "80",
       "blockClass": "mobile__header--logo"
     }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
   }
 }
 

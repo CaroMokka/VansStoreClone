@@ -1,0 +1,94 @@
+{
+    //DEPARTAMENT KIDS ------------------------
+    "menu-item#desktop__departament--kids": {
+      "props": {
+        "onMountBehavior": "open",
+        "id": "menu-item-kids",
+        "type": "custom",
+        "itemProps": {
+          "type": "external",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "KIDS",
+          "text": "NIÑOS"
+        }
+      },
+      "blocks": ["submenu#desktop__departament--kids"]
+    },
+    "submenu#desktop__departament--kids": {
+      "children": ["flex-layout.row#desktop__departament--kids"]
+    },
+    "flex-layout.row#desktop__departament--kids": {
+      "props": {
+        "fullWidth": true,
+        "blockClass": "desktop__departament--style"
+      },
+      "children": [
+        "flex-layout.col#departament__kids-calzado",
+        "flex-layout.col#departament__kids-ropa",
+        "flex-layout.col#departament__kids-accesorios"
+      ]
+    },
+    "flex-layout.col#departament__kids-calzado": {
+      "children": ["menu#desktop__departament--kids-calzado"]
+    },
+    "flex-layout.col#departament__kids-ropa": {
+      "children": ["menu#desktop__departament--kids-ropa"]
+    },
+    "flex-layout.col#departament__kids-accesorios": {
+      "children": ["menu#desktop__departament--kids-accesorios"]
+    },
+    //COL - menu -- calzado kids
+    "menu#desktop__departament--kids-calzado": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "rich-text#desktop__category--calzado-kids",
+        "menu-item#desktop__kids__category--classics",
+        "menu-item#desktop__kids__category--ver-todo"
+      ]
+    },
+    "rich-text#desktop__category--calzado-kids": {
+      "props": {
+        "text": "CALZADO"
+      }
+    },
+    //COL - menu -- ropa kids
+    "menu#desktop__departament--kids-ropa": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "rich-text#desktop__category--ropa-kids",
+        "menu-item#desktop__kids__category--ver-todo-ropa",
+        "menu-item#desktop__kids__category--chaquetas",
+        "menu-item#desktop__kids__category--pantalones",
+        "menu-item#desktop__kids__category--poleras",
+        "menu-item#desktop__kids__category--poleron",
+        "menu-item#desktop__kids__category--shorts"
+        
+      ]
+    },
+    "rich-text#desktop__category--ropa-kids": {
+      "props": {
+        "text": "ROPA"
+      }
+    },
+    //COL - menu -- ACCESORIOS kids
+    "menu#desktop__departament--kids-accesorios": {
+      "props": {
+        "orientation": "vertical"
+      },
+      "children": [
+        "rich-text#desktop__category--accesorios-kids",
+        "menu-item#desktop__kids__category--ver-todo-accesorios"
+      ]
+    },
+    "rich-text#desktop__category--accesorios-kids": {
+      "props": {
+        "text": "ACCESORIOS"
+      }
+    }
+  }
+  

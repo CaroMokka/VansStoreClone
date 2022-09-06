@@ -1,0 +1,128 @@
+{
+    //category kids - CALZADO - CLASSICS
+    "menu-item#desktop__kids__category--classics": {
+    "props": {
+      "id": "category--classics",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CLASSICS",
+        "text": "CLASSICS"
+      }
+    }
+  },
+      //category kids - CALZADO - VER TODO
+      "menu-item#desktop__kids__category--ver-todo": {
+        "props": {
+          "id": "category--ver-todo",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "VER TODO",
+            "text": "VER TODO"
+          }
+        }
+      },
+       //category kids - ROPA - VER TODO
+       "menu-item#desktop__kids__category--ver-todo-ropa": {
+        "props": {
+          "id": "category--ver-todo-ropa",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "VER TODO",
+            "text": "VER TODO"
+          }
+        }
+      },
+      //category kids - ROPA - CHAQUETAS
+      "menu-item#desktop__kids__category--chaquetas": {
+        "props": {
+          "id": "category--chaquetas",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "CHAQUETAS",
+            "text": "CHAQUETAS"
+          }
+        }
+      },
+      //category kids - ROPA - PANTALONES
+      "menu-item#desktop__kids__category--pantalones": {
+        "props": {
+          "id": "category--pantalones",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "PANTALONES",
+            "text": "PANTALONES"
+          }
+        }
+      },
+      //category kids - ROPA - POLERAS
+      "menu-item#desktop__kids__category--poleras": {
+        "props": {
+          "id": "category--poleras",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "POLERAS",
+            "text": "POLERAS"
+          }
+        }
+      },
+      //category kids - ROPA - POLERON
+      "menu-item#desktop__kids__category--poleron": {
+        "props": {
+          "id": "category--poleron",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "POLERON",
+            "text": "POLERÓN"
+          }
+        }
+      },
+      //category kids - ROPA - SHORTS
+      "menu-item#desktop__kids__category--shorts": {
+        "props": {
+          "id": "category--shorts",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "SHORTS",
+            "text": "SHORTS"
+          }
+        }
+      },
+      //category kids - ACCESORIOS - VER TODO ACCESORIOS
+      "menu-item#desktop__kids__category--ver-todo-accesorios": {
+        "props": {
+          "id": "category--ver-todo-accesorios",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": true,
+            "tagTitle": "VER TODO",
+            "text": "VER TODO"
+          }
+        }
+      }
+}

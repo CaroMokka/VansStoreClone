@@ -1,0 +1,33 @@
+{
+  //col -menu
+  "flex-layout.col#desktop__header--menu": {
+    "title": "header-menu",
+    "children": ["flex-layout.row#desktop__header--menu"]
+  },
+  "flex-layout.row#desktop__header--menu": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["menu#desktop__header--menu"]
+  },
+  "menu#desktop__header--menu": {
+    "props": {
+      "width": "grow"
+    },
+    "children": [
+      "menu-item#desktop__departament--novedades",
+      "menu-item#desktop__departament--man",
+      "menu-item#desktop__departament--woman",
+      "menu-item#desktop__departament--kids",
+      "menu-item#desktop__departament--classics",
+      "menu-item#desktop__departament--skateboarding",
+      "menu-item#desktop__departament--surf",
+      "menu-item#desktop__departament--sale",
+      "menu-item#desktop__departament--mas"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  //breadcrumb
+  "flex-layout.row#mobile__department--breadcrumb": {
+    "children": ["flex-layout.col#mobile__department--breadcrumb"]
+  },
+  "flex-layout.col#mobile__department--breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  //banner - main
+  "flex-layout.row#mobile__department--banner": {
+    "children": ["image#mobile__department--banner-main"]
+  },
+  "image#mobile__department--banner-main": {
+    "props": {
+      "src": "assets/images/banners/desktop/desktop__plp--novedades.webp"
+    }
+  },
+  //results
+  "flex-layout.row#mobile__department--results": {
+    "title": "department results",
+    "children": [
+        "gallery-layout-switcher"
+        // "search-content#phone"
+    ]
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid__two-columns",
+      "gallery-layout-option#grid__one-column"
+    ]
+  },
+  "gallery-layout-option#grid__two-columns": {
+    "props": {
+      "name": "grid-two-columns",
+      "blockClass": "grid__selector--two-columns"
+    }
+  },
+  "gallery-layout-option#grid__one-column": {
+    "props": {
+      "name": "grid-one-column",
+      "blockClass": "grid__selector--one-column"
+    }
+  }
+}

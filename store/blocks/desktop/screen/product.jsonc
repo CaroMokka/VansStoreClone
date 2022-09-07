@@ -1,0 +1,10 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#desktop__pdp--breadcrumb",
+      "flex-layout.row#desktop__pdp--product-main",
+      "flex-layout.row#desktop__pdp--description",
+      "shelf.relatedProducts"
+    ]
+  }
+}

@@ -7,7 +7,7 @@
       "type": "custom",
       "itemProps": {
         "type": "external",
-        "href": "#",
+        "href": "/",
         "noFollow": false,
         "tagTitle": "departament__man",
         "text": "MAN"

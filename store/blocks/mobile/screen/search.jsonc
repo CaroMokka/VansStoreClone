@@ -1,13 +1,10 @@
 {
-    "search-result-layout.mobile#mobile__search": {
-        "children": [
-            "flex-layout.row#mobile__search--section"
-        ]
-    },
-    "flex-layout.row#mobile__search--section": {
-        "children": [
-            // "flex-layout.col#search__section--filter",
-             "flex-layout.col#search__section--search"
-        ]
-    }
+  //mobile - department - novedades
+  "search-result-layout.mobile#mobile__department": {
+    "children": [
+      "flex-layout.row#mobile__department--breadcrumb",
+      "flex-layout.row#mobile__department--banner",
+      "flex-layout.row#mobile__department--results"
+    ]
+  }
 }

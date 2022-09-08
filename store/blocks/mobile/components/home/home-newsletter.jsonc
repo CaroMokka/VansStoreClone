@@ -1,25 +1,55 @@
 {
-    "flex-layout.row#mobile__home--newsletter": {
-        "title": "home__newsletter",
-        "props": {
-            "blockClass": "mobile__home--newsletter"
-        },
-        "children": [
-            "rich-text#home__newsletter--title",
-            "newsletter-form#home__newsletter--form"
-        ]
+  "flex-layout.row#mobile__home--newsletter": {
+    "title": "home__newsletter",
+    "props": {
+      "blockClass": "mobile__home--newsletter",
+      "marginTop": 3,
+      "marginBottom": 3,
+      "horizontalAlign": "center",
+      "paddingBottom": 5
     },
-    "newsletter-form#home__newsletter--form": {
-        "children": [
-            "newsletter-input-email",
-            "newsletter-input-name",
-            "newsletter-submit"
-          ]
+    "children": [
+      "rich-text#home__newsletter--title",
+      "rich-text#home__newsletter--subtitle",
+      "newsletter-form#home__newsletter--form"
+    ]
+  },
+  "newsletter-form#home__newsletter--form": {
+    "props":{
+        "blockClass": "home__newsletter--form"
     },
-    "rich-text#home__newsletter--title": {
-        "title": "newsletter-title",
-        "props": {
-            "text": "NEWSLETTER"
-        }
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+  },
+  "rich-text#home__newsletter--title": {
+    "title": "newsletter-title",
+    "props": {
+      "text": "NEWSLETTER",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "textColor": "c-on-emphasis"
     }
+  },
+  "rich-text#home__newsletter--subtitle": {
+    "title": "home__newsletter--subtitle",
+    "props": {
+      "text": "Suscríbete para recibir nuestras novedades y promociones",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-6",
+      "textColor": "c-on-emphasis",
+      "blockClass": "home__newsletter--subtitle"
+    }
+  },
+  "newsletter-submit": {
+    "props":{
+        "submitButtonLabel": "ENVIAR"
+    }
+  }
 }
+
+

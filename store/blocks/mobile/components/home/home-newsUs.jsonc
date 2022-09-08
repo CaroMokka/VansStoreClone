@@ -1,45 +1,172 @@
 {
-    "flex-layout.row#mobile__home--newsUs": {
-        "title": "...",
-        "children": [
-            "flex-layout.col#home__newsUs"
-        ]
+  "flex-layout.row#mobile__home--newsUs": {
+    "title": "",
+    "props": {
+      "blockClass": "mobile__home--newsUs"
     },
-    "flex-layout.col#home__newsUs": {
-        "title": "...",
-        "children": [
-            "flex-layout.row#home__newsUs--title",
-            "flex-layout.row#home__newsUs--content"
-        ]
+    "children": ["flex-layout.col#home__newsUs--wrapper"]
+  },
+  //newsUs Wrapper
+  "flex-layout.col#home__newsUs--wrapper": {
+    "title": "",
+    "props": {
+      "blockClass": "home__newsUs--wrapper"
     },
-    "flex-layout.row#home__newsUs--title": {
-        "title": "...",
-        "children": [
-            "rich-text#newsUs__title"
-        ]
+    "children": [
+      "flex-layout.row#newUs__wrapper--title",
+      "flex-layout.row#newUs__wrapper--section-one",
+      "flex-layout.row#newUs__wrapper--section-two"
+    ]
+  },
+  //newsUs wrapper Title
+  "flex-layout.row#newUs__wrapper--title": {
+    "title": "",
+    "props": {
+      "blockClass": "newUs__wrapper--title"
     },
-    "rich-text#newsUs__title": {
-        "title": "...",
-        "props": {
-            "text": "**NUESTRAS NOTICIAS**",
-            "textAlignment": "CENTER",
-            "textPosition": "CENTER"
-        }
-    },
-    "flex-layout.row#home__newsUs--content": {
-        "title":"...",
-        "children":[
-            "info-card#newsUs"
-        ]//infoCards
-    },
-    "info-card#newsUs": {
-        "title": "...",
-        "props":{
-            "imageUrl": "assets/images/banners/mobile/home__newsUs.webp",
-            "callToActionUrl": "ver mas",
-            "blockClass": "newsUs"
-        }
+    "children": ["rich-text#newUs__wrapper--title"]
+  },
+  //wrapper title
+  "rich-text#newUs__wrapper--title": {
+    "props": {
+      "text": "NOTICIAS NUESTRAS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
     }
-    
-
+  },
+  //section one
+  "flex-layout.row#newUs__wrapper--section-one": {
+    "title": "",
+    "props": {
+      "blockClass": "newUs__wrapper--section-one"
+    },
+    "children": [
+      "flex-layout.col#wrapper__section-one--card01",
+      "flex-layout.col#wrapper__section-one--card02"
+    ]
+  },
+  //section two
+  "flex-layout.row#newUs__wrapper--section-two": {
+    "title": "",
+    "props": {
+      "blockClass": "newUs__wrapper--section-two"
+    },
+    "children": [
+      "flex-layout.col#wrapper__section-two--card03",
+      "flex-layout.col#wrapper__section-two--card04"
+    ]
+  },
+  //card 01
+  "flex-layout.col#wrapper__section-one--card01": {
+    "title": "",
+    "props": {
+      "blockClass": "wrapper__section-one--card01"
+    },
+    "children": [
+      "image#section-one__card--image01",
+      "rich-text#section-one__card--text01"
+    ]
+  },
+  //image 01
+  "image#section-one__card--image01": {
+    "title": "",
+    "props": {
+      "src": "assets/images/newsUs/home__newsUs--01.webp"
+    }
+  },
+  //text 01
+  "rich-text#section-one__card--text01": {
+    "title": "",
+    "props": {
+      "text": "VER MÁS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "card--text"
+    }
+  },
+  //card 02
+  "flex-layout.col#wrapper__section-one--card02": {
+    "title": "",
+    "props": {
+      "blockClass": "wrapper__section-one--card02"
+    },
+    "children": [
+      "image#section-one__card--image02",
+      "rich-text#section-one__card--text02"
+    ]
+  },
+  //image 02
+  "image#section-one__card--image02": {
+    "title": "",
+    "props": {
+      "src": "assets/images/newsUs/home__newsUs--02.webp"
+    }
+  },
+  //text 02
+  "rich-text#section-one__card--text02": {
+    "title": "",
+    "props": {
+      "text": "VER MÁS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "card--text"
+    }
+  },
+  //card03
+  "flex-layout.col#wrapper__section-two--card03": {
+    "title": "",
+    "props": {
+      "blockClass": "wrapper__section-two--card03"
+    },
+    "children": [
+      "image#section-two__card--image03",
+      "rich-text#section-two__card--text03"
+    ]
+  },
+  //image 03
+  "image#section-two__card--image03": {
+    "title": "",
+    "props": {
+      "src": "assets/images/newsUs/home__newsUs--03.webp"
+    }
+  },
+  //text 03
+  "rich-text#section-two__card--text03": {
+    "title": "",
+    "props": {
+      "text": "VER MÁS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "card--text"
+    }
+  },
+  //card04
+  "flex-layout.col#wrapper__section-two--card04": {
+    "title": "",
+    "props": {
+      "blockClass": "wrapper__section-two--card04"
+    },
+    "children": [
+      "image#section-two__card--image04",
+      "rich-text#section-two__card--text04"
+    ]
+  },
+  //image 04
+  "image#section-two__card--image04": {
+    "title": "",
+    "props": {
+      "src": "assets/images/newsUs/home__newsUs--04.webp"
+    }
+  },
+  //text 04
+  "rich-text#section-two__card--text04": {
+    "title": "",
+    "props": {
+      "text": "VER MÁS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "card--text"
+    }
+  }
 }

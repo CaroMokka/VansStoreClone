@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#wrapper__section--logo-vtex": {
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "wrapper__section--logo-vtex"
+    },
+    "children": ["image#logo__site-blindado", "image#logo__vtex"]
+  },
+  "image#logo__vtex": {
+    "props": {
+      "src": "assets/images/footer/vtex-compressor.png"
+    }
+  },
+  "image#logo__site-blindado": {
+    "props": {
+      "src": "assets/images/footer/site-blindado.png"
+    }
+  }
+}

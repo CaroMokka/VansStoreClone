@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#wrapper__section--menu": {
+    "title": "section-menu",
+    "children": ["flex-layout.col#wrapper__section--menu"]
+  },
+  "flex-layout.col#wrapper__section--menu": {
+    "title": "section-menu",
+    "props": {
+        "blockClass": "wrapper__section--menu"
+    },
+    "children": ["disclosure-layout-group#wrapper__section--menu"]
+  },
+
+  //group disclosure
+  "disclosure-layout-group#wrapper__section--menu": {
+    "title": "section-menu",
+    "props": {
+      "maxVisible": "many",
+      "blockClass": "wrapper__section--menu-group"
+    },
+    "children": [
+      "disclosure-layout#section__compra",
+      "disclosure-layout#section__cliente",
+      "disclosure-layout#section__legal"
+    ]
+  }
+}

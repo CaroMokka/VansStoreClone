@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#mobile__home--categories": {
+    "title": "home-categories",
+    "children": ["slider-layout#home__categories--types"]
+  },
+
+  "slider-layout#home__categories--types": {
+    "title": "categories-types",
+    "props": {
+      "itemPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": "never",
+      "showNavigationArrows": "always",
+      "blockClass": "home__categories--types"
+    },
+    "children": [
+      "flex-layout.col#home__categories--types-01",
+      "flex-layout.col#home__categories--types-02"
+    ]
+  },
+  "flex-layout.col#home__categories--types-01": {
+    "title": "",
+    "props": {
+      "blockClass": "home__categories--types-01"
+    },
+    "children": [
+      "info-card#home___categories--infocard-01",
+      "info-card#home___categories--infocard-02"
+    ]
+  },
+  "flex-layout.col#home__categories--types-02": {
+    "title": "",
+    "props": {
+      "blockClass": "home__categories--types-02"
+    },
+    "children": [
+      "info-card#home___categories--infocard-03",
+      "info-card#home___categories--infocard-04"
+    ]
+  }
+}

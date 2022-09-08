@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#mobile__home--novelty": {
+    "title": "home-novelty",
+    "children": ["flex-layout.col#home__novelty"]
+  },
+  "flex-layout.col#home__novelty": {
+    "title": "...",
+    "children": [
+      "flex-layout.row#home__novelty--title",
+      "flex-layout.row#home__novelty--productsShelf-01",
+      "flex-layout.row#home__novelty--image",
+      "flex-layout.row#home__novelty--productsShelf-02"
+   
+    ]
+  },
+  //titulo Novedades
+  "flex-layout.row#home__novelty--title": {
+    "title": "novelty-title",
+    "children": ["rich-text#novelty__title"]
+  },
+  "rich-text#novelty__title": {
+    "title": "novelty__title",
+    "props": {
+      "text": "NOVEDADES",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  //image
+  "flex-layout.row#home__novelty--image": {
+    "title": "...",
+    "props":{
+        "marginBottom": 5,
+        "marginTop": 5
+    },
+    "children": ["image#novelty__image--one"] //image The Lizzie
+  },
+  "image#novelty__image--one": {
+    "title": "image-one",
+    "props": {
+      "src": "assets/images/banners/mobile/home__novelty--image.webp"
+    }
+  }
+}

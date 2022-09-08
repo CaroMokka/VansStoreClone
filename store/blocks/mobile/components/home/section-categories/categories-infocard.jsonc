@@ -1,0 +1,50 @@
+{
+  "info-card#home___categories--infocard-01": {
+    "props": {
+      "blockClass": "home___categories--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/category/fuerte-claro.webp",
+      "callToActionMode": "link",
+      "callToActionText": "Vans x Daniel Johnston",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home___categories--infocard-02": {
+    "props": {
+      "blockClass": "home___categories--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/category/Brand-Campaign.gif",
+      "callToActionMode": "link",
+      "callToActionText": "This Is Off the Wall",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home___categories--infocard-03": {
+    "props": {
+      "blockClass": "home___categories--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/category/daniel-johnston.webp",
+      "callToActionMode": "link",
+      "callToActionText": "Vans x Daniel Johnston",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#home___categories--infocard-04": {
+    "props": {
+      "blockClass": "home___categories--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/category/SK-HI.webp",
+      "callToActionMode": "link",
+      "callToActionText": "Esta es nuestra Sk8 HI",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  }
+}

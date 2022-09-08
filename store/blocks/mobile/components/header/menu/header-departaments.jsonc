@@ -1,0 +1,244 @@
+{
+  //DEPARTAMENTS
+  //departament - man -----------------------
+  "menu-item#departament__man": {
+    "props": {
+      "id": "menu-item-man",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__man",
+        "text": "MAN"
+      }
+    },
+    "blocks": ["submenu.accordion#departament__man"]
+  },
+  "submenu.accordion#departament__man": {
+    "children": ["menu#departament__man"]
+  },
+  "menu#departament__man": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#man__category--ver-todo",
+      "menu-item#man__category--destacados",
+      "menu-item#man__category--calzado",
+      "menu-item#man__category--ropa",
+      "menu-item#man__category--accesorios"
+    ]
+  },
+  //departament - woman -----------------------------------
+  "menu-item#departament__woman": {
+    "props": {
+      "id": "menu-item-woman",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__woman",
+        "text": "WOMAN"
+      }
+    },
+    "blocks": ["submenu.accordion#departament__woman"]
+  },
+  //accordion
+  "submenu.accordion#departament__woman": {
+    "children": ["menu#departament__woman"]
+  },
+  "menu#departament__woman": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#woman__category--ver-todo",
+      "menu-item#woman__category--destacados",
+      "menu-item#woman__category--calzado",
+      "menu-item#woman__category--ropa",
+      "menu-item#woman__category--accesorios"
+    ]
+  },
+  //departament -kids
+  "menu-item#departament__kids": {
+    "props": {
+      "id": "menu-item-kids",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__kids",
+        "text": "KIDS"
+      }
+    },
+    "blocks": ["submenu.accordion#departament__kids"]
+  },
+  "submenu.accordion#departament__kids": {
+    "children": ["menu#departament__kids"]
+  },
+  "menu#departament__kids": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#kids__category--ver-todo",
+      "menu-item#kids__category--calzado",
+      "menu-item#kids__category--ropa",
+      "menu-item#kids__category--accesorios"
+    ]
+  },
+  //departament - classics
+  "menu-item#departament__classics": {
+    "props": {
+      "id": "menu-item-classics",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__classics",
+        "text": "CLASSICS"
+      }
+    }
+  },
+  //departament - skateboarding
+  "menu-item#departament__skateboarding": {
+    "props": {
+      "id": "menu-item-skateboarding",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__skateboarding",
+        "text": "SKATEBOARDING"
+      }
+    }
+  },
+  //departament - surf
+  "menu-item#departament__surf": {
+    "props": {
+      "id": "menu-item-surf",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__surf",
+        "text": "SURF"
+      }
+    }
+  },
+  //departament - sale
+  "menu-item#departament__sale": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__sale",
+        "text": "SALE"
+      }
+    }
+  },
+  //departament - mas
+  "menu-item#departament__mas": {
+    "props": {
+      "id": "menu-item-mas",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__mas",
+        "text": "MÁS"
+      }
+    },
+    "blocks": ["submenu.accordion#departament__mas"]
+  },
+  "submenu.accordion#departament__mas": {
+    "children": ["menu#departament__mas"]
+  },
+  "menu#departament__mas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#mas__category--brand-campaign",
+      "menu-item#mas__category--team-vans"
+ 
+    ]
+  },
+  //departament - giftcard
+  "menu-item#departament__giftcard": {
+    "props": {
+      "id": "menu-item-giftcard",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__giftcard",
+        "text": "GIFTCARD"
+      }
+    }
+  },
+  //departament - sigue-tu-compra
+  "menu-item#departament__sigue-tu-compra": {
+    "props": {
+      "id": "menu-item-sigue-tu-compra",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__sigue-tu-compra",
+        "text": "SIGUE TU COMPRA"
+      }
+    }
+  },
+  //departament - stores
+  "menu-item#departament__stores": {
+    "props": {
+      "id": "menu-item-stores",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__stores",
+        "text": "TIENDAS"
+      }
+    }
+  },
+  //departament - myaccount
+  "menu-item#departament__myaccount": {
+    "props": {
+      "id": "menu-item-myaccount",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "departament__myaccount",
+        "text": "MI CUENTA"
+      }
+    }
+  }
+}

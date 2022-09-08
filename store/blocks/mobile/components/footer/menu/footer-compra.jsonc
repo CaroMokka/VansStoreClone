@@ -1,0 +1,80 @@
+{ 
+  //layout disclosure
+  "disclosure-layout#section__compra": {
+    "children": ["disclosure-trigger#section__compra--button", "disclosure-content#section__compra--content"]
+  },
+  //trigger
+  "disclosure-trigger#section__compra--button": {
+    "props": {
+      "orientation":"vertical",
+      "as": "span"
+    },
+    "children": ["rich-text#compra__button--text"]
+  },
+  "rich-text#compra__button--text": {
+    "props": {
+      "text": "COMPRA",
+      "blockClass": "compra__button--text"
+    }
+  },
+  //content
+  "disclosure-content#section__compra--content": {
+    "children": ["menu#compra__content--menu"]
+  },
+  //menu
+  "menu#compra__content--menu": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": ["menu-item#item-01","menu-item#item-02","menu-item#item-03","menu-item#item-04"]
+  },
+  //item
+  "menu-item#item-01": {
+    "props": {
+      "id": "item-01",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-01",
+        "text": "item-01"
+      }
+    }
+  },
+  "menu-item#item-02": {
+    "props": {
+      "id": "item-02",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-02",
+        "text": "item-02"
+      }
+    }
+  },
+  "menu-item#item-03": {
+    "props": {
+      "id": "item-03",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-03",
+        "text": "item-03"
+      }
+    }
+  },
+  "menu-item#item-04": {
+    "props": {
+      "id": "item-04",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "tagTitle": "item-04",
+        "text": "item-04"
+      }
+    }
+  }
+}

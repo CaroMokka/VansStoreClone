@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#home__footer--wrapper": {
+    "title": "footer-wrapper",
+    "children": [
+      "flex-layout.row#wrapper__section--menu",
+      "flex-layout.row#wrapper__section--rrss",
+      "flex-layout.row#wrapper__section--logo-vtex",
+      "flex-layout.row#wrapper__section--copyright"
+    ]
+  }
+}

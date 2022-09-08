@@ -1,0 +1,24 @@
+.paragraph--compra__button--text{
+    color: white;
+    margin: 0 0 10px 0;
+    text-decoration: underline;
+}
+.paragraph--cliente__button--text{
+    color: white;
+    margin: 0 0 10px 0;
+    text-decoration: underline;
+}
+.paragraph--legal__button--text{
+    color: white;
+    margin: 0 0 10px 0;
+    text-decoration: underline;
+}
+.paragraph--section__rrss--title{
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.paragraph--section_copyright{
+    margin: 0 0 5px 0;
+}

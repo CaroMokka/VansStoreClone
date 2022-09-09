@@ -5,3 +5,23 @@
 /* .logoImage--mobile__header--logo{
     background-color: purple;
 } */
+.searchBarContainer--header-searchBar{
+    background-color: aqua;
+}
+.autoCompleteOuterContainer--header-searchBar{
+    background-color: blue;
+}
+.searchBarInnerContainer--filled{
+    background-color: black;
+}
+.searchBarIcon--search{
+    background-color: brown;
+}
+.searchBarContainer{
+    margin: 0 !important;
+
+    border: 0;
+}
+.paddingInput{
+    background-color: blueviolet;
+}

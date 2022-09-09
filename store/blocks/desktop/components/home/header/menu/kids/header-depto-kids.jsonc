@@ -15,11 +15,13 @@
       "blocks": ["submenu#desktop__departament--kids"]
     },
     "submenu#desktop__departament--kids": {
+      "props":{
+        "blockClass": "desktop__departament"
+      },
       "children": ["flex-layout.row#desktop__departament--kids"]
     },
     "flex-layout.row#desktop__departament--kids": {
       "props": {
-        "fullWidth": true,
         "blockClass": "desktop__departament--style"
       },
       "children": [
@@ -40,26 +42,38 @@
     //COL - menu -- calzado kids
     "menu#desktop__departament--kids-calzado": {
       "props": {
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu_item--style"
       },
       "children": [
-        "rich-text#desktop__category--calzado-kids",
+        "menu-item#desktop__kids__category--title-calzado",
         "menu-item#desktop__kids__category--classics",
         "menu-item#desktop__kids__category--ver-todo"
       ]
     },
-    "rich-text#desktop__category--calzado-kids": {
-      "props": {
+    //title -- ropa
+    "menu-item#desktop__kids__category--title-calzado": {
+    "props": {
+      "id": "title-calzado",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "CALZADO",
         "text": "CALZADO"
-      }
-    },
+      },
+      "blockClass": "desktop__category--title"
+    }
+  },
     //COL - menu -- ropa kids
     "menu#desktop__departament--kids-ropa": {
       "props": {
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu_item--style"
       },
       "children": [
-        "rich-text#desktop__category--ropa-kids",
+        "menu-item#desktop__kids__category--title-ropa",
         "menu-item#desktop__kids__category--ver-todo-ropa",
         "menu-item#desktop__kids__category--chaquetas",
         "menu-item#desktop__kids__category--pantalones",
@@ -69,25 +83,46 @@
         
       ]
     },
-    "rich-text#desktop__category--ropa-kids": {
-      "props": {
+   //title -- ropa
+   "menu-item#desktop__kids__category--title-ropa": {
+    "props": {
+      "id": "title-ropa",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ROPA",
         "text": "ROPA"
-      }
-    },
+      },
+      "blockClass": "desktop__category--title"
+    }
+  },
     //COL - menu -- ACCESORIOS kids
     "menu#desktop__departament--kids-accesorios": {
       "props": {
-        "orientation": "vertical"
+        "orientation": "vertical",
+        "blockClass": "menu_item--style"
       },
       "children": [
-        "rich-text#desktop__category--accesorios-kids",
+        "menu-item#desktop__kids__category--title-accesorios",
         "menu-item#desktop__kids__category--ver-todo-accesorios"
       ]
     },
-    "rich-text#desktop__category--accesorios-kids": {
-      "props": {
+    //title -- ropa
+    "menu-item#desktop__kids__category--title-accesorios": {
+    "props": {
+      "id": "title-accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ACCESORIOS",
         "text": "ACCESORIOS"
-      }
+      },
+      "blockClass": "desktop__category--title"
     }
+  }
   }
   

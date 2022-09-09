@@ -1,6 +1,17 @@
 {
-    "flex-layout.col#desktop__header-searchBar": {
-        "title": "",
-        "children": ["search-bar"]
+  "flex-layout.col#desktop__header-searchBar": {
+    "title": "header-searchBar",
+    "props": {},
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "autoFocus": true,
+      "inputType": "search",
+      "maxWidth": "80%",
+      "placeholder": "Buscar Vans",
+      "blockClass": "header-searchBar"
     }
+  }
 }

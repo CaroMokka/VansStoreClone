@@ -2,6 +2,10 @@
   //col -menu
   "flex-layout.col#desktop__header--menu": {
     "title": "header-menu",
+    "props":{
+      "verticalAlign": "center",
+      "horizontalAlign":"center"
+    },
     "children": ["flex-layout.row#desktop__header--menu"]
   },
   "flex-layout.row#desktop__header--menu": {
@@ -10,7 +14,8 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "marginTop": 3
     },
     "children": ["menu#desktop__header--menu"]
   },

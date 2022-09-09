@@ -6,28 +6,7 @@
       "flex-layout.row#desktop__home--gallery",
       "flex-layout.row#desktop__home--categories",
       "flex-layout.row#desktop__home--collection",
-      "flex-layout.row#desktop__home--newsUs",
-      "image#testing-icon",
-      "image#testing2-icon",
-      "image#testing3-icon"
+      "flex-layout.row#desktop__home--newsUs"
     ]
-  },
-  "image#testing-icon": {
-    "props": {
-        "src": "assets/icons/menu.svg",
-        "maxHeight": 20
-    }
-  },
-  "image#testing2-icon": {
-    "props": {
-        "src": "assets/icons/track.svg",
-        "maxHeight": 20
-    }
-  },
-  "image#testing3-icon": {
-    "props": {
-        "src": "assets/icons/store.svg",
-        "maxHeight": 20
-    }
   }
 }

@@ -3,10 +3,8 @@
 }
 
 /* DESKTOP */
-.flexRow--desktop__header--main {
-  background-color: white;
-}
 .flexRow--desktop__departament--style {
-  background-color: black;
-  width: 100%;
+  position: relative;
+  width: 80%;
+  height: 250px;
 }

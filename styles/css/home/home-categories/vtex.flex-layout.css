@@ -20,19 +20,16 @@
 /* section categories */
 .flexCol--desktop__categories--wrapper{
   width: 100%;
-  background-color: aqua;
   display: flex;
   justify-content: center;
  
 }
 .flexRow--categories__wrapper-section-01{
   width: 80%;
-  background-color: black;
   margin: 15px auto;
 }
 .flexRow--categories__wrapper-section-02{
   width: 80%;
-  background-color: red;
   margin: 15px auto;
 }
 .flexRow--desktop__home--collection{

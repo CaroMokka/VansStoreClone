@@ -18,7 +18,7 @@
       "fullWidth": true
     }
   },
-  
+
   "logo#mobile__header--logo": {
     "title": "header-logo",
     "props": {
@@ -35,5 +35,3 @@
     }
   }
 }
-
-

@@ -57,8 +57,8 @@
   },
   "flex-layout.col#department__results--content": {
     "children": [
-      "flex-layout.row#results__content--searchInfo"
-      // "flex-layout.row#results__content--products"
+      "flex-layout.row#results__content--searchInfo",
+      "flex-layout.row#results__content--products"
       // "flex-layout.row#results__content--more"
     ],
     "props": {
@@ -80,5 +80,36 @@
   "flex-layout.col#content__searchInfo--orderby": {
     "children":["order-by.v2"],
     "props":{}
+  },
+  "flex-layout.row#results__content--products": {
+    "children": ["search-content"]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 6,
+            "desktop": 6,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary":  "product-summary.shelf#department__plp--novedades",
+      "GridSummary": "product-summary.shelf#department__plp--novedades"
+    }
   }
+ 
+
 }

@@ -2,7 +2,6 @@
   //DEPARTAMENTS MAN ---------------------------
   "menu-item#desktop__departament--man": {
     "props": {
-      "onMountBehavior": "open",
       "id": "menu-item-man",
       "type": "custom",
       "itemProps": {

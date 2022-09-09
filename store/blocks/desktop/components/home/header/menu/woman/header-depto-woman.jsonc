@@ -2,7 +2,6 @@
   //DEPARTAMENT WOMAN ------------------------
   "menu-item#desktop__departament--woman": {
     "props": {
-      "onMountBehavior": "open",
       "id": "menu-item-woman",
       "type": "custom",
       "itemProps": {

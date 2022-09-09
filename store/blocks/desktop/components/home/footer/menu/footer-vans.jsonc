@@ -89,7 +89,7 @@
       "type": "custom",
       "itemProps": {
         "type": "internal",
-        "href": "/",
+        "href": "/giftcard",
         "tagTitle": "item--giftcards",
         "text": "Giftcards"
       }

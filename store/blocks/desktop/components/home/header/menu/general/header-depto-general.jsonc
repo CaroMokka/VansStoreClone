@@ -5,8 +5,8 @@
       "id": "menu-item-novedades",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/giftcard",
         "noFollow": false,
         "tagTitle": "NOVEDADES",
         "text": "NOVEDADES"
@@ -61,8 +61,8 @@
       "id": "menu-item-sale",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "SALE",
         "text": "SALE"

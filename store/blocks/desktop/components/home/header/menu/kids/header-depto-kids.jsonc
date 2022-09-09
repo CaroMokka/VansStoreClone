@@ -2,7 +2,6 @@
     //DEPARTAMENT KIDS ------------------------
     "menu-item#desktop__departament--kids": {
       "props": {
-        "onMountBehavior": "open",
         "id": "menu-item-kids",
         "type": "custom",
         "itemProps": {

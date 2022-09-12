@@ -1,3 +1,7 @@
-.flexRow--mobile__home--newsletter{
-    background-color: black;
+.flexRow--mobile__home--newsletter {
+  background-color: black;
+}
+/* estilo newsletter desktop */
+.flexRow--desktop__home--newsletter {
+  background-color: #1a1a1a;
 }

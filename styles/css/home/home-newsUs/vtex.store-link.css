@@ -1,0 +1,12 @@
+.buttonLink--newsUs__button{
+    background-color: black;
+    width: 400px !important;
+    height: 50px;
+    color: white;
+    border-radius: 0;
+    border: 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px 0;
+
+}

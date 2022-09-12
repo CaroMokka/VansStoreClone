@@ -6,7 +6,8 @@
       "flex-layout.row#desktop__home--gallery",
       "flex-layout.row#desktop__home--categories",
       "flex-layout.row#desktop__home--collection",
-      "flex-layout.row#desktop__home--newsUs"
+      "flex-layout.row#desktop__home--newsUs",
+      "flex-layout.row#desktop__home--novelty"
     ]
   }
 }

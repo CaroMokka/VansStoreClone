@@ -73,12 +73,12 @@
       "alwaysShow": true
     }
   },
- 
+
   //slider vitrina
   "slider-layout#novelty__productsShelf-01": {
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
+        "desktop": 4,
         "tablet": 1,
         "phone": 2
       },

@@ -11,7 +11,7 @@
 /* DESKTOP */
 /* row - footer general */
 .flexRow--desktop__footer--container{
-    background-color: black;
+    background-color: #1a1a1a;
 }
 /* row - vans logo */
 .flexRow--footer__section--logo-vans{

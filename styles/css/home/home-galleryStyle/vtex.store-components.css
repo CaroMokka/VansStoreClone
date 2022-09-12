@@ -1,8 +1,39 @@
-
 /* estilos desktop */
-.imageElement--gallery--image{
-    transition: 0.3s all ease-in-out;
+.imageElement--gallery--image {
+  transition: 0.3s all ease-in-out;
 }
 .imageElement--gallery--image:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
+}
+/* estilos info card - gallery home */
+.infoCardContainer--home___gallery--infocard {
+  width: 200px !important;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px;
+  cursor: pointer;
+  
+}
+.infoCardImageContainer--home___gallery--infocard{
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+.infoCardImage--home___gallery--infocard {
+  transition: 0.3s all ease-in-out;
+}
+.infoCardImage--home___gallery--infocard:hover{
+    transform: scale(1.1);
+}
+.infoCardCallActionText--home___gallery--infocard{
+  margin: 0;
+  text-decoration: none !important;
+  text-align: center;
+  color: black;
+}
+.infoCardCallActionContainer--home___gallery--infocard {
+  text-decoration: none !important;
+  margin: 0;
 }

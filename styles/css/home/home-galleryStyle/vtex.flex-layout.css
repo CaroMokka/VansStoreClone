@@ -34,3 +34,6 @@
 .flexCol--home__gallery--container{
     margin-top: 50px;
 }
+.flexColChild--home__gallery--container{
+    height: auto !important;
+}

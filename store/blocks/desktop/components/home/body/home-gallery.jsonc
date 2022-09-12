@@ -25,10 +25,11 @@
   },
   "rich-text#gallery__container--title": {
     "props": {
-      "text": "¿Cuál es tu estilo?",
+      "text": "### ¿CUÁL ES TU ESTILO?",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-4",
+      "blockClass": "gallery__container--title"
     }
   },
   "flex-layout.row#gallery__container--content": {
@@ -37,48 +38,90 @@
       "blockClass": "gallery__container--content"
     },
     "children": [
-      "image#home__gallery--image01",
-      "image#home__gallery--image02",
-      "image#home__gallery--image03",
-      "image#home__gallery--image04",
-      "image#home__gallery--image05",
-      "image#home__gallery--image06"
+      "info-card#home___gallery--infocard-01",
+      "info-card#home___gallery--infocard-02",
+      "info-card#home___gallery--infocard-03",
+      "info-card#home___gallery--infocard-04",
+      "info-card#home___gallery--infocard-05",
+      "info-card#home___gallery--infocard-06"
     ]
   },
-  "image#home__gallery--image01": {
+  //info card - 01
+  "info-card#home___gallery--infocard-01": {
     "props": {
-      "src": "assets/images/gallery/era.webp",
-      "blockClass": "gallery--image"
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/slip-on.webp",
+      "callToActionMode": "link",
+      "callToActionText": "SLIP-ON",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
     }
   },
-  "image#home__gallery--image02": {
+  //info card - 02
+  "info-card#home___gallery--infocard-02": {
     "props": {
-      "src": "assets/images/gallery/old-skool.webp",
-      "blockClass": "gallery--image"
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/sk8-hi.webp",
+      "callToActionMode": "link",
+      "callToActionText": "SK8-HI",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
     }
   },
-  "image#home__gallery--image03": {
+  //info card - 03
+  "info-card#home___gallery--infocard-03": {
     "props": {
-      "src": "assets/images/gallery/authentic.webp",
-      "blockClass": "gallery--image"
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/authentic.webp",
+      "callToActionMode": "link",
+      "callToActionText": "AUTHENTIC",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
     }
   },
-  "image#home__gallery--image04": {
+  //info card - 04
+  "info-card#home___gallery--infocard-04": {
     "props": {
-      "src": "assets/images/gallery/sk8-hi.webp",
-      "blockClass": "gallery--image"
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/old-skool.webp",
+      "callToActionMode": "link",
+      "callToActionText": "OLD SKOOL",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
     }
   },
-  "image#home__gallery--image05": {
+  //info card - 05
+  "info-card#home___gallery--infocard-05": {
     "props": {
-      "src": "assets/images/gallery/sk8-low.webp",
-      "blockClass": "gallery--image"
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/era.webp",
+      "callToActionMode": "link",
+      "callToActionText": "ERA",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
     }
   },
-  "image#home__gallery--image06": {
+  //info card - 06
+  "info-card#home___gallery--infocard-06": {
     "props": {
-      "src": "assets/images/gallery/slip-on.webp",
-      "blockClass": "gallery--image"
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/sk8-low.webp",
+      "callToActionMode": "link",
+      "callToActionText": "SK8 LOW",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
     }
   }
 }

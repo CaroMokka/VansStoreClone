@@ -1,0 +1,22 @@
+{
+  "footer-layout.desktop#desktop__home--footer": {
+    "title": "home-footer",
+    "children": ["flex-layout.row#desktop__footer--container"]
+  },
+  "flex-layout.row#desktop__footer--container": {
+    "title": "desktop__footer--container",
+    "props": {
+      "blockClass": "desktop__footer--container"
+    },
+    "children": ["flex-layout.col#desktop__footer--wrapper"]
+  },
+  //wrapper footer
+  "flex-layout.col#desktop__footer--wrapper": {
+    "title": "desktop__footer--wrapper",
+    "children": [
+      "flex-layout.row#footer__section--menu",
+      "flex-layout.row#footer__section--logo-vans",
+      "flex-layout.row#footer__section--copyright"
+    ]
+  }
+}

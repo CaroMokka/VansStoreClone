@@ -1,3 +1,4 @@
+/* MOBILE */
 .flexCol--wrapper__section-one--card02{
     width: 150px !important;
     /* background-color: blue; */
@@ -24,4 +25,10 @@
     /* background-color: brown; */
     display: flex;
     justify-content: space-around;
+}
+
+/* DESKTOP */
+/* section newsUs */
+.flexRow--desktop__home--newsUs{
+    margin-top: 30px;
 }

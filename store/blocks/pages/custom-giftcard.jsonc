@@ -1,0 +1,47 @@
+{
+  "store.custom#custom__giftcard": {
+    "blocks": [
+      "flex-layout.row#custom__giftcard--section-01",
+      "flex-layout.row#custom__giftcard--section-02",
+      "flex-layout.row#custom__giftcard--section-03"
+    ]
+  },
+  "flex-layout.row#custom__giftcard--section-01": {
+    "children": ["image#custom__giftcard--banner01"]
+  },
+  "image#custom__giftcard--banner01": {
+    "props": {
+      "src": "assets/images/banners/desktop/custom__giftcard-banner01.webp"
+    }
+  },
+  "flex-layout.row#custom__giftcard--section-02": {
+    "children": ["image#custom__giftcard--banner02"]
+  },
+  "image#custom__giftcard--banner02": {
+    "props": {
+      "src": "assets/images/banners/desktop/custom__giftcard-banner02.webp"
+    }
+  },
+  "flex-layout.row#custom__giftcard--section-03": {
+    "children": ["flex-layout.col#custom__giftcard--wrapper"]
+  },
+  "flex-layout.col#custom__giftcard--wrapper": {
+    "children": ["rich-text#giftcard__title", "rich-text#giftcard__content"]
+  },
+  "rich-text#giftcard__title": {
+    "props": {
+      "text": "# Opciones de Gift Cards",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+
+    }
+  },
+  "rich-text#giftcard__content": {
+    "props": {
+      "text": "### Elije cualquiera de las siguientes opciones:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "giftcard__text"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+/* estilo contenedor de categorias menu */
+.submenuWrapper--desktop__departament {
+  margin-top: 5px;
+  background-color: black;
+  opacity: 0.9;
+  border: 0;
+  position: fixed;
+  right: 0;
+}
+/* estilos de titulo categoria - desktop*/
+.styledLinkContent--desktop__category--title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  pointer-events: none;
+  cursor: none !important;
+}
+.menuContainer--menu_item--style :global(.vtex-menu-2-x-styledLinkContent) {
+  color: white;
+}
+.menuContainer--menu_item--style
+  :global(.vtex-menu-2-x-styledLinkContent):hover {
+  color: #D51920;
+}

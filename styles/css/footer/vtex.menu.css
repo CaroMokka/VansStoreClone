@@ -1,0 +1,13 @@
+.menuContainer--footer__menu--class{
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+.menuContainer--footer__menu--class :global(.vtex-menu-styledLinkContent){
+    color: white;
+}
+/* color font - desktop - footer */
+.styledLinkContent--footer__menu--link{
+    color: white;
+}
+

@@ -1,0 +1,14 @@
+{
+  "flex-layout.row#desktop__home--collection": {
+    "title": "home-collection",
+    "props": {
+      "blockClass": "desktop__home--collection"
+    },
+    "children": ["image#home__collection--banner"]
+  },
+  "image#home__collection--banner": {
+    "props": {
+      "src": "assets/images/banners/desktop/desktop__home--bannerCollection.webp"
+    }
+  }
+}

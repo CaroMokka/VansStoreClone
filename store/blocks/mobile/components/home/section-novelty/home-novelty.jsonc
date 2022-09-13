@@ -10,7 +10,6 @@
       "flex-layout.row#home__novelty--productsShelf-01",
       "flex-layout.row#home__novelty--image",
       "flex-layout.row#home__novelty--productsShelf-02"
-   
     ]
   },
   //titulo Novedades
@@ -30,9 +29,9 @@
   //image
   "flex-layout.row#home__novelty--image": {
     "title": "...",
-    "props":{
-        "marginBottom": 5,
-        "marginTop": 5
+    "props": {
+      "marginBottom": 5,
+      "marginTop": 5
     },
     "children": ["image#novelty__image--one"] //image The Lizzie
   },

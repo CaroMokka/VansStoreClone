@@ -1,3 +1,10 @@
-.flexRow--header__main--top{
-    background-color: white;
+.flexRow--header__main--top {
+  background-color: white;
+}
+
+/* DESKTOP */
+.flexRow--desktop__departament--style {
+  position: relative;
+  width: 80%;
+  height: 250px;
 }

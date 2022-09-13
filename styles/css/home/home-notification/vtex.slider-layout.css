@@ -1,7 +1,8 @@
-.slideChildrenContainer--home__notification--bar{
-    background-color: black;
-    height: 30px;
+.slideChildrenContainer--desktop__home__notification--bar {
+  background-color: black;
+  height: 20px;
 }
-.flexRow--mobile__home--notification{
-    background-color: black;
+/* mobile */
+.flexRow--mobile__home--notification {
+  background-color: black;
 }

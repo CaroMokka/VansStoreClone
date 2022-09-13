@@ -1,0 +1,13 @@
+{
+  "flex-layout.row#footer__section--logo-vans": {
+    "props":{
+        "blockClass": "footer__section--logo-vans"
+    },
+    "children": ["image#section__logo--vans"]
+  },
+  "image#section__logo--vans": {
+    "props": {
+      "src": "assets/images/footer/vans-logo-white.png"
+    }
+  }
+}

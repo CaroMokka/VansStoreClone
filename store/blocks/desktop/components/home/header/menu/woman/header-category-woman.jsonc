@@ -1,0 +1,240 @@
+{
+  //category woman - DESTACADOS - NEW ARRIVALS
+  "menu-item#desktop__woman__category--new-arrivals": {
+    "props": {
+      "id": "category--new-arrivals",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "NEW ARRIVALS",
+        "text": "NEW ARRIVALS"
+      }
+    }
+  },
+  //category woman -  DESTACADOS - OLD SKOOL
+  "menu-item#desktop__woman__category--old-skool": {
+    "props": {
+      "id": "category--old-skool",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "OLD SKOOL",
+        "text": "OLD SKOOL"
+      }
+    }
+  },
+  //category woman -  DESTACADOS - LIZZIE
+  "menu-item#desktop__woman__category--lizzie": {
+    "props": {
+      "id": "category--lizzie",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "LIZZIE",
+        "text": "LIZZIE"
+      }
+    }
+  },
+  //category woman -  DESTACADOS - SANDY LIANG
+  "menu-item#desktop__woman__category--sandy-liang": {
+    "props": {
+      "id": "category--sandy-liang",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "SANDY LIANG",
+        "text": "SANDY LIANG"
+      }
+    }
+  },
+  //category woman -  CALZADO - CLASSICS
+  "menu-item#desktop__woman__category--classics": {
+    "props": {
+      "id": "category--classics",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "classics",
+        "text": "CLASSICS"
+      }
+    }
+  },
+  //category woman -  CALZADO - CLASSICS +
+  "menu-item#desktop__woman__category--classics+": {
+    "props": {
+      "id": "category--classics+",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "classics+",
+        "text": "CLASSICS+"
+      }
+    }
+  },
+  //category woman -  CALZADO - SKATEBOARDING
+  "menu-item#desktop__woman__category--skateboarding": {
+    "props": {
+      "id": "category--skateboarding",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "skateboarding",
+        "text": "SKATEBOARDING"
+      }
+    }
+  },
+  //category woman -  CALZADO - SURF
+  "menu-item#desktop__woman__category--surf": {
+    "props": {
+      "id": "category--surf",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "surf",
+        "text": "SURF"
+      }
+    }
+  },
+  //category woman -  ROPA - CHAQUETAS
+  "menu-item#desktop__woman__category--chaquetas": {
+    "props": {
+      "id": "category--chaquetas",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "chaquetas",
+        "text": "CHAQUETAS"
+      }
+    }
+  },
+  //category woman -  ROPA - PANTALONES
+  "menu-item#desktop__woman__category--pantalones": {
+    "props": {
+      "id": "category--pantalones",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "pantalones",
+        "text": "PANTALONES"
+      }
+    }
+  },
+  //category woman -  ROPA - POLERAS
+  "menu-item#desktop__woman__category--poleras": {
+    "props": {
+      "id": "category--poleras",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "poleras",
+        "text": "POLERAS"
+      }
+    }
+  },
+  //category woman -  ROPA - POLERON
+  "menu-item#desktop__woman__category--poleron": {
+    "props": {
+      "id": "category--poleron",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "poleron",
+        "text": "POLERON"
+      }
+    }
+  },
+  //category woman -  ROPA - VESTIDOS Y SHORTS
+  "menu-item#desktop__woman__category--vestidos-shorts": {
+    "props": {
+      "id": "category--vestidos-shorts",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "vestidos-shorts",
+        "text": "VESTIDOS Y SHORTS"
+      }
+    }
+  },
+  //category woman -  ROPA - VER TODO
+  "menu-item#desktop__woman__category--ver-todo": {
+    "props": {
+      "id": "category--ver-todo",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ver-todo",
+        "text": "VER TODO"
+      }
+    }
+  },
+  //category woman -  ACCESORIOS - GORROS Y JOCKEYS
+  "menu-item#desktop__woman__category--gorros-jockeys": {
+    "props": {
+      "id": "category--gorros-jockeys",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "gorros-jockeys",
+        "text": "GORROS Y JOCKEYS"
+      }
+    }
+  },
+  //category woman -  ACCESORIOS - MOCHILAS Y BOLSOS
+  "menu-item#desktop__woman__category--mochilas-bolsos": {
+    "props": {
+      "id": "category--mochilas-bolsos",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "mochilas-bolsos",
+        "text": "MOCHILAS Y BOLSOS"
+      }
+    }
+  },
+  //category woman -  ACCESORIOS - VER TODO
+  "menu-item#desktop__woman__category--ver-todo-accesorios": {
+    "props": {
+      "id": "category--ver-todo-accesorios",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "ver-todo",
+        "text": "VER TODO"
+      }
+    }
+  }
+}

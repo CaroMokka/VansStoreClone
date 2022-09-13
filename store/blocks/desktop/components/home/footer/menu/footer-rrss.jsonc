@@ -1,0 +1,70 @@
+{
+  "flex-layout.col#section__menu--rrss": {
+    "title": "",
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#rrss__title--text",
+      "flex-layout.row#menu__rrss--logos",
+      "flex-layout.row#menu__rrss--mediosPagos"
+    ]
+  },
+  //title
+  "rich-text#rrss__title--text": {
+    "props": {
+      "text": "SIGUE A VANS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  //redes sociales
+  "flex-layout.row#menu__rrss--logos": {
+    "title": "",
+    "children": ["social-networks#rrss__logos"]
+  },
+  "social-networks#rrss__logos": {
+    "props": {
+      "socialNetworks": [
+        { "url": "https://facebook.com/foo", "name": "Facebook" },
+        { "url": "https://instagram.com/foo", "name": "Instagram" },
+        { "url": "https://twitter.com/foo", "name": "Twitter" }
+      ]
+    }
+  },
+  //medios de pago
+  "flex-layout.row#menu__rrss--mediosPagos": {
+    "children": ["flex-layout.col#rrss__mediosPagos--wrapper"]
+  },
+  "flex-layout.col#rrss__mediosPagos--wrapper": {
+    "props": {
+      "horizontalAlign": "center"
+    },
+    "children": [
+      "rich-text#rrss__mediosPagos--title",
+      "image#rrss__mediosPagos--image"
+      // "accepted-payment-methods"
+    ]
+  },
+  "rich-text#rrss__mediosPagos--title": {
+    "props": {
+      "text": "Medios de Pago",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-5",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "image#rrss__mediosPagos--image":{
+    "props":{
+      "src": "assets/images/footer/payment-methods.webp"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  }
+}

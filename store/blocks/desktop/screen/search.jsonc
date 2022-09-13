@@ -1,0 +1,115 @@
+{
+  //desktop - departtment - novedades
+  "search-result-layout.desktop#desktop__department": {
+    "props": {
+      "pagination": "show-more"
+    },
+    "children": [
+      "flex-layout.row#desktop__department--breadcrumb",
+      "flex-layout.row#desktop__department--banner",
+      "flex-layout.row#desktop__department--title",
+      "flex-layout.row#desktop__department--results"
+    ]
+  },
+  //breadcrumb
+  "flex-layout.row#desktop__department--breadcrumb": {
+    "children": ["flex-layout.col#desktop__department--breadcrumb"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#desktop__department--breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  //banner novedades - new arrivals
+  "flex-layout.row#desktop__department--banner": {
+    "children": ["image#department__banner--main"]
+  },
+  "image#department__banner--main": {
+    "props": {
+      "src": "assets/images/banners/desktop/desktop__plp--novedades.webp"
+    }
+  },
+  //title search page (search-title.v2)
+  "flex-layout.row#desktop__department--title": {
+    "children": ["rich-text#department__title--search"]
+  },
+  "rich-text#department__title--search": {
+    "props": {
+      "text": "NOVEDADES",
+      "font": "t-heading-4"
+    }
+  },
+  //vitrina results
+  "flex-layout.row#desktop__department--results": {
+    "children": [
+      "flex-layout.col#department__results--filter",
+      "flex-layout.col#department__results--content"
+    ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#department__results--filter": {
+    "children":["filter-navigator.v3"]
+  },
+  "flex-layout.col#department__results--content": {
+    "children": [
+      "flex-layout.row#results__content--searchInfo",
+      "flex-layout.row#results__content--products"
+      // "flex-layout.row#results__content--more"
+    ],
+    "props": {
+      "width": "grow",
+      "preventHorizontalStretch":true
+    }
+  },
+  "flex-layout.row#results__content--searchInfo": {
+    "children":[
+      "flex-layout.col#content__searchInfo--productCount",
+      "flex-layout.col#content__searchInfo--orderby"
+
+    ]
+  },
+  "flex-layout.col#content__searchInfo--productCount": {
+    "children":["total-products.v2"],
+    "props":{}
+  },
+  "flex-layout.col#content__searchInfo--orderby": {
+    "children":["order-by.v2"],
+    "props":{}
+  },
+  "flex-layout.row#results__content--products": {
+    "children": ["search-content"]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1300px)": 6,
+            "desktop": 6,
+            "tablet": 3,
+            "phone": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary":  "product-summary.shelf#department__plp--novedades",
+      "GridSummary": "product-summary.shelf#department__plp--novedades"
+    }
+  }
+ 
+
+}

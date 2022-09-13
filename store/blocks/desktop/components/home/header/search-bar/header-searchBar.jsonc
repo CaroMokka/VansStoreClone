@@ -1,0 +1,22 @@
+{
+  "flex-layout.col#desktop__header-searchBar": {
+    "title": "header-searchBar",
+    "props": {
+      "horizontalAlign": "center",
+      "marginLeft": 3,
+      "width": "25%",
+      "blockClass": "header-searchBar"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar": {
+    "props": {
+      "displayMode": "search-and-clear-buttons",
+      "autoFocus": true,
+      "inputType": "search",
+      "maxWidth": "80%",
+      "placeholder": "Buscar Vans",
+      "blockClass": "header-searchBar"
+    }
+  }
+}

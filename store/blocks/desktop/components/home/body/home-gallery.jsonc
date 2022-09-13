@@ -1,0 +1,127 @@
+{
+  "flex-layout.row#desktop__home--gallery": {
+    "title": "home--gallery",
+    "props": {
+      "blockClass": "desktop__home--gallery"
+    },
+    "children": ["flex-layout.col#home__gallery--container"]
+  },
+  "flex-layout.col#home__gallery--container": {
+    "title": "...",
+    "props": {
+      "blockClass": "home__gallery--container"
+    },
+    "children": [
+      "flex-layout.row#gallery__container--title",
+      "flex-layout.row#gallery__container--content"
+    ]
+  },
+  "flex-layout.row#gallery__container--title": {
+    "title": "...",
+    "props": {
+      "blockClass": "gallery__container--title"
+    },
+    "children": ["rich-text#gallery__container--title"]
+  },
+  "rich-text#gallery__container--title": {
+    "props": {
+      "text": "### ¿CUÁL ES TU ESTILO?",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-4",
+      "blockClass": "gallery__container--title"
+    }
+  },
+  "flex-layout.row#gallery__container--content": {
+    "title": "...",
+    "props": {
+      "blockClass": "gallery__container--content"
+    },
+    "children": [
+      "info-card#home___gallery--infocard-01",
+      "info-card#home___gallery--infocard-02",
+      "info-card#home___gallery--infocard-03",
+      "info-card#home___gallery--infocard-04",
+      "info-card#home___gallery--infocard-05",
+      "info-card#home___gallery--infocard-06"
+    ]
+  },
+  //info card - 01
+  "info-card#home___gallery--infocard-01": {
+    "props": {
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/slip-on.webp",
+      "callToActionMode": "link",
+      "callToActionText": "SLIP-ON",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  //info card - 02
+  "info-card#home___gallery--infocard-02": {
+    "props": {
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/sk8-hi.webp",
+      "callToActionMode": "link",
+      "callToActionText": "SK8-HI",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  //info card - 03
+  "info-card#home___gallery--infocard-03": {
+    "props": {
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/authentic.webp",
+      "callToActionMode": "link",
+      "callToActionText": "AUTHENTIC",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  //info card - 04
+  "info-card#home___gallery--infocard-04": {
+    "props": {
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/old-skool.webp",
+      "callToActionMode": "link",
+      "callToActionText": "OLD SKOOL",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  //info card - 05
+  "info-card#home___gallery--infocard-05": {
+    "props": {
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/era.webp",
+      "callToActionMode": "link",
+      "callToActionText": "ERA",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  },
+  //info card - 06
+  "info-card#home___gallery--infocard-06": {
+    "props": {
+      "blockClass": "home___gallery--infocard",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/images/gallery/sk8-low.webp",
+      "callToActionMode": "link",
+      "callToActionText": "SK8 LOW",
+      "callToActionUrl": "/",
+      "textAlignment": "center"
+    }
+  }
+}

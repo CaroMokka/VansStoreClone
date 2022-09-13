@@ -1,0 +1,23 @@
+{
+  //products
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf#pdp__product"],
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "También te puede interesar"
+      }
+    }
+  },
+  //product
+  "product-summary.shelf#pdp__product": {
+    "children": [
+      "product-summary-image",
+      "product-specification-badges",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  }
+}

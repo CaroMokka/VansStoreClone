@@ -1,0 +1,17 @@
+{
+  "product-summary.shelf#department__plp--novedades": {
+    "children": [
+      "product-summary-image",
+      "product-specification-badges",
+      "product-summary-space",
+      "product-summary-name",
+      "product-summary-price",
+      "add-to-cart-button"
+    ]
+  },
+  "add-to-cart-button": {
+    "props": {
+      "text": "Agregar"
+    }
+  }
+}

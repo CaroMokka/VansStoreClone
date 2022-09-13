@@ -1,0 +1,16 @@
+{
+    "menu-item#desktop__departament--mas": {
+        "props": {
+          "onMountBehavior": "open",
+          "id": "menu-item-mas",
+          "type": "custom",
+          "itemProps": {
+            "type": "external",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "MAS",
+            "text": "MÁS"
+          }
+        }
+      }
+}

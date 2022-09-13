@@ -16,7 +16,7 @@
     "props": {
       "horizontalAlign": "right",
       "blockClass": "home__newsletter--title",
-      "width": "100%"
+      "width": "60%"
     },
     "children": ["rich-text#newsletter__title"]
   },

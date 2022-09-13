@@ -28,7 +28,8 @@
       "text": "SERVICIO AL CLIENTE",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "textColor": "c-on-emphasis"
     }
   },
   //item 02 -- escribenos
@@ -41,7 +42,8 @@
         "href": "/",
         "tagTitle": "item-escribenos",
         "text": "Escríbenos"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item 03 -- callcenter
@@ -54,7 +56,8 @@
         "href": "/",
         "tagTitle": "item-callcenter",
         "text": "CALL CENTER"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item 04 -- numero
@@ -67,7 +70,8 @@
         "href": "/",
         "tagTitle": "item-numero",
         "text": "(562)28203067"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item 05 -- ATENCION
@@ -80,7 +84,8 @@
         "href": "/",
         "tagTitle": "item-atencion",
         "text": "HORARIO DE ATENCIÓN"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item 06 -- horarios
@@ -93,7 +98,8 @@
         "href": "/",
         "tagTitle": "item-horarios",
         "text": "Lunes a viernes 9:000 a 19:00 hrs"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   }
 }

@@ -11,7 +11,8 @@
       "text": "LEGAL",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "textColor": "c-on-emphasis"
     }
   },
   "menu#menu__legal--menu": {
@@ -38,7 +39,8 @@
         "href": "/",
         "tagTitle": "item-cambios",
         "text": "Cambios, retracto y garantías"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item 02 -- timepo de despachos
@@ -51,7 +53,8 @@
         "href": "/",
         "tagTitle": "item-despachos",
         "text": "Tiempos de Despachos"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item 03 -- terminosCondiciones
@@ -64,7 +67,8 @@
         "href": "/",
         "tagTitle": "item-terminosCondiciones",
         "text": "Términos y Condiciones"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item 04-- politicas de privacidad
@@ -77,7 +81,8 @@
         "href": "/",
         "tagTitle": "item-privacidad",
         "text": "Políticas de Privacidad"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   }
 }

@@ -1,11 +1,11 @@
 .drawer--main__top--menu{
-    background-color: black;
+    background-color: #1a1a1a;
 }
 .drawerContent--main__top--menu{
-    background-color: gold;
+    background-color: #1a1a1a;
 }
 .childrenContainer--main__top--menu{
-    background-color: aqua;
+    background-color: #1a1a1a;
     display: flex;
     flex-direction: column;
 }

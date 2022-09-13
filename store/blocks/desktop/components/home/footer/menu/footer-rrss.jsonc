@@ -16,7 +16,8 @@
       "text": "SIGUE A VANS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-5",
+      "textColor": "c-on-emphasis"
     }
   },
   //redes sociales
@@ -43,7 +44,8 @@
     },
     "children": [
       "rich-text#rrss__mediosPagos--title",
-      "accepted-payment-methods"
+      "image#rrss__mediosPagos--image"
+      // "accepted-payment-methods"
     ]
   },
   "rich-text#rrss__mediosPagos--title": {
@@ -51,7 +53,13 @@
       "text": "Medios de Pago",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-5"
+      "font": "t-heading-5",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "image#rrss__mediosPagos--image":{
+    "props":{
+      "src": "assets/images/footer/payment-methods.webp"
     }
   },
   "accepted-payment-methods": {

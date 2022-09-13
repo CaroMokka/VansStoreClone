@@ -27,7 +27,8 @@
       "text": "VANS",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-4"
+      "font": "t-heading-4",
+      "textColor": "c-on-emphasis"
     }
   },
   //item -- centro de ayuda
@@ -40,7 +41,8 @@
         "href": "/",
         "tagTitle": "item-centroAyuda",
         "text": "Centro de Ayuda"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item -- sustentabilidad
@@ -53,7 +55,8 @@
         "href": "/",
         "tagTitle": "item-sustentabilidad",
         "text": "Sustentabilidad"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item -- nuestras tiendas
@@ -66,7 +69,8 @@
         "href": "/",
         "tagTitle": "item-nuestrasTiendas",
         "text": "Nuestras Tiendas"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item -- retiro tiendas
@@ -79,7 +83,8 @@
         "href": "/",
         "tagTitle": "item-retiroTiendas",
         "text": "Retiro en Tiendas"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   },
   //item -- giftcards
@@ -92,7 +97,8 @@
         "href": "/giftcard",
         "tagTitle": "item--giftcards",
         "text": "Giftcards"
-      }
+      },
+      "blockClass": "footer__menu--link"
     }
   }
 }

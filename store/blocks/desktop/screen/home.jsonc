@@ -1,6 +1,7 @@
 {
   "responsive-layout.desktop#desktop__home": {
     "children": [
+      "whatsapp-button",
       "flex-layout.row#desktop__home--notification",
       "flex-layout.row#desktop__home--main-banner",
       "flex-layout.row#desktop__home--gallery",
@@ -10,5 +11,13 @@
       "flex-layout.row#desktop__home--novelty",
       "flex-layout.row#desktop__home--newsletter"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/images/logos/whatsapp-logo.png",
+      "phone": "63526347",
+      "message": "VETX U RLZ"
+    }
   }
+  
 }

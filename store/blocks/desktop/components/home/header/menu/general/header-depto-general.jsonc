@@ -10,7 +10,8 @@
         "noFollow": false,
         "tagTitle": "NOVEDADES",
         "text": "NOVEDADES"
-      }
+      },
+      "blockClass": "desktop__departament--menu-item"
     }
   },
   "menu-item#desktop__departament--classics": {
@@ -24,7 +25,8 @@
         "noFollow": false,
         "tagTitle": "CLASSICS",
         "text": "CLASSICS"
-      }
+      },
+      "blockClass": "desktop__departament--menu-item"
     }
   },
   "menu-item#desktop__departament--skateboarding": {
@@ -38,7 +40,8 @@
         "noFollow": false,
         "tagTitle": "SKATEBOARDING",
         "text": "SKATEBOARDING"
-      }
+      },
+      "blockClass": "desktop__departament--menu-item"
     }
   },
   "menu-item#desktop__departament--surf": {
@@ -52,7 +55,8 @@
         "noFollow": false,
         "tagTitle": "SURF",
         "text": "SURF"
-      }
+      },
+      "blockClass": "desktop__departament--menu-item"
     }
   },
   "menu-item#desktop__departament--sale": {
@@ -66,7 +70,8 @@
         "noFollow": false,
         "tagTitle": "SALE",
         "text": "SALE"
-      }
+      },
+      "blockClass": "desktop__departament--menu-item"
     }
   }
 }

@@ -14,10 +14,10 @@
 .infoCardCallActionText--home___newsUs--infocard{
     margin: 0;
     font-size: 20px;
-    color: cadetblue;
+    color: #54b3d6;
 }
 .infoCardCallActionText--home___newsUs--infocard:hover {
-    color: red;
+    color: #d51920;
 }
 .infoCardHeadline--home___newsUs--infocard{
     font-size: 22px;

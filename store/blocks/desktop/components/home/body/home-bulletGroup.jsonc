@@ -1,0 +1,85 @@
+{
+  "flex-layout.row#desktop__home--bulletsGroup": {
+    "props": {
+      "marginBottom": 8,
+      "marginTop": 8,
+      "width": "80%"
+    },
+    "children": ["flex-layout.col#home__bulletsGroup--wrapper"]
+  },
+  "flex-layout.col#home__bulletsGroup--wrapper": {
+    "children": [
+      "rich-text#home__bulletsGroup--title",
+      "list-context.bullet-group#desktop__home--bullets"
+    ]
+  },
+  "rich-text#home__bulletsGroup--title": {
+    "props": {
+      "text": "## ESTILOS \n ### Busca tu propio estilo",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "list-context.bullet-group#desktop__home--bullets": {
+    "title": "List context categories",
+    "children": ["slider-layout#bullets-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/images/gallery/authentic.webp",
+          "titleBullet": "Authentic",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/era.webp",
+          "titleBullet": "Era",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/old-skool.webp",
+          "titleBullet": "Old Skool",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/sk8-hi.webp",
+          "titleBullet": "Authentic",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/sk8-low.webp",
+          "titleBullet": "Era",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/slip-on.webp",
+          "titleBullet": "Old Skool",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullets-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "fullWidth": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "whatsapp-button": {
+    "props": {
+      "logo": "assets/images/logos/whatsapp-logo.png",
+      "phone": "63526347",
+      "message": "VETX U RLZ"
+    }
+  }
+}

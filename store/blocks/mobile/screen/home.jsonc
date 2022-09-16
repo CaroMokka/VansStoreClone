@@ -1,6 +1,7 @@
 {
     "responsive-layout.mobile#mobile__home": {
         "children": [
+            "list-context.bullet-group",
             "flex-layout.row#mobile__home--notification",
             "flex-layout.row#mobile__home--banner",
             "flex-layout.row#mobile__home--gallery",

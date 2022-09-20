@@ -24,3 +24,6 @@
   background-color: #000;
   margin-left: 20px;
 }
+.paragraph--section__card--text{
+  margin: 0;
+}

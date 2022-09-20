@@ -1,0 +1,78 @@
+{
+  "list-context.bullet-group": {
+    "title": "List context categories",
+    "children": ["slider-layout#bullets-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/images/gallery/authentic.webp",
+          "titleBullet": "Authentic",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/era.webp",
+          "titleBullet": "Era",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/old-skool.webp",
+          "titleBullet": "Old Skool",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/sk8-hi.webp",
+          "titleBullet": "Authentic",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/sk8-low.webp",
+          "titleBullet": "Era",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/slip-on.webp",
+          "titleBullet": "Old Skool",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/sk8-low.webp",
+          "titleBullet": "Era",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/images/gallery/slip-on.webp",
+          "titleBullet": "Old Skool",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullets-group": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 3
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "fullWidth": false
+    }
+  }
+}

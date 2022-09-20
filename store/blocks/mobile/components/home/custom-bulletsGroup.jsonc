@@ -1,0 +1,23 @@
+{
+    "flex-layout.row#mobile__home--bulletsGroup": {
+        "props": {
+          "marginBottom": 8,
+          "marginTop": 8,
+          "width": "80%"
+        },
+        "children": ["flex-layout.col#mobile__bulletsGroup--wrapper"]
+      },
+      "flex-layout.col#mobile__bulletsGroup--wrapper":{
+        "children": [
+            "rich-text#mobile__home__bulletsGroup--title",
+            "list-context.bullet-group"
+          ] 
+      },
+      "rich-text#mobile__home__bulletsGroup--title": {
+        "props": {
+          "text": "## ESTILOS \n ### Busca tu propio estilo",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        }
+      }
+}

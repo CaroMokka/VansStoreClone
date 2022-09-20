@@ -22,3 +22,17 @@
   :global(.vtex-menu-2-x-styledLinkContent):hover {
   color: #D51920;
 }
+/* estilos menu item "/" */
+.styledLinkContainer--desktop__departament--menu-item{
+  margin: 0;
+}
+.styledLinkContent--desktop__departament--menu-item::after{
+  content: "/";
+  font-weight: bold;
+  color: #000;
+  padding: 0 10px;
+
+
+ 
+
+}

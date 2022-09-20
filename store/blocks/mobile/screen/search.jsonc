@@ -1,10 +1,21 @@
 {
   //mobile - department - novedades
-  "search-result-layout.mobile#mobile__department": {
-    "children": [
-      "flex-layout.row#mobile__department--breadcrumb",
-      "flex-layout.row#mobile__department--banner",
-      "flex-layout.row#mobile__department--results"
-    ]
-  }
+  // "search-result-layout.mobile#mobile__department": {
+  //   "children": [
+  //     "flex-layout.row#mobile__department--search-info",
+  //     "flex-layout.row#mobile__department--breadcrumb",
+  //     "flex-layout.row#mobile__department--banner",
+  //     "flex-layout.row#mobile__department--results",
+  //     "flex-layout.row#mobile__department--fetch-previous",
+  //     "flex-layout.row#mobile__department--content",
+  //     "flex-layout.row#mobile__department--fetch-more"
+  //   ],
+  //   "props": {
+  //     "pagination": "show-more",
+  //     "mobileLayout": {
+  //       "mode1": "small",
+  //       "mode2": "normal"
+  //     }
+  //   }
+  // }
 }

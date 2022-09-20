@@ -1,0 +1,9 @@
+.galleryItem{
+    border: solid 1px black;
+    height: auto;
+    margin: 0 10px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -4,10 +4,18 @@
       "product-summary-image",
       "product-specification-badges",
       "product-summary-space",
+      "product-summary-sku-selector",
       "product-summary-name",
       "product-summary-price",
       "add-to-cart-button"
     ]
+  },
+  "product-specification-badges": {
+    "props":{
+      "specificationGroupName": "allSpecifications",
+      "displayValue": "SPECIFICATION:_NAME",
+      "visibleWhen": true
+    }
   },
   "add-to-cart-button": {
     "props": {

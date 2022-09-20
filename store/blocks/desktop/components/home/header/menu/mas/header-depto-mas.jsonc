@@ -10,7 +10,8 @@
             "noFollow": false,
             "tagTitle": "MAS",
             "text": "MÁS"
-          }
+          },
+          "blockClass": "desktop__departament--menu-item"
         }
       }
 }

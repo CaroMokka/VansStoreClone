@@ -11,7 +11,7 @@
         "tagTitle": "MUJER",
         "text": "MUJER"
       },
-      "blockClass": "desktop__departament--woman"
+      "blockClass": "desktop__departament--menu-item"
     },
     "blocks": ["submenu#desktop__departament--woman"]
   },

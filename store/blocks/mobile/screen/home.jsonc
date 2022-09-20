@@ -7,6 +7,7 @@
             "flex-layout.row#mobile__home--categories",
             "flex-layout.row#mobile__home--collection",
             "flex-layout.row#mobile__home--newsUs",
+            "flex-layout.row#mobile__home--bulletsGroup",
             "flex-layout.row#mobile__home--novelty",
             "flex-layout.row#mobile__home--newsletter"
         ]

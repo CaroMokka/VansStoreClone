@@ -10,7 +10,8 @@
           "noFollow": false,
           "tagTitle": "KIDS",
           "text": "NIÑOS"
-        }
+        },
+        "blockClass": "desktop__departament--menu-item"
       },
       "blocks": ["submenu#desktop__departament--kids"]
     },

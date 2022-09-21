@@ -1,5 +1,12 @@
-.buyButton :global(.vtex-button){
-    background-color: black;
+.element :global(.vtex-button){
+    visibility: hidden;
+    /* background-color: #d51920;
+    border: none;
+    border-radius: 0; */
+}
+.element:hover :global(.vtex-button){
+    visibility: visible;
+    background-color: #d51920;
     border: none;
     border-radius: 0;
 }

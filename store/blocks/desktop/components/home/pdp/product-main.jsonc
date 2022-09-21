@@ -37,7 +37,7 @@
     //   "product-price#product__content",
     //   "product-quantity#product__content",
     //   "product-add-to-list-button",
-      "product-details"
+      // "product-details"
     ]
   },
   "vtex.store-components:product-name#product__content": {

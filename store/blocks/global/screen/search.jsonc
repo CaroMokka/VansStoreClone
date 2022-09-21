@@ -26,7 +26,7 @@
   },
   //category
   "store.search#category": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#category"],
     "props": {
       "context": {
         "skuFilter": "ALL",
@@ -40,19 +40,85 @@
   },
   //subcategory
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout#subcategory"],
+    "props": {
+      "context": {
+        "skuFilter": "ALL",
+        "simulationBehavior": "skip",
+        "orderBy Field": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true, 
+        "maxItemsPerPage": 10
+      }
+    }
   },
   //brand
   "store.search#brand": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout#brand"],
+    "props": {
+      "context": {
+        "skuFilter": "ALL",
+        "simulationBehavior": "skip",
+        "orderBy Field": "OrderByTopSaleDESC",
+        "hideUnavailableItems": true, 
+        "maxItemsPerPage": 10
+      }
+    }
   },
 
-  //department layout
+  //department page
   "search-result-layout#department": {
     "blocks": [
       "search-result-layout.desktop#desktop__department"
       // "search-result-layout.mobile#mobile__department",
-      // "search-not-found-layout"
+      //  "search-not-found-layout"
+    ]
+  },
+  //brand page
+  "search-result-layout#brand": {
+    "blocks": ["search-result-layout.desktop#desktop__brand"]
+  },
+  "search-result-layout.desktop#desktop__brand":{
+    "children": [
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
+      "search-fetch-previous",
+      "search-content",
+      "filter-navigator.v3",
+      "search-fetch-more"
+    ]
+  },
+  //category page
+  "search-result-layout#category":{
+    "blocks":["search-result-layout.desktop#desktop__category"]
+  },
+  "search-result-layout.desktop#desktop__category":{
+    "children":[
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
+      "search-fetch-previous",
+      "search-content",
+      "filter-navigator.v3",
+      "search-fetch-more"
+    ]
+  },
+  "search-result-layout#subcategory":{
+    "blocks":["search-result-layout.desktop#desktop__subcategory"]
+  },
+  "search-result-layout.desktop#desktop__subcategory":{
+    "children":[
+      "breadcrumb.search",
+      "search-title.v2",
+      "total-products.v2",
+      "order-by.v2",
+      "search-fetch-previous",
+      "search-content",
+      "filter-navigator.v3",
+      "search-fetch-more"
     ]
   }
+  
 }

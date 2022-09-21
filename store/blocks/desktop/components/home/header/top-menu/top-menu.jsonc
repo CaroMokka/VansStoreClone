@@ -129,13 +129,13 @@
       "src": "assets/icons/user.svg",
       "maxHeight": 18,
       "link": {
-        "url": "/"
+        "url": "/login"
       }
     }
   },
   "rich-text#link__myAccount": {
     "props": {
-      "text": "[Mi cuenta](/giftcard)",
+      "text": "[Mi cuenta](/login)",
       "blockClass": "link__text"
     }
   },

@@ -1,11 +1,12 @@
 {
+   //vitrina recomendados
   //products
   "shelf.relatedProducts": {
     "blocks": ["product-summary.shelf#pdp__product"],
     "props": {
       "recommendation": "view",
       "productList": {
-        "titleText": "También te puede interesar"
+        "titleText": "Otros clientes se interesaron por"
       }
     }
   },

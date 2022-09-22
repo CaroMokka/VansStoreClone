@@ -1,7 +1,7 @@
 {
   "responsive-layout.desktop#desktop__home": {
     "children": [
-      
+
       "whatsapp-button",
       "flex-layout.row#desktop__home--notification",
       "flex-layout.row#desktop__home--main-banner",

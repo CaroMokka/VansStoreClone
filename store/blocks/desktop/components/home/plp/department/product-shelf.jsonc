@@ -6,8 +6,9 @@
       "product-summary-space",
       "product-summary-sku-selector",
       "product-summary-name",
-      "product-summary-price",
-      "add-to-cart-button"
+      "product-summary-price"
+
+      
     ]
   },
   "product-specification-badges": {
@@ -16,10 +17,6 @@
       "displayValue": "SPECIFICATION:_NAME",
       "visibleWhen": true
     }
-  },
-  "add-to-cart-button": {
-    "props": {
-      "text": "Agregar"
-    }
   }
+
 }

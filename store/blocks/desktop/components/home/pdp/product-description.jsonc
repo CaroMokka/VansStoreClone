@@ -1,7 +1,0 @@
-{
-  //pdp - description
-  "flex-layout.row#desktop__pdp--description": {
-    "title": "pdp-info-adicional",
-    "children": []
-  }
-}

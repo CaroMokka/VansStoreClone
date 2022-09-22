@@ -1,5 +1,6 @@
 .galleryItem{
-    border: solid 1px black;
+    background-color: #F1F2ED;
+    /* border: solid 1px black; */
     height: auto;
     margin: 0 10px;
 }

@@ -1,11 +1,11 @@
 {
   "responsive-layout.desktop#desktop__home": {
     "children": [
-
       "whatsapp-button",
       "flex-layout.row#desktop__home--notification",
       "flex-layout.row#desktop__home--main-banner",
       "flex-layout.row#desktop__home--gallery",
+      "flex-layout.row#desktop__home--searchDepartment",
       "flex-layout.row#desktop__home--categories",
       "flex-layout.row#desktop__home--collection",
       "flex-layout.row#desktop__home--newsUs",
@@ -14,7 +14,4 @@
       "flex-layout.row#desktop__home--newsletter"
     ]
   }
-
-  
-  
 }

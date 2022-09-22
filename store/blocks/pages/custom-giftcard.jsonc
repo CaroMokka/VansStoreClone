@@ -4,6 +4,7 @@
       "flex-layout.row#custom__giftcard--section-01",
       "flex-layout.row#custom__giftcard--section-02",
       "flex-layout.row#custom__giftcard--section-03"
+      
     ]
   },
   "flex-layout.row#custom__giftcard--section-01": {
@@ -26,7 +27,7 @@
     "children": ["flex-layout.col#custom__giftcard--wrapper"]
   },
   "flex-layout.col#custom__giftcard--wrapper": {
-    "children": ["rich-text#giftcard__title", "rich-text#giftcard__content"]
+    "children": ["rich-text#giftcard__title", "rich-text#giftcard__content","pdf-reader"]
   },
   "rich-text#giftcard__title": {
     "props": {
@@ -42,6 +43,14 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": "giftcard__text"
+    }
+  },
+  //pdf reader componente testing
+  "pdf-reader": {
+    "props":{
+      "width": 500,
+      "height": 800,
+      "pdfUrl": "assets/documents/darwin.pdf"
     }
   }
 }

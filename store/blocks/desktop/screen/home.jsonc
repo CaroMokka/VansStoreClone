@@ -1,10 +1,10 @@
 {
   "responsive-layout.desktop#desktop__home": {
     "children": [
-      "quick-order",
       "whatsapp-button",
       "flex-layout.row#desktop__home--notification",
       "flex-layout.row#desktop__home--main-banner",
+      "flex-layout.row#desktop__home--quickOrder",
       "flex-layout.row#desktop__home--gallery",
       "flex-layout.row#desktop__home--searchDepartment",
       "flex-layout.row#desktop__home--categories",

@@ -1,0 +1,15 @@
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border: none;
+    border-radius: 0;
+}
+.autoCompleteOuterContainer :global(.vtex-input__suffix){
+    border: none;
+    border-radius: 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+.flexRow--sectionOne{
+    display: flex;
+    flex-wrap: wrap;
+}

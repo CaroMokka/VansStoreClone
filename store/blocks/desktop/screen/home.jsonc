@@ -3,51 +3,17 @@
     "children": [
       "quick-order",
       "whatsapp-button",
-      "special-diagramation",
       "flex-layout.row#desktop__home--notification",
       "flex-layout.row#desktop__home--main-banner",
       "flex-layout.row#desktop__home--gallery",
       "flex-layout.row#desktop__home--searchDepartment",
       "flex-layout.row#desktop__home--categories",
       "flex-layout.row#desktop__home--collection",
+      "special-diagramation",
       "flex-layout.row#desktop__home--newsUs",
       "flex-layout.row#desktop__home--bulletsGroup",
       "flex-layout.row#desktop__home--novelty",
       "flex-layout.row#desktop__home--newsletter"
     ]
-  },
-  "special-diagramation": {
-    "children": [
-      "rich-text#prueba1",
-      "rich-text#prueba2",
-      "rich-text#prueba3",
-      "rich-text#prueba4",
-      "rich-text#prueba5"
-    ]
-  },
-  "rich-text#prueba1": {
-    "props": {
-      "text": "prueba 1"
-    }
-  },
-  "rich-text#prueba2": {
-    "props": {
-      "text": "prueba 2"
-    }
-  },
-  "rich-text#prueba3": {
-    "props": {
-      "text": "prueba 3"
-    }
-  },
-  "rich-text#prueba4": {
-    "props": {
-      "text": "prueba 4"
-    }
-  },
-  "rich-text#prueba5": {
-    "props": {
-      "text":"prueba 5"
-    }
   }
 }

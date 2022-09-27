@@ -1,0 +1,132 @@
+{
+  "special-diagramation": {
+    "children": [
+      "flex-layout.row#home__diagramation--sectionOne",
+      "flex-layout.row#home__diagramation--sectionTwo",
+      "flex-layout.row#home__diagramation--sectionThree",
+      "flex-layout.row#home__diagramation--sectionFour",
+      "flex-layout.row#home__diagramation--sectionFive"
+    ]
+  },
+  "flex-layout.row#home__diagramation--sectionOne": {
+    "children": ["flex-layout.col#diagramation__sectionOne--01"]
+   
+  },
+  "flex-layout.row#home__diagramation--sectionTwo": {
+    "children": ["flex-layout.col#diagramation__sectionOne--02"]
+  },
+  "flex-layout.row#home__diagramation--sectionThree": {
+    "children": ["flex-layout.col#diagramation__sectionOne--03"]
+  },
+  "flex-layout.row#home__diagramation--sectionFour": {
+    "children": ["flex-layout.col#diagramation__sectionOne--04"]
+  },
+  "flex-layout.row#home__diagramation--sectionFive": {
+    "children": ["flex-layout.col#diagramation__sectionOne--05"]
+  },
+  //section - image -01
+  "flex-layout.col#diagramation__sectionOne--01": {
+    "children": ["image#testing--princess"],
+    "props":{
+        "horizontalAlign": "center",
+        "verticalAlign": "middle"
+    }
+  },
+  "image#testing--princess": {
+    "props": {
+      "src": "assets/images/grid-gallery/001.png"
+    }
+  },
+  //section - skate -02
+  "flex-layout.col#diagramation__sectionOne--02": {
+    "children": ["stack-layout#diagramation__sectionOne--02"]
+  },
+  "stack-layout#diagramation__sectionOne--02": {
+    "children": ["image#home__banner--skate", "rich-text#home__banner--skate"]
+  },
+  "image#home__banner--skate": {
+    "props": {
+      "src": "assets/images/grid-gallery/skate.png",
+      "maxHeight": 500,
+      "blockClass": "cover"
+    }
+  },
+  "rich-text#home__banner--skate": {
+    "props": {
+      "text": "# COMUNIDAD DE \n # SKATE",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  //section - totem -03
+  "flex-layout.col#diagramation__sectionOne--03": {
+    "children": ["stack-layout#diagramation__sectionOne--03"]
+  },
+  "stack-layout#diagramation__sectionOne--03": {
+    "children": ["image#home__banner--totem", "rich-text#home__banner--totem"]
+  },
+  "image#home__banner--totem": {
+    "props": {
+      "src": "assets/images/grid-gallery/totem.jpg",
+      "maxHeight": 500,
+      "blockClass": "cover"
+    }
+  },
+  "rich-text#home__banner--totem": {
+    "props": {
+      "text": "# FASHION MAGAZINE \n # FOR TÓTEM",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  //section - trevor-cosmos -04
+  "flex-layout.col#diagramation__sectionOne--04": {
+    "children": ["stack-layout#diagramation__sectionOne--04"]
+  },
+  "stack-layout#diagramation__sectionOne--04": {
+    "children": [
+      "image#home__banner--trevor-cosmos",
+      "rich-text#home__banner--trevor-cosmos"
+    ]
+  },
+  "image#home__banner--trevor-cosmos": {
+    "props": {
+      "src": "assets/images/grid-gallery/trevor-cosmos.jpg",
+      "maxHeight": 500,
+      "blockClass": "cover"
+    }
+  },
+  "rich-text#home__banner--trevor-cosmos": {
+    "props": {
+      "text": "# INSTALACIÓN ARTÍSTICA \n # POR TREVOR WHEATLEY \n # Y COSMO DEAN",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  //section - pam -05
+  "flex-layout.col#diagramation__sectionOne--05": {
+    "children": ["stack-layout#diagramation__sectionOne--05"]
+  },
+  "stack-layout#diagramation__sectionOne--05": {
+    "children": ["image#home__banner--pam", "rich-text#home__banner--pam"]
+  },
+  "image#home__banner--pam": {
+    "props": {
+      "src": "assets/images/grid-gallery/pam.jpeg",
+      "maxHeight": 500,
+      "blockClass": "cover"
+    }
+  },
+  "rich-text#home__banner--pam": {
+    "props": {
+      "text": "# VIDEO ARTE \n # POR PAM PAM E \n # CANDICE LO",
+      "textColor": "c-on-emphasis"
+    }
+  },
+  "info-card#rethink": {
+    "props": {
+      "imageUrl": "assets/images/grid-gallery/salon.jpg",
+      "isFullModeStyle": true,
+      "headline": " SALÓN \n  POR SERPENTWITHFEET",
+      "textPosition": "center",
+      "callToActionMode": "none"
+    }
+  }
+}

@@ -1,11 +1,19 @@
 .drawer--main__top--menu{
-    background-color: #1a1a1a;
+    background-color: black;
+    width: 100%;
 }
-.drawerContent--main__top--menu{
+/* .drawerContent--main__top--menu{
     background-color: #1a1a1a;
-}
+
+} */
 .childrenContainer--main__top--menu{
-    background-color: #1a1a1a;
     display: flex;
     flex-direction: column;
+}
+.closeIconContainer--main__top--menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.closeIconButton--main__top--menu{
+   color: white;
 }

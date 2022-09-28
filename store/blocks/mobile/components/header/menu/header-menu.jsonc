@@ -8,7 +8,8 @@
   //menu principal ------------------------
   "menu#mobile__header--menu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header__menu--department"
     },
     "children": [
         "menu-item#departament__man", 

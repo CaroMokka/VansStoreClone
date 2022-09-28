@@ -1,13 +1,30 @@
-.menuContainer--footer__menu--class{
-    display: flex;
-    align-items: center;
-    color: white !important;
+.menuContainer--footer__menu--class {
+  display: flex;
+  align-items: center;
+  color: white !important;
 }
-.menuContainer--footer__menu--class :global(.vtex-menu-styledLinkContent){
-    color: white;
+.menuContainer--footer__menu--class :global(.vtex-menu-styledLinkContent) {
+  color: white;
 }
 /* color font - desktop - footer */
-.styledLinkContent--footer__menu--link{
-    color: white;
+.styledLinkContent--footer__menu--link {
+  color: white;
 }
-
+/* mobile -- footer*/
+@media screen and (max-width: 440px){
+    .menuContainer--footer__content--menu :global(.vtex-menu-2-x-styledLink) {
+        color: white;
+      }
+      .menuContainer--footer__content--menu{
+        margin: 0 0 20px 0;
+      }
+}
+/* tablet -- footer*/
+@media screen and (min-width: 440px) and (max-width: 1280px){
+    .menuContainer--footer__content--menu :global(.vtex-menu-2-x-styledLink) {
+        color: white;
+      }
+      .menuContainer--footer__content--menu{
+        margin: 0 0 20px 0;
+      }
+}

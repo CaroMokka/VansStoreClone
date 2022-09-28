@@ -1,19 +1,40 @@
-.flexCol--wrapper__section--menu{
-    padding: 20px; 
+.flexCol--wrapper__section--menu {
+  padding: 20px;
 }
-.flexRow--home__footer--container{
-    background-color: #1a1a1a;
+.flexRow--home__footer--container {
+  background-color: #1a1a1a;
 }
-.flexRow--wrapper__section--logo-vtex{
-    padding: 10px 0;
+.flexRow--wrapper__section--logo-vtex {
+  padding: 10px 0;
 }
 
 /* DESKTOP */
 /* row - footer general */
-.flexRow--desktop__footer--container{
-    background-color: #1a1a1a;
+.flexRow--desktop__footer--container {
+  background-color: #1a1a1a;
 }
 /* row - vans logo */
-.flexRow--footer__section--logo-vans{
-    margin: 20px 0;
+.flexRow--footer__section--logo-vans {
+  margin: 20px 0;
+}
+
+/* mobile - footer*/
+@media screen and (max-width: 440px){
+  .flexRowContent--trigger__row {
+    display: flex;
+  }
+  .flexCol--button__arrowdown :global(.vtex-store-icons-0-x-caretIcon) {
+    margin: 5px 0 0 120px;
+    color: white;
+  }
+}
+/* tablet - footer*/
+@media screen and (min-width: 440px) and (max-width: 1280px){
+  .flexRowContent--trigger__row {
+    display: flex;
+  }
+  .flexCol--button__arrowdown :global(.vtex-store-icons-0-x-caretIcon) {
+    margin: 5px 0 0 300px;
+    color: white;
+  }
 }

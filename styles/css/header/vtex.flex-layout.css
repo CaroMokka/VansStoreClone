@@ -22,7 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
 }
 .flexRow--main__subTop--search{
   background-color: white;
@@ -36,12 +35,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
 }
 .flexColChild--mobile__header--col-search{
   width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
 }

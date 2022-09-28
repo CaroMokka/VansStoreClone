@@ -1,7 +1,7 @@
 {
     "header-layout.mobile#mobile__header": {
     "title": "mobile-header",
-    "children": ["sticky-layout#header__main"]
+    "children": ["sticky-layout#mobile__header__main"]
   }
   
 }

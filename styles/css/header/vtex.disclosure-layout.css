@@ -1,0 +1,13 @@
+/* mobile - header - search*/
+.content--disclosure__header--content--visible{
+    display: block;
+}
+.content--disclosure__header--content--hidden{
+    display: none;
+}
+.content--disclosure__header--content{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 60px;
+}

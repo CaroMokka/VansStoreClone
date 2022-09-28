@@ -1,15 +1,14 @@
 {
-    "responsive-layout.mobile#mobile__home": {
-        "children": [
-            "flex-layout.row#mobile__home--notification",
-            "flex-layout.row#mobile__home--banner",
-            "flex-layout.row#mobile__home--gallery",
-            "flex-layout.row#mobile__home--categories",
-            "flex-layout.row#mobile__home--collection",
-            "flex-layout.row#mobile__home--newsUs",
-            "flex-layout.row#mobile__home--bulletsGroup",
-            "flex-layout.row#mobile__home--novelty",
-            "flex-layout.row#mobile__home--newsletter"
-        ]
-    }
+  "responsive-layout.mobile#mobile__home": {
+    "children": [
+      "flex-layout.row#mobile__home--notification",
+      "flex-layout.row#mobile__home--banner",
+      "flex-layout.row#mobile__home--gallery",
+      "flex-layout.row#mobile__home--categories",
+      "flex-layout.row#mobile__home--collection",
+      "flex-layout.row#mobile__home--newsUs",
+      "flex-layout.row#mobile__home--bulletsGroup",
+      "flex-layout.row#mobile__home--novelty"
+    ]
+  }
 }

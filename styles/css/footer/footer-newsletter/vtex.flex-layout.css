@@ -1,5 +1,6 @@
 .flexRow--mobile__home--newsletter {
   background-color: #1a1a1a;
+  margin-bottom: 20px;
 }
 /* estilo newsletter desktop */
 .flexRow--desktop__home--newsletter {

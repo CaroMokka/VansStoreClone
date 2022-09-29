@@ -1,8 +1,8 @@
 {
   "flex-layout.row#desktop__home--searchDepartment": {
     "children": ["flex-layout.col#home__searchDepartment--wrapper"],
-    "props":{
-        "blockClass": "desktop__home--searchDepartment"
+    "props": {
+      "blockClass": "desktop__home--searchDepartment"
     }
   },
   "flex-layout.col#home__searchDepartment--wrapper": {
@@ -10,17 +10,20 @@
       "rich-text#home__searchDepartment--title",
       "custom-department-search"
     ],
-    "props":{
-        "width": "100%",
-        "verticalAlign": "middle",
-        "horizontalAlign": "center",
-        "blockClass": "desktop__home--searchDepartment"
+    "props": {
+      "width": "100%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": "desktop__home--searchDepartment"
     }
   },
-  "rich-text#home__searchDepartment--title":{
-    "props":{
-        "text": "# ¡Busca tu departamento favorito!",
-        "textColor": "c-on-emphasis"
+  "rich-text#home__searchDepartment--title": {
+    "props": {
+      "text": "# ¡Busca tu departamento favorito!",
+      "textColor": "c-on-emphasis",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "home__searchDepartment--title"
     }
   }
 }

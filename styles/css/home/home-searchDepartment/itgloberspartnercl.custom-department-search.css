@@ -6,6 +6,12 @@
     border: none;
     border-radius: 0;
 }
+@media screen and (max-width: 440px){
+    .itgloberspartnercl-custom-department-search-0-x-department__select{
+        width: 100px;
+    }
+
+}
 
 
 

@@ -3,3 +3,18 @@
     color: white;
     height: 180px;
 }
+@media screen and (max-width: 440px){
+    .flexRow--desktop__home--quickOrder {
+        width: auto;
+        background-color: black;
+        color: white;
+        height: 200px;
+        text-align: center;
+    }
+   
+    .itgloberspartnercl-quick-order-0-x-btn__cart{
+        background-color: green;
+    }
+}
+
+

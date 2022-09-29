@@ -3,7 +3,9 @@
     "children": [
       "flex-layout.row#mobile__home--notification",
       "flex-layout.row#mobile__home--banner",
+      "flex-layout.row#desktop__home--quickOrder",
       "flex-layout.row#mobile__home--gallery",
+      "flex-layout.row#desktop__home--searchDepartment",
       "flex-layout.row#mobile__home--categories",
       "flex-layout.row#mobile__home--collection",
       "flex-layout.row#mobile__home--newsUs",

@@ -10,7 +10,10 @@
         "title": "",
         "children": [
             "image#collection__one--offTheWall"
-        ]
+        ],
+        "props":{
+            "horizontalAlign": "center"
+        }
     },
 
     "image#collection__one--offTheWall": {

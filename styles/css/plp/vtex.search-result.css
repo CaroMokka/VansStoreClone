@@ -2,7 +2,7 @@
     background-color: #F1F2ED;
     /* border: solid 1px black; */
     height: auto;
-    margin: 0 10px;
+    margin: 10px 5px;
 }
 .gallery{
     display: flex;

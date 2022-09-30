@@ -37,7 +37,7 @@
   },
   "add-to-cart-button": {
     "props": {
-      "text": "COMPRAR AHORA"
+      "text": "agregar al carro"
     }
   }
 

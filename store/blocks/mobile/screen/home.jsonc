@@ -2,6 +2,7 @@
   "responsive-layout.mobile#mobile__home": {
     "children": [
       // "flex-layout.row#mobile__home--notification",
+      "whatsapp-button",
       "flex-layout.row#desktop__home--notification",
       "flex-layout.row#mobile__home--banner",
       "flex-layout.row#desktop__home--quickOrder",

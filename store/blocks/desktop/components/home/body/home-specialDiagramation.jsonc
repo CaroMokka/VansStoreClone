@@ -96,7 +96,7 @@
   },
   "rich-text#home__banner--trevor-cosmos": {
     "props": {
-      "text": "### INSTALACIÓN ARTÍSTICA \n ### POR TREVOR WHEATLEY \n ### Y COSMO DEAN",
+      "text": "### INSTALACIÓN \n ### POR TREVOR WHEATLEY",
       "textColor": "c-on-emphasis"
     }
   },

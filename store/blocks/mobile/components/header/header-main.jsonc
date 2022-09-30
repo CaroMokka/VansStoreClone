@@ -11,6 +11,8 @@
       "flex-layout.col#main__top--search",
       "flex-layout.col#main__top--cart",
       "flex-layout.col#main__top--menu"
+      
+      
     ],
     "props": {
       "blockClass": "mobile__header__main--top",
@@ -30,11 +32,22 @@
   },
   //column - store
   "flex-layout.col#main__top--store": {
-    "children": ["icon-location-marker#store__icon"],
+    "children": ["icon-location-marker#store__icon"
+  ],
     "props": {
-      "blockClass": "mobile__header--col-store",
-      "width": "15%"
+      "blockClass": "mobile__header--col-store"
 
+
+    }
+  },
+  //"icon-location-marker#store__icon"
+  "image#link__store": {
+    "props": {
+      "src": "assets/icons/store.svg",
+      "maxHeight": 24,
+      "link": {
+        "url": "/giftcard"
+      }
     }
   },
   //column - search

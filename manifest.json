@@ -60,7 +60,9 @@
     "itgloberspartnercl.custom-department-search": "0.x",
     "itgloberspartnercl.pdf-reader": "0.x",
     "itgloberspartnercl.quick-order": "0.x",
-    "itgloberspartnercl.special-diagramation": "0.x"
+    "itgloberspartnercl.special-diagramation": "0.x",
+    "vtex.product-highlights": "2.x",
+    "vtex.product-specifications": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

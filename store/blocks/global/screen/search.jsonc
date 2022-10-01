@@ -53,19 +53,18 @@
       "context": {
         "skuFilter": "ALL",
         "simulationBehavior": "skip",
-        "orderBy Field": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 10
       }
     }
   },
 
-  //search result layout
+  //search result layout -PLP
   "search-result-layout": {
     "title": "",
     "props": {
       "blockClass": "",
-      "fullWidth": false
+      "fullWidth": true
     },
     "blocks": [
       "search-result-layout.desktop",

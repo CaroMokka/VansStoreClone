@@ -1,5 +1,5 @@
 {
-  //banner
+  //banner -desktop
   "flex-layout.row#desktop__department--banner": {
     "children": ["image#department__banner--main"],
     "props": {
@@ -125,7 +125,7 @@
           "component": "GridSummary",
           "itemsPerRow": {
             "desktop": 4,
-            "tablet": 2,
+            "tablet": 3,
             "phone": 2
           }
         },

@@ -25,20 +25,26 @@
   "product-summary.shelf": {
     "children": [
       // "product-summary-add-to-list-button",
-      "product-summary-image",
+      "product-summary-image#grid",
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-summary-price",
+      "product-selling-price",
       // "product-identifier.summary",
       "add-to-cart-button"
-      
     ]
+  },
+  "product-summary-image#grid": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 180
+
+    }
   },
   "add-to-cart-button": {
     "props": {
       "text": "agregar al carro"
     }
   }
-
 }

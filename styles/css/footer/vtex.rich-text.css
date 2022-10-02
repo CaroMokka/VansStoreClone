@@ -21,3 +21,7 @@
 .paragraph--section_copyright{
     margin: 0 0 5px 0;
 }
+/* mobile - footer */
+.wrapper--home__newsletter--subtitle{
+    padding: 0 10px;
+}

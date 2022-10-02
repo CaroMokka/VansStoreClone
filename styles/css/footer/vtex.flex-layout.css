@@ -7,6 +7,18 @@
 .flexRow--wrapper__section--logo-vtex {
   padding: 10px 0;
 }
+.flexRow--mobile__home--newsletter {
+  border-bottom: solid 0.3rem #fff;
+}
+.flexRow--desktop__footer--container
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0 !important;
+}
+.flexRow--home__footer--container
+  :global(.vtex-store-components-3-x-container) {
+  background-color: #1a1a1a;
+  padding: 0 !important;
+}
 
 /* DESKTOP */
 /* row - footer general */
@@ -17,9 +29,12 @@
 .flexRow--footer__section--logo-vans {
   margin: 20px 0;
 }
+.flexRow--desktop__home--newsletter {
+  border-bottom: solid 0.3rem #fff;
+}
 
 /* mobile - footer*/
-@media screen and (max-width: 440px){
+@media screen and (max-width: 440px) {
   .flexRowContent--trigger__row {
     display: flex;
   }
@@ -29,7 +44,7 @@
   }
 }
 /* tablet - footer*/
-@media screen and (min-width: 440px) and (max-width: 1280px){
+@media screen and (min-width: 440px) and (max-width: 1280px) {
   .flexRowContent--trigger__row {
     display: flex;
   }
@@ -37,4 +52,14 @@
     margin: 5px 0 0 300px;
     color: white;
   }
+  .flexRowContent--mobile__home--newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .flexRowContent--mobile__home--newsletter :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    width: 70% !important;
+  }
 }
+   

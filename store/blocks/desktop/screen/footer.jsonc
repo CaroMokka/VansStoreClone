@@ -14,7 +14,6 @@
   "flex-layout.col#desktop__footer--wrapper": {
     "title": "desktop__footer--wrapper",
     "children": [
-      "flex-layout.row#desktop__home--newsletter",
       "flex-layout.row#footer__section--menu",
       "flex-layout.row#footer__section--logo-vans",
       "flex-layout.row#footer__section--copyright"

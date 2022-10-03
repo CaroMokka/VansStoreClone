@@ -1,0 +1,17 @@
+{
+  //componente universal - imagen de related products
+  "product-summary-image": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 180
+    }
+  },
+  "product-summary-image#grid": {
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "maxHeight": 180
+    }
+  }
+}

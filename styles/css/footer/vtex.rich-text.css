@@ -1,21 +1,21 @@
 .paragraph--compra__button--text{
-    color: white;
+    color: var(--font-color);
     margin: 0 0 10px 0;
 }
 .paragraph--cliente__button--text{
-    color: white;
+    color: var(--font-color);
     margin: 0 0 10px 0;
 
 }
 .paragraph--legal__button--text{
-    color: white;
+    color: var(--font-color);
     margin: 0 0 10px 0;
 
 }
 .paragraph--section__rrss--title{
     margin: 10px 0 10px 0;
     font-size: 20px;
-    color: white;
+    color: var(--font-color);
     font-weight: bold;
 }
 .paragraph--section_copyright{

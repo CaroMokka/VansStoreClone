@@ -12,8 +12,7 @@
       "special-diagramation",
       "flex-layout.row#desktop__home--newsUs",
       "flex-layout.row#desktop__home--bulletsGroup",
-      "flex-layout.row#desktop__home--novelty",
-      "flex-layout.row#desktop__home--newsletter"
+      "flex-layout.row#desktop__home--novelty"
     ]
   }
 }

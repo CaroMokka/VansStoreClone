@@ -1,19 +1,19 @@
 .menuContainer--footer__menu--class {
   display: flex;
   align-items: center;
-  color: white !important;
+  color: var(--font-color) !important;
 }
 .menuContainer--footer__menu--class :global(.vtex-menu-styledLinkContent) {
-  color: white;
+  color: var(--font-color);
 }
 /* color font - desktop - footer */
 .styledLinkContent--footer__menu--link {
-  color: white;
+  color: var(--font-color);
 }
 /* mobile -- footer*/
 @media screen and (max-width: 440px){
     .menuContainer--footer__content--menu :global(.vtex-menu-2-x-styledLink) {
-        color: white;
+        color: var(--font-color);
       }
       .menuContainer--footer__content--menu{
         margin: 0 0 20px 0;
@@ -22,7 +22,7 @@
 /* tablet -- footer*/
 @media screen and (min-width: 440px) and (max-width: 1280px){
     .menuContainer--footer__content--menu :global(.vtex-menu-2-x-styledLink) {
-        color: white;
+        color: var(--font-color);
       }
       .menuContainer--footer__content--menu{
         margin: 0 0 20px 0;

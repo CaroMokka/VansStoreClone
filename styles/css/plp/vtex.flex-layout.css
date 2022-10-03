@@ -1,8 +1,3 @@
-
-    .flexCol--mobile__add-to-cart-button :global(.vtex-button__label){
-        padding: 0 !important;
-    }
-
-
-
-
+.flexCol--mobile__add-to-cart-button :global(.vtex-button__label) {
+  padding: 0 !important;
+}

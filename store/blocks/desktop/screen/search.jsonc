@@ -6,6 +6,7 @@
       "flex-layout.row#desktop__department--breadcrumb",
       "flex-layout.row#desktop__department--title",
       "flex-layout.row#desktop__department--results"
+   
     ],
     "props": {
       "pagination": "show-more",

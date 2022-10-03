@@ -1,7 +1,7 @@
 .buttonLink--newsletter__button {
-  background-color: #d51920;
+  background-color: var(--color-primary);
   width: 80px !important;
-  color: white;
+  color: var(--font-color);
   border-radius: 0;
   border: 0;
   font-size: 15px;
@@ -9,5 +9,5 @@
   margin-left: 20px;
 }
 .buttonLink--newsletter__button:hover {
-  background-color: #9e090e;
+  background-color: var(--color-primary-hover);
 }

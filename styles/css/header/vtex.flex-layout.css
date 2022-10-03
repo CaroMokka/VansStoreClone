@@ -1,5 +1,5 @@
 .flexRow--header__main--top {
-  background-color: white;
+  background-color: var(--bg-primary);
 }
 
 /* DESKTOP */
@@ -10,7 +10,7 @@
 }
 /* mobile */
 .flexRow--mobile__header__main--top{
-  background-color: white;
+  background-color: var(--bg-primary);
   display: flex;
   flex-direction: row;
 }
@@ -24,7 +24,7 @@
   align-items: center;
 }
 .flexRow--main__subTop--search{
-  background-color: white;
+  background-color: var(--bg-primary);
   display: flex;
   align-items: center;
   height: 50px;

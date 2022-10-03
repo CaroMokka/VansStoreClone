@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0 0 10px 0;
   font-size: 2rem;
-  border-bottom: solid 1px black;
+  border-bottom: solid 1px var(--color-secondary);
 }
 /* mobile - PLP*/
 @media screen and (max-width: 640px) {

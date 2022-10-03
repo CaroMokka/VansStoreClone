@@ -1,0 +1,8 @@
+.flexColChild--productPage__right-col :global(.vtex-button){
+    background-color: var(--color-primary);
+    margin: 10px 0;
+    border: none;
+    border-radius: 0;
+    color: var(--font-color);
+
+}

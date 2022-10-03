@@ -1,19 +1,10 @@
-.element :global(.vtex-button){
-    /* visibility: hidden; */
-    background-color: #d51920;
-    border: none;
-    border-radius: 0;
+.element :global(.vtex-button) {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 0;
 }
-/* .element:hover :global(.vtex-button){
-    visibility: visible;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 0;
-} */
-.container--listLayout{
-    /* background-color: gray; */
-    max-width: 100% !important;
-    border-radius: 0;
-    padding: 0 10px;
+.container--listLayout {
+  max-width: 100% !important;
+  border-radius: 0;
+  padding: 0 10px;
 }

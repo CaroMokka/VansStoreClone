@@ -2,13 +2,13 @@
   padding: 20px;
 }
 .flexRow--home__footer--container {
-  background-color: #1a1a1a;
+  background-color: var(--bg-color);
 }
 .flexRow--wrapper__section--logo-vtex {
   padding: 10px 0;
 }
 .flexRow--mobile__home--newsletter {
-  border-bottom: solid 0.3rem #fff;
+  border-bottom: solid 0.3rem var(--bg-primary);
 }
 .flexRow--desktop__footer--container
   :global(.vtex-store-components-3-x-container) {
@@ -16,21 +16,21 @@
 }
 .flexRow--home__footer--container
   :global(.vtex-store-components-3-x-container) {
-  background-color: #1a1a1a;
+  background-color: var(--bg-color);
   padding: 0 !important;
 }
 
 /* DESKTOP */
 /* row - footer general */
 .flexRow--desktop__footer--container {
-  background-color: #1a1a1a;
+  background-color: var(--bg-color);
 }
 /* row - vans logo */
 .flexRow--footer__section--logo-vans {
   margin: 20px 0;
 }
 .flexRow--desktop__home--newsletter {
-  border-bottom: solid 0.3rem #fff;
+  border-bottom: solid 0.3rem var(--bg-primary);
 }
 
 /* mobile - footer*/
@@ -40,7 +40,7 @@
   }
   .flexCol--button__arrowdown :global(.vtex-store-icons-0-x-caretIcon) {
     margin: 5px 0 0 120px;
-    color: white;
+    color: var(--font-color);
   }
 }
 /* tablet - footer*/
@@ -50,7 +50,7 @@
   }
   .flexCol--button__arrowdown :global(.vtex-store-icons-0-x-caretIcon) {
     margin: 5px 0 0 300px;
-    color: white;
+    color: var(--font-color);
   }
   .flexRowContent--mobile__home--newsletter{
     display: flex;

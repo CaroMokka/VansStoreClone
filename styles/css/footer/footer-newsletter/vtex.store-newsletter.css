@@ -29,7 +29,7 @@
 .formSubmitContainer--home__newsletter--submit :global(.vtex-button) {
   border: none;
   border-radius: 0;
-  background-color: #d51920;
+  background-color: var(--color-primary);
   color: white;
   cursor: pointer;
 }

@@ -1,0 +1,12 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image#grid",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-selling-price",
+      "add-to-cart-button"
+    ]
+  }
+}

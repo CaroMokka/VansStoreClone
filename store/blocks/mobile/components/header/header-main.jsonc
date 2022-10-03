@@ -7,12 +7,11 @@
     "title": "header-main-top",
     "children": [
       "flex-layout.col#main__top--logo",
-      "flex-layout.col#main__top--store",
+      "image#link__store",
+      // "flex-layout.col#main__top--store",
       "flex-layout.col#main__top--search",
       "flex-layout.col#main__top--cart",
       "flex-layout.col#main__top--menu"
-      
-      
     ],
     "props": {
       "blockClass": "mobile__header__main--top",
@@ -27,17 +26,15 @@
     "props": {
       "blockClass": "mobile__header--col",
       "width": "30%"
-
     }
   },
   //column - store
   "flex-layout.col#main__top--store": {
-    "children": ["icon-location-marker#store__icon"
-  ],
+    "children": [
+      // "icon-location-marker#store__icon"
+    ],
     "props": {
       "blockClass": "mobile__header--col-store"
-
-
     }
   },
   //"icon-location-marker#store__icon"
@@ -47,7 +44,8 @@
       "maxHeight": 24,
       "link": {
         "url": "/giftcard"
-      }
+      },
+      "blockClass": "link__store"
     }
   },
   //column - search
@@ -56,7 +54,6 @@
     "props": {
       "blockClass": "mobile__header--col-search",
       "width": "15%"
-
     }
   },
   //column - cart
@@ -64,7 +61,6 @@
     "children": ["minicart.v2#mobile__home--minicart"],
     "props": {
       "blockClass": "mobile__header--col"
-
     }
   },
   //column - menu
@@ -72,7 +68,6 @@
     "children": ["drawer#main__top--menu"],
     "props": {
       "blockClass": "mobile__header--col"
-  
     }
   },
 
@@ -132,5 +127,5 @@
       "blockClass": "main__subTop--search"
     }
   },
-  "search-bar#mobile__header--search":{}
+  "search-bar#mobile__header--search": {}
 }

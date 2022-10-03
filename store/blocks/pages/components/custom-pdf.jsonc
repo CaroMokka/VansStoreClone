@@ -1,0 +1,17 @@
+{
+  //pdf reader componente testing
+  "pdf-reader#desktop": {
+    "props": {
+      "width": 500,
+      "height": 800,
+      "pdfUrl": "assets/documents/darwin.pdf"
+    }
+  },
+  "pdf-reader#mobile": {
+    "props": {
+      "width": 300,
+      "height": 500,
+      "pdfUrl": "assets/documents/darwin.pdf"
+    }
+  }
+}

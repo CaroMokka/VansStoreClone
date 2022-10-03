@@ -6,8 +6,8 @@
       "id": "menu-item-man",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "/",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__man",
         "text": "MAN"
@@ -37,8 +37,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__woman",
         "text": "WOMAN"
@@ -69,8 +69,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__kids",
         "text": "KIDS"
@@ -99,8 +99,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__classics",
         "text": "CLASSICS"
@@ -114,8 +114,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__skateboarding",
         "text": "SKATEBOARDING"
@@ -129,8 +129,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__surf",
         "text": "SURF"
@@ -144,8 +144,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__sale",
         "text": "SALE"
@@ -159,8 +159,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__mas",
         "text": "MÁS"
@@ -188,8 +188,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__giftcard",
         "text": "GIFTCARD"
@@ -203,8 +203,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__sigue-tu-compra",
         "text": "SIGUE TU COMPRA"
@@ -218,8 +218,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__stores",
         "text": "TIENDAS"
@@ -233,8 +233,8 @@
       "type": "custom",
       "highlight": false,
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": false,
         "tagTitle": "departament__myaccount",
         "text": "MI CUENTA"

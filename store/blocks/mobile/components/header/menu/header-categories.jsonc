@@ -6,7 +6,7 @@
       "id": "category--ver-todo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
+        "type": "internal",
         "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__man",
@@ -20,8 +20,8 @@
       "id": "category--destacados",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__man",
         "text": "Destacados"
@@ -34,8 +34,8 @@
       "id": "category--calzado",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__man",
         "text": "Calzado"
@@ -48,8 +48,8 @@
       "id": "category--ropa",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__man",
         "text": "Ropa"
@@ -62,8 +62,8 @@
       "id": "category--accesorios",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__man",
         "text": "Accesorios"
@@ -76,8 +76,8 @@
       "id": "woman__category__ver-todo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__woman",
         "text": "Ver todo"
@@ -89,8 +89,8 @@
       "id": "woman__category--destacados",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__woman",
         "text": "Destacados"
@@ -102,8 +102,8 @@
       "id": "woman__category--calzado",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__woman",
         "text": "Calzado"
@@ -115,8 +115,8 @@
       "id": "woman__category--ropa",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__woman",
         "text": "Ropa"
@@ -128,8 +128,8 @@
       "id": "woman__category--accesorios",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__woman",
         "text": "Accesorios"
@@ -142,8 +142,8 @@
       "id": "kids__category__ver-todo",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__kids",
         "text": "Ver todo"
@@ -155,8 +155,8 @@
       "id": "kids__category--calzado",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__kids",
         "text": "Calzado"
@@ -168,8 +168,8 @@
       "id": "kids__category--ropa",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__kids",
         "text": "Ropa"
@@ -181,8 +181,8 @@
       "id": "kids__category--accesorios",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__kids",
         "text": "Accesorios"
@@ -195,8 +195,8 @@
       "id": "mas__category--brand-campaign",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__mas",
         "text": "Brand Campaign"
@@ -208,8 +208,8 @@
       "id": "mas__category--team-vans",
       "type": "custom",
       "itemProps": {
-        "type": "external",
-        "href": "#",
+        "type": "internal",
+        "href": "/construccion",
         "noFollow": true,
         "tagTitle": "departament__kids",
         "text": "Team Vans"

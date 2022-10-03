@@ -1,10 +1,9 @@
 {
-  "store.custom#custom__giftcard": {
-    "blocks": [
+  "responsive-layout.desktop#desktop__custom--giftcard": {
+    "children": [
       "flex-layout.row#custom__giftcard--section-01",
       "flex-layout.row#custom__giftcard--section-02",
       "flex-layout.row#custom__giftcard--section-03"
-      
     ]
   },
   "flex-layout.row#custom__giftcard--section-01": {
@@ -27,14 +26,17 @@
     "children": ["flex-layout.col#custom__giftcard--wrapper"]
   },
   "flex-layout.col#custom__giftcard--wrapper": {
-    "children": ["rich-text#giftcard__title", "rich-text#giftcard__content","pdf-reader"]
+    "children": [
+      "rich-text#giftcard__title",
+      "rich-text#giftcard__content",
+      "flex-layout.row#desktop__giftcard--pdf"
+    ]
   },
   "rich-text#giftcard__title": {
     "props": {
       "text": "# Opciones de Gift Cards",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
-
     }
   },
   "rich-text#giftcard__content": {
@@ -45,12 +47,11 @@
       "blockClass": "giftcard__text"
     }
   },
-  //pdf reader componente testing
-  "pdf-reader": {
-    "props":{
-      "width": 500,
-      "height": 800,
-      "pdfUrl": "assets/documents/darwin.pdf"
+  "flex-layout.row#desktop__giftcard--pdf": {
+    "children": ["pdf-reader#desktop"],
+    "props": {
+      "marginTop": 5,
+      "marginBottom": 5
     }
   }
 }

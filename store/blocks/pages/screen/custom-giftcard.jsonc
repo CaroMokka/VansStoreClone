@@ -1,0 +1,8 @@
+{
+  "store.custom#custom__giftcard": {
+    "blocks": [
+      "responsive-layout.mobile#mobile__custom--giftcard",
+      "responsive-layout.desktop#desktop__custom--giftcard"
+    ]
+  }
+}

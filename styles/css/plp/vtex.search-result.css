@@ -16,3 +16,20 @@
     font-size: 1.5rem;
   }
 }
+.filterButtonsBox :global(.vtex-button) {
+  background-color: #c9192e;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+}
+.filterTemplateOverflow :global(.vtex-slider__base-internal) {
+  background-color: #c9192e;
+}
+.filterTemplateOverflow :global(.vtex-slider__selector) {
+  background-color: #c9192e;
+}
+:global(.vtex-slider__tooltip--active) {
+  background-color: #c9192e;
+  border: none;
+  border-radius: 0;
+}

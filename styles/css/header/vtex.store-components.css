@@ -2,3 +2,7 @@
     width: 100px;
     display: flex;
 }
+.imageElementLink--link__store{
+    margin: auto;
+    padding-left: 10px;
+}

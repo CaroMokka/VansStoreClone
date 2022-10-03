@@ -1,0 +1,9 @@
+.minicartCheckoutButton :global(.vtex-button){
+    background-color: #C9192E;
+    border: none;
+    border-radius: 0;
+}
+.minicartEmptyStateContainer{
+    display: flex;
+    justify-content: center;
+}

@@ -10,6 +10,9 @@
 .styledLinkContent--footer__menu--link {
   color: var(--font-color);
 }
+/* .styledLinkContainer{
+  margin: 0;
+} */
 /* mobile -- footer*/
 @media screen and (max-width: 440px){
     .menuContainer--footer__content--menu :global(.vtex-menu-2-x-styledLink) {

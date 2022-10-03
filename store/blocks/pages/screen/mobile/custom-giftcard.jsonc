@@ -1,0 +1,57 @@
+{
+  "responsive-layout.mobile#mobile__custom--giftcard": {
+    "children": [
+      "flex-layout.row#mobile__giftcard--section-01",
+      "flex-layout.row#mobile__giftcard--section-02",
+      "flex-layout.row#mobile__giftcard--section-03"
+    ]
+  },
+  "flex-layout.row#mobile__giftcard--section-01": {
+    "children": ["image#mobile__giftcard--banner01"]
+  },
+  "image#mobile__giftcard--banner01": {
+    "props": {
+      "src": "assets/images/banners/desktop/custom__giftcard-banner01.webp"
+    }
+  },
+  "flex-layout.row#mobile__giftcard--section-02": {
+    "children": ["image#mobile__giftcard--banner02"]
+  },
+  "image#mobile__giftcard--banner02": {
+    "props": {
+      "src": "assets/images/banners/desktop/custom__giftcard-banner02.webp"
+    }
+  },
+  "flex-layout.row#mobile__giftcard--section-03": {
+    "children": ["flex-layout.col#mobile__giftcard--wrapper"]
+  },
+  "flex-layout.col#mobile__giftcard--wrapper": {
+    "children": [
+      "rich-text#mobile__giftcard__title",
+      "rich-text#mobile__giftcard__content",
+      "flex-layout.row#mobile__giftcard--pdf"
+    ]
+  },
+  "rich-text#mobile__giftcard__title": {
+    "props": {
+      "text": "# Opciones de Gift Cards",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#mobile__giftcard__content": {
+    "props": {
+      "text": "### Elije cualquiera de las siguientes opciones:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "giftcard__text"
+    }
+  },
+  "flex-layout.row#mobile__giftcard--pdf": {
+    "children": ["pdf-reader#mobile"],
+    "props": {
+      "marginTop": 5,
+      "marginBottom": 5
+    }
+  }
+}

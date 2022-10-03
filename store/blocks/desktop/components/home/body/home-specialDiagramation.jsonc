@@ -10,7 +10,6 @@
   },
   "flex-layout.row#home__diagramation--sectionOne": {
     "children": ["flex-layout.col#diagramation__sectionOne--01"]
-   
   },
   "flex-layout.row#home__diagramation--sectionTwo": {
     "children": ["flex-layout.col#diagramation__sectionOne--02"]
@@ -27,9 +26,9 @@
   //section - image -01
   "flex-layout.col#diagramation__sectionOne--01": {
     "children": ["image#testing--princess"],
-    "props":{
-        "horizontalAlign": "center",
-        "verticalAlign": "middle"
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
     }
   },
   "image#testing--princess": {
@@ -53,8 +52,9 @@
   },
   "rich-text#home__banner--skate": {
     "props": {
-      "text": "### COMUNIDAD DE \n ### SKATE",
-      "textColor": "c-on-emphasis"
+      "text": "COMUNIDAD DE \n SKATE",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-4"
     }
   },
   //section - totem -03
@@ -73,8 +73,9 @@
   },
   "rich-text#home__banner--totem": {
     "props": {
-      "text": "### FASHION MAGAZINE \n ### FOR TÓTEM",
-      "textColor": "c-on-emphasis"
+      "text": "FASHION MAGAZINE \n FOR TÓTEM",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-4"
     }
   },
   //section - trevor-cosmos -04
@@ -96,8 +97,9 @@
   },
   "rich-text#home__banner--trevor-cosmos": {
     "props": {
-      "text": "### INSTALACIÓN \n ### POR TREVOR WHEATLEY",
-      "textColor": "c-on-emphasis"
+      "text": "INSTALACIÓN \n POR TREVOR WHEATLEY",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-4"
     }
   },
   //section - pam -05
@@ -116,17 +118,9 @@
   },
   "rich-text#home__banner--pam": {
     "props": {
-      "text": "### VIDEO ARTE \n ### POR PAM PAM E \n ### CANDICE LO",
-      "textColor": "c-on-emphasis"
-    }
-  },
-  "info-card#rethink": {
-    "props": {
-      "imageUrl": "assets/images/grid-gallery/salon.jpg",
-      "isFullModeStyle": true,
-      "headline": " SALÓN \n  POR SERPENTWITHFEET",
-      "textPosition": "center",
-      "callToActionMode": "none"
+      "text": "VIDEO ARTE \n POR PAM PAM E \n CANDICE LO",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-4"
     }
   }
 }

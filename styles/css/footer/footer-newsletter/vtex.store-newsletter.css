@@ -1,0 +1,36 @@
+.newsletterForm--home__newsletter--form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emailInputContainer--home__newsletter--input {
+  width: 80%;
+  margin: 10px 0;
+}
+.emailInputContainer--home__newsletter--input
+  :global(.vtex-input-prefix__group) {
+  border: none !important;
+  border-radius: 0 !important;
+}
+.nameInputContainer--home__newsletter--name {
+  width: 80%;
+  margin: 10px 0;
+}
+.nameInputContainer--home__newsletter--name :global(.vtex-input-prefix__group) {
+  border: none !important;
+  border-radius: 0 !important;
+}
+.formSubmitContainer--home__newsletter--submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.formSubmitContainer--home__newsletter--submit :global(.vtex-button) {
+  border: none;
+  border-radius: 0;
+  background-color: var(--color-primary);
+  color: white;
+  cursor: pointer;
+}
+

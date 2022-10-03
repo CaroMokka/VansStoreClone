@@ -1,7 +1,8 @@
 .flexRow--mobile__home--newsletter {
-  background-color: #1a1a1a;
+  background-color: var(--bg-color);
+  margin-bottom: 20px;
 }
 /* estilo newsletter desktop */
 .flexRow--desktop__home--newsletter {
-  background-color: #1a1a1a;
+  background-color: var(--bg-color);
 }

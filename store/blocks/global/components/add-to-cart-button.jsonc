@@ -1,0 +1,16 @@
+{
+  "add-to-cart-button": {
+    "props": {
+      "text": "agregar al carro"
+
+    }
+  },
+  "add-to-cart-button#mobile__buyNowButton": {
+    "props": {
+      "text": "comprar ahora",
+      "isOneClickBuy": true,
+      "onClickEventPropagation": "enabled"
+    }
+  }
+
+}

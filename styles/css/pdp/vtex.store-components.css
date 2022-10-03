@@ -1,0 +1,7 @@
+.swiperBullet--active{
+    background-color: var(--color-primary);
+}
+.showMoreButton{
+    background-color: var(--color-primary);
+    color: var(--font-color);
+}

@@ -3,3 +3,12 @@
     height: 20px;
 
 }
+/* mobile and tablet */
+@media screen and (max-width: 640px){
+    .flexRow--mobile__home--notification{
+        background-color: #000;
+        height: 30px;
+
+    
+    }
+}

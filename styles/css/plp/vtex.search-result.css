@@ -1,10 +1,18 @@
-.galleryItem{
-    background-color: #F1F2ED;
-    /* border: solid 1px black; */
-    height: auto;
-    margin: 0 10px;
+.galleryTitle--layout {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 2rem;
+  border-bottom: solid 1px var(--color-secondary);
 }
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
+/* mobile - PLP*/
+@media screen and (max-width: 640px) {
+  .filterPopupTitle {
+    font-size: 0.8rem;
+  }
+  .filterPopupArrowIcon {
+    padding-left: 0.5rem;
+  }
+  .galleryTitle--layout {
+    font-size: 1.5rem;
+  }
 }

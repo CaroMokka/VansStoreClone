@@ -1,0 +1,6 @@
+.slide--relatedProducts{
+    padding: 10px;
+}
+.paginationDot--relatedProducts--isActive{
+    background-color: var(--color-primary);
+}

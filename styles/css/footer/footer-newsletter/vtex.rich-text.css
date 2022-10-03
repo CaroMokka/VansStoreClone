@@ -2,5 +2,5 @@
   margin-top: 0;
 }
 .container--home__newsletter--title {
-  color: #fff;
+  color: var(--font-color);
 }

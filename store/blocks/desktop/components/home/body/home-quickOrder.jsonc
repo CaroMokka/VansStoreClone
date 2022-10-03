@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#desktop__home--quickOrder": {
+    "children": ["quick-order"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "desktop__home--quickOrder"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@media screen and (max-width: 640px) {
+  .input {
+    border: none;
+    border-radius: 0;
+    font-size: 12px;
+  }
+}
+

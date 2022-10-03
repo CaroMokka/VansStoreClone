@@ -1,7 +1,7 @@
 /* estilo contenedor de categorias menu */
 .submenuWrapper--desktop__departament {
   margin-top: 5px;
-  background-color: black;
+  background-color: var(--bg-color);
   opacity: 0.9;
   border: 0;
   position: fixed;
@@ -11,16 +11,16 @@
 .styledLinkContent--desktop__category--title {
   font-size: 1rem;
   font-weight: bold;
-  color: white;
+  color: #fff;
   pointer-events: none;
   cursor: none !important;
 }
 .menuContainer--menu_item--style :global(.vtex-menu-2-x-styledLinkContent) {
-  color: white;
+  color: #fff;
 }
 .menuContainer--menu_item--style
   :global(.vtex-menu-2-x-styledLinkContent):hover {
-  color: #D51920;
+  color: #C9192E;
 }
 /* estilos menu item "/" */
 .styledLinkContainer--desktop__departament--menu-item{
@@ -29,10 +29,24 @@
 .styledLinkContent--desktop__departament--menu-item::after{
   content: "/";
   font-weight: bold;
-  color: #000;
+  color: var(--color-secondary);
   padding: 0 10px;
-
-
+}
+.menuContainerNav--header__menu--department :global(.vtex-menu-2-x-styledLink){
+  color: #fff;
+}
+.menuContainerNav--header__menu--department :global(.vtex-menu-2-x-menuItem){
+  border-top: 1px solid #cfdad0;
  
+}
+.menuContainerNav--header__menu--department :global(.vtex-menu-2-x-submenuAccordion){
+  width: 100%;
+}
+.menuContainerNav--header__menu--department :global(.vtex-menu-2-x-menuContainerNav){
+  width: 100%;
 
 }
+
+
+
+

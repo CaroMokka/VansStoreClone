@@ -6,7 +6,8 @@
       "marginTop": 3,
       "marginBottom": 3,
       "horizontalAlign": "center",
-      "paddingBottom": 5
+      "paddingBottom": 5,
+      "preserveLayoutOnMobile": false
     },
     "children": [
       "rich-text#home__newsletter--title",
@@ -15,8 +16,8 @@
     ]
   },
   "newsletter-form#home__newsletter--form": {
-    "props":{
-        "blockClass": "home__newsletter--form"
+    "props": {
+      "blockClass": "home__newsletter--form"
     },
     "children": [
       "newsletter-input-email",
@@ -24,6 +25,17 @@
       "newsletter-submit"
     ]
   },
+  "newsletter-input-email": {
+    "props": {
+      "blockClass": "home__newsletter--input"
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "blockClass": "home__newsletter--name"
+    }
+  },
+
   "rich-text#home__newsletter--title": {
     "title": "newsletter-title",
     "props": {
@@ -46,10 +58,9 @@
     }
   },
   "newsletter-submit": {
-    "props":{
-        "submitButtonLabel": "ENVIAR"
+    "props": {
+      "submitButtonLabel": "ENVIAR",
+      "blockClass": "home__newsletter--submit"
     }
   }
 }
-
-

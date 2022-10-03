@@ -1,10 +1,10 @@
 {
   "responsive-layout.desktop#desktop__home": {
     "children": [
-      "quick-order",
       "whatsapp-button",
       "flex-layout.row#desktop__home--notification",
       "flex-layout.row#desktop__home--main-banner",
+      "flex-layout.row#desktop__home--quickOrder",
       "flex-layout.row#desktop__home--gallery",
       "flex-layout.row#desktop__home--searchDepartment",
       "flex-layout.row#desktop__home--categories",
@@ -12,8 +12,7 @@
       "special-diagramation",
       "flex-layout.row#desktop__home--newsUs",
       "flex-layout.row#desktop__home--bulletsGroup",
-      "flex-layout.row#desktop__home--novelty",
-      "flex-layout.row#desktop__home--newsletter"
+      "flex-layout.row#desktop__home--novelty"
     ]
   }
 }

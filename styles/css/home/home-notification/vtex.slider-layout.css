@@ -2,7 +2,10 @@
   background-color: black;
   height: 20px;
 }
-/* mobile */
-.flexRow--mobile__home--notification {
-  background-color: black;
+/* mobile and tablet */
+@media screen and (max-width: 640px){
+  .slideChildrenContainer--home__notification--bar {
+    background-color: black;
+    height: 30px;
+  }
 }

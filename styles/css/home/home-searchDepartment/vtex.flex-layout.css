@@ -1,4 +1,23 @@
 .flexRow--desktop__home--searchDepartment{
     background-color: black;
-    height: 300px;
+    height: 220px;
+}
+/* .flexCol--desktop__home--searchDepartment{
+    margin-top: 30px;
+} */
+/* @media screen and (max-width: 440px){
+    .flexCol--desktop__home--searchDepartment{
+        margin-top: 30px;
+    }
+} */
+
+@media screen and (max-width: 440px){
+    .flexColChild--desktop__home--searchDepartment{
+        width: 100%;
+    }
+    .flexRow--desktop__home--searchDepartment{
+        background-color: black;
+        height: 200px;
+    }
+   
 }

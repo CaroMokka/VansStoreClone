@@ -2,6 +2,7 @@
   "flex-layout.col#home__footer--wrapper": {
     "title": "footer-wrapper",
     "children": [
+      "flex-layout.row#mobile__home--newsletter",
       "flex-layout.row#wrapper__section--menu",
       "flex-layout.row#wrapper__section--rrss",
       "flex-layout.row#wrapper__section--logo-vtex",

@@ -2,10 +2,27 @@
   //layout disclosure
   "disclosure-layout#section__cliente": {
     "children": [
-      "disclosure-trigger#section__cliente--button",
-      "disclosure-content#section__cliente--content",
-      "disclosure-state-indicator#section__cliente--indicators"
+      "flex-layout.row#section__cliente--trigger",
+      "disclosure-content#section__cliente--content"
     ]
+  },
+  "flex-layout.row#section__cliente--trigger": {
+    "children": [
+      "flex-layout.col#section__cliente--button",
+      "flex-layout.col#section__cliente--indicators"
+    ],
+    "props": {
+      "blockClass": "trigger__row"
+    }
+  },
+  "flex-layout.col#section__cliente--button": {
+    "children": ["disclosure-trigger#section__cliente--button"]
+  },
+  "flex-layout.col#section__cliente--indicators": {
+    "children": ["disclosure-state-indicator#section__cliente--indicators"],
+    "props": {
+      "blockClass": "button__arrowdown"
+    }
   },
   //trigger
   "disclosure-trigger#section__cliente--button": {
@@ -27,12 +44,26 @@
   },
   //indicators
   "disclosure-state-indicator#section__cliente--indicators": {
-    "children": []
+    "props": {
+      "Show": "icon-caret#cliente__indicator--down",
+      "Hide": "icon-caret#cliente__indicator--up"
+    }
+  },
+  "icon-caret#cliente__indicator--down": {
+    "props": {
+      "id": "nav-caret--down"
+    }
+  },
+  "icon-caret#cliente__indicator--up": {
+    "props": {
+      "id": "nav-caret--up"
+    }
   },
   //menu
   "menu#cliente__content--menu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "footer__content--menu"
     },
     "children": ["menu-item#cliente-item-01"]
   },

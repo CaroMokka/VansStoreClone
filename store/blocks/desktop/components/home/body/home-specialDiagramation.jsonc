@@ -53,7 +53,7 @@
   },
   "rich-text#home__banner--skate": {
     "props": {
-      "text": "# COMUNIDAD DE \n # SKATE",
+      "text": "### COMUNIDAD DE \n ### SKATE",
       "textColor": "c-on-emphasis"
     }
   },
@@ -73,7 +73,7 @@
   },
   "rich-text#home__banner--totem": {
     "props": {
-      "text": "# FASHION MAGAZINE \n # FOR TÓTEM",
+      "text": "### FASHION MAGAZINE \n ### FOR TÓTEM",
       "textColor": "c-on-emphasis"
     }
   },
@@ -96,7 +96,7 @@
   },
   "rich-text#home__banner--trevor-cosmos": {
     "props": {
-      "text": "# INSTALACIÓN ARTÍSTICA \n # POR TREVOR WHEATLEY \n # Y COSMO DEAN",
+      "text": "### INSTALACIÓN \n ### POR TREVOR WHEATLEY",
       "textColor": "c-on-emphasis"
     }
   },
@@ -116,7 +116,7 @@
   },
   "rich-text#home__banner--pam": {
     "props": {
-      "text": "# VIDEO ARTE \n # POR PAM PAM E \n # CANDICE LO",
+      "text": "### VIDEO ARTE \n ### POR PAM PAM E \n ### CANDICE LO",
       "textColor": "c-on-emphasis"
     }
   },

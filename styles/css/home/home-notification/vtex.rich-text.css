@@ -1,4 +1,12 @@
+/* desktop */
 .paragraph--desktop__notification__bar{
     color: white;
     font-size: 0.7rem;
+}
+/* mobile and tablet */
+@media screen and (max-width: 640px){
+    .paragraph--notification__bar{
+        color: white;
+        font-size: 0.7rem;
+    }
 }

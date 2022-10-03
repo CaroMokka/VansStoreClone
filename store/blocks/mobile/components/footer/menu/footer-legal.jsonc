@@ -1,16 +1,33 @@
 {
-    //layout disclosure
+  //layout disclosure
   "disclosure-layout#section__legal": {
     "children": [
-      "disclosure-trigger#section__legal--button", 
-      "disclosure-content#section__legal--content",
-      "disclosure-state-indicator#section__legal--indicators"
+      "flex-layout.row#section__legal--trigger",
+      "disclosure-content#section__legal--content"
     ]
+  },
+  "flex-layout.row#section__legal--trigger": {
+    "children": [
+      "flex-layout.col#section__legal--button",
+      "flex-layout.col#section__legal--indicators"
+    ],
+    "props": {
+      "blockClass": "trigger__row"
+    }
+  },
+  "flex-layout.col#section__legal--button": {
+    "children": ["disclosure-trigger#section__legal--button"]
+  },
+  "flex-layout.col#section__legal--indicators": {
+    "children": ["disclosure-state-indicator#section__legal--indicators"],
+    "props":{
+      "blockClass":"button__arrowdown"
+    }
   },
   //trigger
   "disclosure-trigger#section__legal--button": {
     "props": {
-      "orientation":"vertical",
+      "orientation": "vertical",
       "as": "span"
     },
     "children": ["rich-text#legal__button--text"]
@@ -27,14 +44,34 @@
   },
   //indicators
   "disclosure-state-indicator#section__legal--indicators": {
-    "children":[]
+    "props": {
+      "Show": "icon-caret#legal__indicator--down",
+      "Hide": "icon-caret#legal__indicator--up"
+     
+    }
+  },
+  "icon-caret#legal__indicator--down": {
+    "props": {
+      "id": "nav-caret--down"
+    }
+  },
+  "icon-caret#legal__indicator--up": {
+    "props": {
+      "id": "nav-caret--up"
+    }
   },
   //menu
   "menu#legal__content--menu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "footer__content--menu"
     },
-    "children": ["menu-item#legal-item-01","menu-item#legal-item-02","menu-item#legal-item-03","menu-item#legal-item-04"]
+    "children": [
+      "menu-item#legal-item-01",
+      "menu-item#legal-item-02",
+      "menu-item#legal-item-03",
+      "menu-item#legal-item-04"
+    ]
   },
   //item
   "menu-item#legal-item-01": {

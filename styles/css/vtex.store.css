@@ -1,0 +1,10 @@
+:global(.vtex-store__template) {
+  --color-primary: #C9192E;
+  --color-primary-hover: #9e090e;
+  --color-secondary: #000;
+  --color-tertiary: #54b3d6;
+  --bg-primary: #fff;
+  --bg-color: #1a1a1a;
+  --font-color: #fff;
+
+}

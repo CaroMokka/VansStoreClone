@@ -66,7 +66,7 @@
   },
   "image#home__banner--totem": {
     "props": {
-      "src": "assets/images/grid-gallery/totem.jpg",
+      "src": "assets/images/grid-gallery/totem.png",
       "maxHeight": 500,
       "blockClass": "cover"
     }
@@ -90,7 +90,7 @@
   },
   "image#home__banner--trevor-cosmos": {
     "props": {
-      "src": "assets/images/grid-gallery/trevor-cosmos.jpg",
+      "src": "assets/images/grid-gallery/trevor-cosmos.png",
       "maxHeight": 500,
       "blockClass": "cover"
     }
@@ -111,7 +111,7 @@
   },
   "image#home__banner--pam": {
     "props": {
-      "src": "assets/images/grid-gallery/pam.jpeg",
+      "src": "assets/images/grid-gallery/pam.png",
       "maxHeight": 500,
       "blockClass": "cover"
     }

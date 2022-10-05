@@ -1,11 +1,11 @@
 # VANS Chile Tienda
-
-Repositorio base de tienda clon de Vans Chile
+## :purple_heart: Info General
+Repositorio que contiene la tienda base (clon) de Vans Chile.
 
 ![vans chile](https://user-images.githubusercontent.com/87923794/193928890-1896c3ad-da82-4ee3-aca8-1617e23a49ef.png)
 
 
-## Configuración
+## :wrench: Configuración
 ### Paso 1 - Configuración básica
 
 Acceda a la [guía de configuración básica](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) de VTEX IO y siga todos los pasos indicados.
@@ -59,13 +59,13 @@ Si el proceso se ejecuta sin ningún error, se mostrará el siguiente mensaje: `
 
 Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cuenta y el espacio de trabajo en el que está trabajando.
 
-## Builders
+## :large_orange_diamond:Builders
 1. "assets": "0.x"
 2. "styles": "2.x"
 3. "store": "0.x"
 4. "docs": "0.x"
 
-## Store Components
+## :electric_plug:Store Components
 1.  "vtex.store": "2.x"
 2.  "vtex.store-header": "2.x"
 3.  "vtex.product-summary": "2.x"
@@ -111,7 +111,7 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
 43. "vtex.product-highlights": "2.x"
 44. "vtex.product-specifications": "1.x"
 
-## Custom Apps (Componentes custom que deben instalarse con la tienda para poder ser visualizados)
+## :zap:Custom Apps
 1. "itgloberspartnercl.whatsapp-button": "0.x"
 2. "itgloberspartnercl.bullets-diagramation": "0.x"
 3. "itgloberspartnercl.add-to-cart-info": "0.x"
@@ -120,5 +120,5 @@ Esto le permitirá ver los cambios aplicados en tiempo real, a través de la cue
 6. "itgloberspartnercl.quick-order": "0.x"
 7. "itgloberspartnercl.special-diagramation": "0.x"
 
-## Contributors
-1. Carolina Araya González
+## :space_invader:Colaboradores
+- Carolina Araya González
